@@ -3,7 +3,7 @@
 ICCV 2023（IEEE/CVF International Conference on Computer Vision）会议论文的解析归档。
 
 <!-- 胶囊徽章带：论文数 / 最近更新 / 流水线 / License -->
-![Papers](https://img.shields.io/badge/Papers-0-orange?style=flat-square)
+![Papers](https://img.shields.io/badge/Papers-98-brightgreen?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/ZhangCurosr/zhangcursor-papers-iccv-2023-001?style=flat-square)
 ![Pipeline](https://img.shields.io/github/actions/workflow/status/ZhangCurosr/paper-notes/mineru_batch.yml?label=daily%20pipeline&style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
