@@ -4,5 +4,33 @@
  "title": "Global-Knowledge-Calibration-for-Fast-Open-Vocabulary-Segmen",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a2440d0d-cc7f-4124-829e-3ce2cdec8de3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a2440d0d-cc7f-4124-829e-3ce2cdec8de3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:08:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放词汇分割",
+    "知识蒸馏",
+    "多模态学习",
+    "视频分割",
+    "CLIP",
+    "泛化性"
+   ],
+   "field": "开放词汇视觉分割",
+   "innovations": [
+    "提出Global Knowledge Calibration框架，无需额外CLIP编码器即可实现快速开放词汇分割",
+    "设计文本引导的知识蒸馏（TGKD）以保留CLIP多模态空间的结构化语义",
+    "首次探索开放词汇视频分割并构建VIPSeg基准"
+   ],
+   "benchmarks": [
+    "COCO Panoptic",
+    "ADE20K",
+    "Pascal Context",
+    "Cityscapes",
+    "VIPSeg"
+   ]
+  }
+ }
 }

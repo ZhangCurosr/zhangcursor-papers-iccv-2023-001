@@ -4,5 +4,34 @@
  "title": "GPFL-Simultaneously-Learning-Global-and-Personalized-Feature",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 14:57:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ef90c73-e93e-43f6-bff6-77738663cbf5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ef90c73-e93e-43f6-bff6-77738663cbf5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:08:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化联邦学习",
+    "特征提取",
+    "条件计算",
+    "全局类别嵌入",
+    "统计异质性",
+    "对比学习"
+   ],
+   "field": "联邦学习",
+   "innovations": [
+    "提出GPFL框架同时学习全局和个性化特征，突破现有pFL方法只能关注单一特征的局限",
+    "设计可训练全局类别嵌入GCE从角度和幅度双重引导特征提取，避免FedProto/FedPHP依赖预训练特征提取器的悖论",
+    "创新性地引入条件阀门CoV创建双特征路由，实现端到端的全局-个性化分离式特征学习"
+   ],
+   "benchmarks": [
+    "Cifar100",
+    "Tiny-ImageNet",
+    "FMNIST",
+    "AG News",
+    "Amazon Review",
+    "HAR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "ITI-GEN-Inclusive-Text-to-Image-Generation",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e2bfe890-3678-4ab7-87ac-6735f914f9f7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e2bfe890-3678-4ab7-87ac-6735f914f9f7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:10:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-image generation",
+    "inclusive generation",
+    "bias mitigation",
+    "prompt tuning",
+    "CLIP",
+    "diffusion models"
+   ],
+   "field": "生成模型的公平性与包容性",
+   "innovations": [
+    "利用参考图像在CLIP联合嵌入空间中学习direction-aligned inclusive tokens，实现冻结模型下的属性均匀分布生成",
+    "提出方向对齐损失与语义一致性损失联合优化，避免语言漂移并提升生成质量",
+    "首创train-once-for-all plug-and-play范式，inclusive tokens可跨prompt和下游模型(如ControlNet/IP2P)复用"
+   ],
+   "benchmarks": [
+    "CelebA",
+    "FairFace",
+    "FAIR benchmark",
+    "LHQ"
+   ]
+  }
+ }
 }

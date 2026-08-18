@@ -4,5 +4,33 @@
  "title": "I-can-t-believe-there-s-no-images-Learning-Visual-Tasks-Usin",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a5729e2-ea38-48f4-93cd-b7da8cf45275.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a5729e2-ea38-48f4-93cd-b7da8cf45275.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:09:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-modal transfer",
+    "zero-shot vision",
+    "contrastive learning",
+    "modality gap",
+    "text-only training",
+    "image captioning"
+   ],
+   "field": "多模态学习",
+   "innovations": [
+    "提出CLOSE方法实现纯文本训练到图像推理的零样本跨模态迁移",
+    "发现高斯噪声可有效弥合对比模型的模态间隙并显著提升性能",
+    "证明文本向量绝对位置不敏感而相对结构足以支撑跨模态推理"
+   ],
+   "benchmarks": [
+    "COCO Captioning",
+    "SNLI-VE",
+    "VQA 2.0",
+    "VQA-E",
+    "Visual News Captioning"
+   ]
+  }
+ }
 }

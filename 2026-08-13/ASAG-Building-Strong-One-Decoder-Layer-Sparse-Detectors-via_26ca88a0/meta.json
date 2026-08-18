@@ -4,5 +4,30 @@
  "title": "ASAG-Building-Strong-One-Decoder-Layer-Sparse-Detectors-via",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:11:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7d1a7902-6c42-4b1a-9d9a-245393987f50.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7d1a7902-6c42-4b1a-9d9a-245393987f50.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:04:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "目标检测",
+    "稀疏检测器",
+    "单解码器层",
+    "自适应anchor生成",
+    "特征冲突",
+    "Query Weighting"
+   ],
+   "field": "高效目标检测",
+   "innovations": [
+    "提出ASAG在patch上稀疏预测动态anchors缓解特征冲突",
+    "设计Adaptive Probing多尺度自适应探测支持early-stop",
+    "提出Query Weighting全局权重稳定动态anchor训练"
+   ],
+   "benchmarks": [
+    "COCO 2017",
+    "CrowdHuman"
+   ]
+  }
+ }
 }

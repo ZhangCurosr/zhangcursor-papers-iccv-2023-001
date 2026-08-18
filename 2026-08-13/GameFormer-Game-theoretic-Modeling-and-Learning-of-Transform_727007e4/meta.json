@@ -4,5 +4,29 @@
  "title": "GameFormer-Game-theoretic-Modeling-and-Learning-of-Transform",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:11:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8de3f829-ab93-437a-821b-59056865e73f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8de3f829-ab93-437a-821b-59056865e73f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:08:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "交互预测",
+    "博弈论",
+    "Transformer",
+    "自动驾驶规划",
+    "多智能体轨迹预测",
+    "level-k推理"
+   ],
+   "field": "自动驾驶交互预测与规划",
+   "innovations": [
+    "将level-k博弈论引入Transformer解码器实现层级交互建模",
+    "提出基于斥力势场的交互损失约束多智能体安全交互"
+   ],
+   "benchmarks": [
+    "Waymo Open Motion Dataset交互预测",
+    "nuPlan规划基准"
+   ]
+  }
+ }
 }

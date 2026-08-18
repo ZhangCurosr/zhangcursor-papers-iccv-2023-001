@@ -4,5 +4,30 @@
  "title": "Generative-Gradient-Inversion-via-Over-Parameterized-Network",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:10:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/971d3c55-d638-4c9e-a135-4c5b566d8568.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/971d3c55-d638-4c9e-a135-4c5b566d8568.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:08:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "梯度反演",
+    "联邦学习隐私",
+    "生成模型",
+    "过参数化",
+    "深度学习安全",
+    "CI-Net"
+   ],
+   "field": "联邦学习隐私安全",
+   "innovations": [
+    "揭示过参数化是梯度反演成功的必要条件，并提出 P(G)>P(F) 的实用判据",
+    "提出无需正则化/预训练的 CI-Net 架构，利用卷积隐式先验实现大批量高分辨率图像恢复",
+    "设计面向梯度匹配的专用渐进生成架构，摒弃标准 ResNet block 以增强像素亲密性"
+   ],
+   "benchmarks": [
+    "CIFAR-10 batch=128",
+    "ImageNet batch=24 (256x256)"
+   ]
+  }
+ }
 }

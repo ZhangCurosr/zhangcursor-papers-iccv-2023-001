@@ -4,5 +4,29 @@
  "title": "Guided-Motion-Diffusion-for-Controllable-Human-Motion-Synthe",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 07:10:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26a0f10e-bdec-49cb-8b71-8d74eb69b45e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26a0f10e-bdec-49cb-8b71-8d74eb69b45e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:08:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "human motion generation",
+    "diffusion models",
+    "controllable synthesis",
+    "spatial constraints",
+    "classifier guidance",
+    "text-to-motion"
+   ],
+   "field": "可控生成与运动合成",
+   "innovations": [
+    "Emphasis Projection: 通过随机矩阵变换增强轨迹维度权重以提升空间-姿态连贯性",
+    "Dense Signal Propagation: 利用去噪器反向传播将稀疏关键帧信号扩展为密集引导",
+    "两阶段轨迹-运动解耦生成框架"
+   ],
+   "benchmarks": [
+    "HumanML3D"
+   ]
+  }
+ }
 }

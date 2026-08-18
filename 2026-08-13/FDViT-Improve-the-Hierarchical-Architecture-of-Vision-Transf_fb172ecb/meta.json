@@ -4,5 +4,30 @@
  "title": "FDViT-Improve-the-Hierarchical-Architecture-of-Vision-Transf",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-13 14:55:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce02dd7f-9f8a-49fd-9df3-128122b17473.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce02dd7f-9f8a-49fd-9df3-128122b17473.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:05:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "Hierarchical Architecture",
+    "Flexible Downsampling",
+    "Masked Auto-encoder",
+    "Model Efficiency",
+    "Image Classification"
+   ],
+   "field": "视觉Transformer高效架构",
+   "innovations": [
+    "提出非整数stride的灵活下采样层(FD layer)以平滑降低特征图空间尺寸，避免传统stride=2造成的早期信息大量丢失",
+    "引入掩码自编码器训练策略辅助FD layer学习信息丰富的输出，对齐重建任务与分类任务难度"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "MSCOCO 2017",
+    "ADE20K"
+   ]
+  }
+ }
 }

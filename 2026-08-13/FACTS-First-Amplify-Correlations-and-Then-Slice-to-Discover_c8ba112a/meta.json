@@ -4,5 +4,10 @@
  "title": "FACTS-First-Amplify-Correlations-and-Then-Slice-to-Discover",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9008ad62-95cf-4096-aea1-2a1401fd3ae3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9008ad62-95cf-4096-aea1-2a1401fd3ae3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:05:17",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,10 @@
  "title": "HSR-Diff-Hyperspectral-Image-Super-Resolution-via-Conditiona",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:11:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4eaea99b-5b63-41d5-8c65-d0d207d11742.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4eaea99b-5b63-41d5-8c65-d0d207d11742.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:09:22",
+  "chunks": 1
+ }
 }

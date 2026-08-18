@@ -4,5 +4,30 @@
  "title": "FLatten-Transformer-Vision-Transformer-using-Focused-Linear",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a6315ef5-b7f0-4be1-a0e1-fda486075020.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a6315ef5-b7f0-4be1-a0e1-fda486075020.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:05:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Linear Attention",
+    "Vision Transformer",
+    "Focused Linear Attention",
+    "Rank Restoration",
+    "Depthwise Convolution",
+    "Efficient Attention"
+   ],
+   "field": "高效视觉Transformer",
+   "innovations": [
+    "提出focused function通过范数保持的方向调整恢复注意力聚焦能力",
+    "设计DWC rank restoration模块解决线性注意力低秩导致的特征同质化问题"
+   ],
+   "benchmarks": [
+    "ImageNet-1K Classification",
+    "ADE20K Semantic Segmentation",
+    "COCO Object Detection"
+   ]
+  }
+ }
 }

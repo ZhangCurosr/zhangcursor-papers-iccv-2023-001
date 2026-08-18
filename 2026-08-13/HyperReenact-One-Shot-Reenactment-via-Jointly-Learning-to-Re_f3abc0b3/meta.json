@@ -4,5 +4,30 @@
  "title": "HyperReenact-One-Shot-Reenactment-via-Jointly-Learning-to-Re",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:10:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2a8fa7e-a1c5-4752-8009-1573a0179ee8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2a8fa7e-a1c5-4752-8009-1573a0179ee8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:09:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人脸重演",
+    "GAN 反演",
+    "超网络",
+    "StyleGAN2",
+    "单帧重演",
+    "课程学习"
+   ],
+   "field": "人脸图像生成与编辑",
+   "innovations": [
+    "首个将 GAN 反演优化与姿态重映射合并的超网络人脸重演框架",
+    "课程学习三阶段训练策略实现无微调跨主体单帧重演",
+    "引入注视损失提升眼部区域重建真实性"
+   ],
+   "benchmarks": [
+    "VoxCeleb1",
+    "VoxCeleb2"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Feature-Prediction-Diffusion-Model-for-Video-Anomaly-Detecti",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:10:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/204bf100-5c50-42c9-9774-7459793c8dfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/204bf100-5c50-42c9-9774-7459793c8dfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:05:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频异常检测",
+    "扩散模型",
+    "DDIM",
+    "一类学习",
+    "特征预测",
+    "抗噪生成"
+   ],
+   "field": "视频异常检测",
+   "innovations": [
+    "首个基于扩散模型的视频异常检测方法，利用DDIM进行帧级特征预测而非图像生成",
+    "设计两个互补DDIM模块分别学习运动分布和外观分布，实现解耦式特征预测",
+    "纯2D图像输入无需辅助语义网络，达到与3D语义特征方法可比甚至更优的性能"
+   ],
+   "benchmarks": [
+    "CUHK Avenue",
+    "ShanghaiTech",
+    "UCF-Crime",
+    "UBnormal"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "GPA-3D-Geometry-aware-Prototype-Alignment-for-Unsupervised-D",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 07:11:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a930c990-8ac7-4c9d-b28c-7176369d207e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a930c990-8ac7-4c9d-b28c-7176369d207e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:07:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D目标检测",
+    "无监督域自适应",
+    "点云",
+    "原型对齐",
+    "几何感知",
+    "LiDAR"
+   ],
+   "field": "3D视觉与自动驾驶感知",
+   "innovations": [
+    "几何感知的原型对齐机制，按偏移角度分组并分配独立原型",
+    "软对比损失，引入相邻组弹性约束",
+    "噪声样本抑制与实例替换增强双组件"
+   ],
+   "benchmarks": [
+    "Waymo→KITTI",
+    "Waymo→nuScenes",
+    "KITTI"
+   ]
+  }
+ }
 }

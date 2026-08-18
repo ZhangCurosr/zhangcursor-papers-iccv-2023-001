@@ -4,5 +4,34 @@
  "title": "Knowledge-Proxy-Intervention-for-Deconfounded-Video-Question",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/af3ba4a7-10f6-47d0-92a9-601f45df99a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/af3ba4a7-10f6-47d0-92a9-601f45df99a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:11:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VideoQA",
+    "causal inference",
+    "front-door adjustment",
+    "dataset bias",
+    "knowledge proxy",
+    "deconfounding",
+    "multi-modal reasoning"
+   ],
+   "field": "视觉-语言因果推理",
+   "innovations": [
+    "提出 KPI 框架，通过知识代理变量 Z 实现前门调整，无需观测混淆变量即可去偏",
+    "设计知识空间构建流水线：从训练数据提取共现概念，用 ConceptNet+Atomic 筛选因果边，BERT 编码为可训练嵌入",
+    "模型无关框架，在三种不同架构基线（记忆/图/层次）和五个 benchmark 上一致提升 1.4%-5.3%"
+   ],
+   "benchmarks": [
+    "MSVD-QA",
+    "MSRVTT-QA",
+    "TGIF-QA",
+    "NExT-QA",
+    "Causal-VidQA"
+   ]
+  }
+ }
 }

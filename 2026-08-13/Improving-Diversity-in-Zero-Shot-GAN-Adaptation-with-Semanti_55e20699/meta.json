@@ -4,5 +4,31 @@
  "title": "Improving-Diversity-in-Zero-Shot-GAN-Adaptation-with-Semanti",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:10:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0543a7a4-b860-48cc-869a-50480dbca566.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0543a7a4-b860-48cc-869a-50480dbca566.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:10:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本GAN适应",
+    "模式崩溃",
+    "CLIP",
+    "语义变化",
+    "方向矩损失",
+    "弹性权重整合"
+   ],
+   "field": "零样本生成模型适应",
+   "innovations": [
+    "在CLIP空间中挖掘目标文本的语义变化以替代单一方向引导",
+    "方向矩损失通过匹配图文方向的一阶和二阶矩缓解模式崩溃"
+   ],
+   "benchmarks": [
+    "AFHQ",
+    "FFHQ",
+    "LSUN-Car",
+    "LSUN-Church"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Erasing-Concepts-from-Diffusion-Models",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:10:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/274769b4-c55e-41c3-85fb-00b9c761a687.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/274769b4-c55e-41c3-85fb-00b9c761a687.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:04:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散模型编辑",
+    "概念擦除",
+    "负向引导",
+    "Stable Diffusion",
+    "模型安全",
+    "版权保护"
+   ],
+   "field": "生成模型编辑与安全",
+   "innovations": [
+    "仅通过文本描述和负向引导微调权重，永久擦除扩散模型中的视觉概念",
+    "区分交叉注意力与无条件参数的擦除策略，实现精细化的概念控制"
+   ],
+   "benchmarks": [
+    "I2P",
+    "COCO 30K",
+    "Imagenette"
+   ]
+  }
+ }
 }
