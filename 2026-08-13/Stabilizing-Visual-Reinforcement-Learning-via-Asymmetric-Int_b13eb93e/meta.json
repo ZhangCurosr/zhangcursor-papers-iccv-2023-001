@@ -4,5 +4,32 @@
  "title": "Stabilizing-Visual-Reinforcement-Learning-via-Asymmetric-Int",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 14:56:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea538754-c7ba-432a-be91-9b417b1587c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea538754-c7ba-432a-be91-9b417b1587c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:31:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉强化学习",
+    "表征学习",
+    "非对称交互合作",
+    "拓扑蒸馏",
+    "训练稳定性",
+    "重型编码器",
+    "振荡自过拟合",
+    "贪婪引导优化"
+   ],
+   "field": "视觉强化学习",
+   "innovations": [
+    "提出非对称交互合作框架，解耦重型表征编码器与轻型回报学习编码器",
+    "设计基于相似度矩阵的拓扑蒸馏，在无标签状态下传递长期回报信息至重型编码器",
+    "引入贪婪引导交替训练策略，抑制表征漂移对策略学习的干扰"
+   ],
+   "benchmarks": [
+    "CARLA自动驾驶环境",
+    "Vizdoom Medikit环境"
+   ]
+  }
+ }
 }

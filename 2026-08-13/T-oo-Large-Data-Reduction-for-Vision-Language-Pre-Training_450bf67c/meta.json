@@ -4,5 +4,36 @@
  "title": "T-oo-Large-Data-Reduction-for-Vision-Language-Pre-Training",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 14:56:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f7fe09f-c8a3-4bdd-a7a6-c829740729c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f7fe09f-c8a3-4bdd-a7a6-c829740729c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:32:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Pre-Training",
+    "数据压缩",
+    "多模态学习",
+    "数据集蒸馏",
+    "数据去噪",
+    "Image-Text Alignment"
+   ],
+   "field": "多模态预训练与数据效率",
+   "innovations": [
+    "基于codebook的编码器-解码器captioner实现多模态数据的高效压缩与caption精炼",
+    "发现并验证纯生成caption会导致contrastive model collapse，拼接方案可有效避免",
+    "系统性揭示VLP大规模数据中的严重不对齐与冗余问题，证明25%高质量数据可媲美全量训练"
+   ],
+   "benchmarks": [
+    "MSCOCO",
+    "Flickr30K",
+    "MSRVTT",
+    "VQA",
+    "NLVR²",
+    "RefCOCO+",
+    "COCO Captioning",
+    "ImageNet Zero-shot"
+   ]
+  }
+ }
 }

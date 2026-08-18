@@ -4,5 +4,30 @@
  "title": "Unify-Align-and-Refine-Multi-Level-Semantic-Alignment-for-Ra",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-13 14:55:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9450e6dd-95fe-4170-b04f-201b1c649cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9450e6dd-95fe-4170-b04f-201b1c649cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:36:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "radiology report generation",
+    "cross-modal alignment",
+    "multi-modal learning",
+    "medical image analysis",
+    "visual grounding",
+    "contrastive learning"
+   ],
+   "field": "医学影像报告生成",
+   "innovations": [
+    "提出LSU将视觉-文本统一为离散token共享表征空间",
+    "设计CRA通过正交基底与双门控机制实现全局语义对齐",
+    "引入TIR可学习掩码增强词级细粒度文本-图像对齐"
+   ],
+   "benchmarks": [
+    "IU-Xray",
+    "MIMIC-CXR"
+   ]
+  }
+ }
 }

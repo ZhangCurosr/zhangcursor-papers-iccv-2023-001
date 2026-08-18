@@ -4,5 +4,31 @@
  "title": "One-Shot-Generative-Domain-Adaptation",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-08-13 14:56:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/569e76d2-45a8-4c79-a89a-fc9e7eed797f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/569e76d2-45a8-4c79-a89a-fc9e7eed797f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:28:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单样本域适应",
+    "生成对抗网络",
+    "风格迁移",
+    "潜空间截断",
+    "属性适配"
+   ],
+   "field": "生成式域适应",
+   "innovations": [
+    "冻结预训练GAN核心参数并仅训练轻量属性适配器与分类器",
+    "首次在GAN训练中引入潜空间截断以约束多样性"
+   ],
+   "benchmarks": [
+    "FFHQ",
+    "Churches",
+    "FID",
+    "Precision",
+    "Recall"
+   ]
+  }
+ }
 }

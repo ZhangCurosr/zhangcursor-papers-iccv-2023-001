@@ -4,5 +4,10 @@
  "title": "Scenimefy-Learning-to-Craft-Anime-Scene-via-Semi-Supervised",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-08-13 14:56:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd0aecf7-0198-4efd-bf3e-9efc045d0356.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd0aecf7-0198-4efd-bf3e-9efc045d0356.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:30:12",
+  "chunks": 1
+ }
 }

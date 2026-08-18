@@ -4,5 +4,31 @@
  "title": "Towards-Robust-Model-Watermark-via-Reducing-Parametric-Vulne",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-13 14:55:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1424ae90-23c5-456b-a8a5-2a32f7122ffc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1424ae90-23c5-456b-a8a5-2a32f7122ffc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:34:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model watermarking",
+    "adversarial robustness",
+    "backdoor",
+    "copyright protection",
+    "parameter space",
+    "batch normalization"
+   ],
+   "field": "模型版权保护/水印鲁棒性",
+   "innovations": [
+    "提出minimax对抗参数扰动框架在参数空间寻找并恢复水印已移除的邻域模型",
+    "提出c-BN解决防御与攻击之间的domain shift问题提升水印鲁棒性",
+    "揭示水印模型参数空间中的脆弱性分布规律"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-subset"
+   ]
+  }
+ }
 }

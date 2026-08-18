@@ -4,5 +4,30 @@
  "title": "Tracing-the-Origin-of-Adversarial-Attack-for-Forensic-Invest",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a0e2e758-3b42-4d0c-baa8-d75def8cd12b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a0e2e758-3b42-4d0c-baa8-d75def8cd12b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:34:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial attack",
+    "forensic investigation",
+    "black-box attack",
+    "model tracing",
+    "buyers-seller setting"
+   ],
+   "field": "对抗攻击与模型安全",
+   "innovations": [
+    "提出并行网络结构在主分类器中嵌入独特tracer以实现对抗样本溯源",
+    "设计VAE-based tracer训练方法与排列置换差异化策略",
+    "基于tracer logits差异(DOL)的无白盒溯源机制"
+   ],
+   "benchmarks": [
+    "CIFAR10-ResNet18",
+    "GTSRB-ResNet18",
+    "Mini-ImageNet-ResNet50"
+   ]
+  }
+ }
 }

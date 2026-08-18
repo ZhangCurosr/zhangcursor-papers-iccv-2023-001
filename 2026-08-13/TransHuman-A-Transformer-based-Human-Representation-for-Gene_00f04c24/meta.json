@@ -4,5 +4,30 @@
  "title": "TransHuman-A-Transformer-based-Human-Representation-for-Gene",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 14:56:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9411dc30-c313-4553-b5b0-cd27a30aae56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9411dc30-c313-4553-b5b0-cd27a30aae56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:35:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generalizable neural human rendering",
+    "transformer",
+    "NeRF",
+    "SMPL",
+    "canonical space",
+    "human representation"
+   ],
+   "field": "可泛化神经人渲染",
+   "innovations": [
+    "提出TransHuman框架，首次在canonical space下用transformer处理paint SMPL捕获人体全局关系",
+    "设计DPaRF将token从canonical空间变形回观测空间进行鲁棒编码",
+    "通过FDI实现粗粒度人体先验与细粒度外观特征的coarse-to-fine融合"
+   ],
+   "benchmarks": [
+    "ZJU-MoCap",
+    "H36M"
+   ]
+  }
+ }
 }

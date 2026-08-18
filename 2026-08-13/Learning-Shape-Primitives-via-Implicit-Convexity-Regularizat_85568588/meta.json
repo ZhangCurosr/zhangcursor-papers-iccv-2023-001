@@ -4,5 +4,30 @@
  "title": "Learning-Shape-Primitives-via-Implicit-Convexity-Regularizat",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/72c619e6-5155-4052-b84d-60840c512759.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/72c619e6-5155-4052-b84d-60840c512759.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:29:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "形状基元分解",
+    "隐式凸性正则化",
+    "多视图重建",
+    "SDF",
+    "神经渲染",
+    "3D形状表示"
+   ],
+   "field": "3D视觉与几何深度学习",
+   "innovations": [
+    "提出ICR约束二阶方向导数保证隐式基元凸性",
+    "softmax加权和对齐融合多基元SDF避免梯度阻断",
+    "首个从多视图图像无监督学习隐式凸基元的方法"
+   ],
+   "benchmarks": [
+    "ShapeNet",
+    "CO3D"
+   ]
+  }
+ }
 }

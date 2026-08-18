@@ -4,5 +4,30 @@
  "title": "ShiftNAS-Improving-One-shot-NAS-via-Probability-Shift",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-13 14:55:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5fc659a-802d-407c-a7b6-ed8fbf063ae1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5fc659a-802d-407c-a7b6-ed8fbf063ae1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:31:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "One-shot NAS",
+    "神经架构搜索",
+    "概率偏移",
+    "架构生成器",
+    "权重纠缠",
+    "Vision Transformer",
+    "CNN搜索",
+    "ImageNet"
+   ],
+   "field": "神经架构搜索(NAS)",
+   "innovations": [
+    "提出基于训练充分性梯度的概率偏移采样策略，动态调整不同FLOPs区域的采样概率",
+    "设计LSTM架构生成器结合矩阵映射技术，实现端到端可微分的任意FLOPs子网生成"
+   ],
+   "benchmarks": [
+    "ImageNet-1K"
+   ]
+  }
+ }
 }

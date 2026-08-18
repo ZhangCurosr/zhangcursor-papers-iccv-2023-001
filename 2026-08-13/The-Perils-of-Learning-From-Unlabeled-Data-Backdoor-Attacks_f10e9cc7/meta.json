@@ -4,5 +4,32 @@
  "title": "The-Perils-of-Learning-From-Unlabeled-Data-Backdoor-Attacks",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 14:56:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/46816d94-a0f8-42cd-a9e4-a6132982ad7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/46816d94-a0f8-42cd-a9e4-a6132982ad7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:33:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "半监督学习",
+    "后门攻击",
+    "数据投毒",
+    "clean-label",
+    "伪标签",
+    "SSL安全"
+   ],
+   "field": "机器学习安全与隐私",
+   "innovations": [
+    "首次系统揭示弱对抗者通过无标签数据投毒可在SSL中成功植入后门（ASR>80%，污染0.2%）",
+    "提出三条SSL后门攻击设计原则：clean-label+全图触发器+重复抗噪模式",
+    "证明五种SOTA后门防御对无标签投毒均失效"
+   ],
+   "benchmarks": [
+    "CIFAR10",
+    "CIFAR100",
+    "SVHN",
+    "STL10"
+   ]
+  }
+ }
 }

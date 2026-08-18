@@ -4,5 +4,31 @@
  "title": "Studying-How-to-Efficiently-and-Effectively-Guide-Models-wit",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-13 14:55:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11c894d7-9cdb-4f00-a459-42da3ee95ed4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11c894d7-9cdb-4f00-a459-42da3ee95ed4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:32:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型引导",
+    "归因方法",
+    "可解释AI",
+    "目标检测",
+    "分布偏移鲁棒性",
+    "Energy损失"
+   ],
+   "field": "可解释机器学习",
+   "innovations": [
+    "提出Energy损失（基于EPG分数）实现高效模型引导",
+    "系统评估边界框标注在大规模数据集上的引导效果",
+    "证明模型引导可显著改善分布偏移下的泛化性能"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 2007",
+    "MS COCO 2014",
+    "Waterbirds-100"
+   ]
+  }
+ }
 }

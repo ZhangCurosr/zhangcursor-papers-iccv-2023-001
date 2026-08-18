@@ -4,5 +4,32 @@
  "title": "ProbVLM-Probabilistic-Adapter-for-Frozen-Vison-Language-Mode",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-13 14:55:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/494cf306-beb5-485d-8001-aeafa0e16045.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/494cf306-beb5-485d-8001-aeafa0e16045.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:29:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Model",
+    "Probabilistic Embedding",
+    "Uncertainty Estimation",
+    "Cross-modal Retrieval",
+    "Post-hoc Adaptation",
+    "Generalized Gaussian Distribution"
+   ],
+   "field": "多模态表示学习与不确定性量化",
+   "innovations": [
+    "首个针对冻结 VLM 的后验概率适配器，将确定性嵌入转为 GGD 分布估计",
+    "联合内模态重建与跨模态对齐的训练目标，在无需大规模重训练下实现校准不确定性",
+    "利用 Stable Diffusion 反向可视化概率嵌入分布，验证语义一致性"
+   ],
+   "benchmarks": [
+    "MS-COCO",
+    "Flickr30k",
+    "CUB",
+    "Oxford-Flowers 102"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "TARGET-Federated-Class-Continual-Learning-via-Exemplar-Free",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 14:56:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/20832906-530c-49f1-86a8-d7616c6e9d2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/20832906-530c-49f1-86a8-d7616c6e9d2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:32:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "联邦学习",
+    "持续学习",
+    "灾难性遗忘",
+    "数据蒸馏",
+    "非IID",
+    "exemplar-free",
+    "知识蒸馏"
+   ],
+   "field": "联邦持续学习",
+   "innovations": [
+    "首次证明非IID数据加剧联邦学习中灾难性遗忘",
+    "提出exemplar-free全局模型蒸馏+生成器合成数据的双层防遗忘框架"
+   ],
+   "benchmarks": [
+    "CIFAR-100 (5/10 tasks)",
+    "Tiny-ImageNet (5 tasks)"
+   ]
+  }
+ }
 }

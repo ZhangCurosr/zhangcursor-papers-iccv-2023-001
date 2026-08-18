@@ -4,5 +4,38 @@
  "title": "The-effectiveness-of-MAE-pre-pretraining-for-billion-scale-p",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 14:56:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/318b0fb3-97ed-4da4-abea-93cefcdc60dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/318b0fb3-97ed-4da4-abea-93cefcdc60dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:34:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MAE",
+    "预预训练",
+    "弱监督预训练",
+    "视觉基础模型",
+    "大规模预训练",
+    "自监督学习"
+   ],
+   "field": "视觉基础模型预训练",
+   "innovations": [
+    "提出MAE预预训练框架，在弱监督预训练前增加自监督初始化阶段，无需额外数据或超参调优",
+    "首次揭示MAE不仅随模型规模扩展，也随训练数据集规模扩展",
+    "发现MAE初始化可突破WSP在目标检测任务上的模型规模扩展瓶颈"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "iNaturalist-18",
+    "COCO",
+    "LVIS",
+    "Kinetics-400",
+    "Food-101",
+    "INv2",
+    "IN-ReaL",
+    "ObjectNet",
+    "Something-Something-v2"
+   ]
+  }
+ }
 }

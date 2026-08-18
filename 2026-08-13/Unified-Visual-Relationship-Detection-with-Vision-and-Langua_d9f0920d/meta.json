@@ -4,5 +4,32 @@
  "title": "Unified-Visual-Relationship-Detection-with-Vision-and-Langua",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:55:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63a82484-3e25-4794-a15d-ba6694575305.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63a82484-3e25-4794-a15d-ba6694575305.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:35:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉关系检测",
+    "视觉语言模型",
+    "统一标签空间",
+    "人-物交互",
+    "场景图生成",
+    "VLM",
+    "多数据集训练"
+   ],
+   "field": "视觉关系检测",
+   "innovations": [
+    "利用 VLM 文本嵌入统一异构数据集标签空间",
+    "级联训练架构结合索引预测实现高效关系解码",
+    "首次证明统一 VRD 模型可比肩专用模型并具可扩展性"
+   ],
+   "benchmarks": [
+    "HICO-DET",
+    "V-COCO",
+    "Visual Genome"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Understanding-the-Feature-Norm-for-Out-of-Distribution-Detec",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-08-13 14:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/677641de-f722-433b-b1fb-789fe668d959.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/677641de-f722-433b-b1fb-789fe668d959.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:35:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OOD检测",
+    "特征范数",
+    "负感知范数",
+    "隐分类器",
+    "类无关性",
+    "激活熵"
+   ],
+   "field": "分布外检测与异常识别",
+   "innovations": [
+    "证明特征范数等价于隐分类器最大logit，揭示OOD检测的理论机制",
+    "提出NAN同时捕获神经元激活与去激活倾向，无需超参数/标签/bank set",
+    "建立激活熵与OOD检测性能的类无关性关联"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "CIFAR-10",
+    "CIFAR-100",
+    "OCC benchmark"
+   ]
+  }
+ }
 }

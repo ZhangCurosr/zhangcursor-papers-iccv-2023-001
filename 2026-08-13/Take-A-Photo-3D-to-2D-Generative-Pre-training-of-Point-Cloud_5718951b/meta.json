@@ -4,5 +4,32 @@
  "title": "Take-A-Photo-3D-to-2D-Generative-Pre-training-of-Point-Cloud",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 14:56:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0c95da5e-3018-4aaf-8c3e-97cde03c9683.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0c95da5e-3018-4aaf-8c3e-97cde03c9683.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:32:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "点云预训练",
+    "生成预训练",
+    "3D-to-2D跨模态",
+    "自监督学习",
+    "ScanObjectNN",
+    "ShapeNetPart"
+   ],
+   "field": "3D点云表征学习",
+   "innovations": [
+    "提出首个适用于任意点云骨干的3D-to-2D生成预训练框架TAP",
+    "设计位姿依赖摄影模块，通过cross-attention实现3D到2D视图的生成映射",
+    "引入像素级MSE前景/背景加权损失，替代不精确的Chamfer Distance监督"
+   ],
+   "benchmarks": [
+    "ScanObjectNN",
+    "ModelNet40",
+    "ShapeNetPart",
+    "ScanNetV2"
+   ]
+  }
+ }
 }

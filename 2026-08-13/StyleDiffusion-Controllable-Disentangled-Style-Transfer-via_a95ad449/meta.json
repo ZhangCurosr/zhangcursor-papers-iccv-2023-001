@@ -4,5 +4,32 @@
  "title": "StyleDiffusion-Controllable-Disentangled-Style-Transfer-via",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 14:56:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0bafebbe-0c68-40df-940c-23a200980953.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0bafebbe-0c68-40df-940c-23a200980953.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:32:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Style Transfer",
+    "Diffusion Models",
+    "Content-Style Disentanglement",
+    "CLIP",
+    "Generative Models",
+    "Image Translation"
+   ],
+   "field": "神经风格迁移与生成模型",
+   "innovations": [
+    "首次将扩散模型引入神经风格迁移，实现可解释可控的C-S解耦",
+    "提出CLIP空间中基于L1+方向损失的风格解耦损失，将风格定义为内容补集",
+    "利用扩散模型返回步数作为连续控制超参实现灵活的C-S权衡调节"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "SSIM",
+    "CLIP Score",
+    "Style Loss"
+   ]
+  }
+ }
 }

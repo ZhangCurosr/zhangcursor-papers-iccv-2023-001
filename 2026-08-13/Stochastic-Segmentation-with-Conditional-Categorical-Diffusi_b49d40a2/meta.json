@@ -4,5 +4,10 @@
  "title": "Stochastic-Segmentation-with-Conditional-Categorical-Diffusi",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-13 14:55:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e738d049-8f57-4feb-a85e-cfdee5dda16f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e738d049-8f57-4feb-a85e-cfdee5dda16f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:32:47",
+  "chunks": 1
+ }
 }

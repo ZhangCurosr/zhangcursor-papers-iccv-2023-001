@@ -4,5 +4,35 @@
  "title": "Learning-Image-Adaptive-Codebooks-for-Class-Agnostic-Image-R",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:10:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d2056cf7-4684-4810-b64f-9629b4563ecd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d2056cf7-4684-4810-b64f-9629b4563ecd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:28:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像修复",
+    "离散生成先验",
+    "自适应码本",
+    "超分辨率",
+    "图像修补"
+   ],
+   "field": "低级别视觉",
+   "innovations": [
+    "提出AdaCode框架，通过加权组合多个语义基码本实现类别无关的图像自适应表示",
+    "设计三阶段训练策略，解耦码本学习与下游修复任务优化",
+    "引入InfoNCE对比损失与风格损失进行特征对齐"
+   ],
+   "benchmarks": [
+    "Set5",
+    "Set14",
+    "BSD100",
+    "Urban100",
+    "Manga109",
+    "DIV2K",
+    "DIV8K",
+    "OST"
+   ]
+  }
+ }
 }

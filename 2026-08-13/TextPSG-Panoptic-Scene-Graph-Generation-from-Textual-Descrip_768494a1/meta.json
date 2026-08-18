@@ -4,5 +4,31 @@
  "title": "TextPSG-Panoptic-Scene-Graph-Generation-from-Textual-Descrip",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-13 14:55:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49f83960-6bb1-4d7b-959d-a93ff8426483.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49f83960-6bb1-4d7b-959d-a93ff8426483.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:33:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Panoptic Scene Graph",
+    "弱监督场景理解",
+    "视觉-语言接地",
+    "开放词汇",
+    "自回归生成",
+    "图像 caption"
+   ],
+   "field": "弱监督场景图生成",
+   "innovations": [
+    "首次提出无位置先验/无显式链接/无预定义概念集的 Caption-to-PSG 任务",
+    "利用实体接地伪标签显式学习段落相似度矩阵以提升定位能力",
+    "将标签预测重构为自回归生成问题并设计 PET 激活预训练 VLM 常识"
+   ],
+   "benchmarks": [
+    "Panoptic Scene Graph Dataset",
+    "COCO Caption",
+    "COCO Semantic Segmentation"
+   ]
+  }
+ }
 }

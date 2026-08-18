@@ -4,5 +4,30 @@
  "title": "Space-Engage-Collaborative-Space-Supervision-for-Contrastive",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-08-13 14:56:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ef0fe37-1e6c-4f2e-8cc9-770467443239.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ef0fe37-1e6c-4f2e-8cc9-770467443239.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:31:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "半监督语义分割",
+    "对比学习",
+    "双空间监督",
+    "伪标签",
+    "prototype"
+   ],
+   "field": "半监督语义分割",
+   "innovations": [
+    "提出logit与representation双空间协作监督框架CSS，包含mix和cross两种伪标签策略",
+    "首次使用representation与prototype的相似度（经Softmax归一化）替代confidence作为representation学习的采样指示器"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 2012",
+    "Cityscapes",
+    "ADE20K",
+    "COCO-Stuff 10K"
+   ]
+  }
+ }
 }

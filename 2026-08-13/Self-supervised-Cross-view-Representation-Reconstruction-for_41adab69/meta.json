@@ -4,5 +4,10 @@
  "title": "Self-supervised-Cross-view-Representation-Reconstruction-for",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-13 14:55:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a79f29a0-4d54-4175-9498-1c2c4ab153fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a79f29a0-4d54-4175-9498-1c2c4ab153fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:30:34",
+  "chunks": 1
+ }
 }

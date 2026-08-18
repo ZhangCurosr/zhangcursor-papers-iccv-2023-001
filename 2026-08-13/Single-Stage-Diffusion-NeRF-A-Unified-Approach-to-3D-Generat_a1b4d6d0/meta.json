@@ -4,5 +4,32 @@
  "title": "Single-Stage-Diffusion-NeRF-A-Unified-Approach-to-3D-Generat",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-08-13 14:56:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bc79be81-b29c-48b1-a2b0-d79d9b0e38d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bc79be81-b29c-48b1-a2b0-d79d9b0e38d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:31:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Generation",
+    "NeRF",
+    "Diffusion Model",
+    "Single-stage Training",
+    "Sparse-view Reconstruction",
+    "Latent Diffusion",
+    "Triplane"
+   ],
+   "field": "3D 生成与重建",
+   "innovations": [
+    "提出单阶段端到端训练范式联合优化 NeRF auto-decoder 与 triplane 扩散先验",
+    "设计 guidance-finetuning 测试时策略支持任意视角数的 3D 重建",
+    "实现从每场景仅 3 个视图的稀疏数据中有效训练扩散 NeRF"
+   ],
+   "benchmarks": [
+    "SRN Cars",
+    "SRN Chairs",
+    "ABO Tables"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "ScanNet-A-High-Fidelity-Dataset-of-3D-Indoor-Scenes",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-13 14:56:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dbebb364-0a6a-4fa3-9c07-efbe7a78c018.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dbebb364-0a6a-4fa3-9c07-efbe7a78c018.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:29:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D indoor scene reconstruction",
+    "neural radiance fields",
+    "novel view synthesis",
+    "semantic segmentation",
+    "multi-modal dataset"
+   ],
+   "field": "3D 场景理解与神经渲染",
+   "innovations": [
+    "耦合亚毫米级激光扫描、33MP DSLR 和 iPhone RGB-D 的大规模高保真数据集",
+    "开放词汇多标签语义标注，显式建模 label ambiguity",
+    "独立于训练轨迹的 NVS 测试采集策略"
+   ],
+   "benchmarks": [
+    "ScanNet++ NVS Benchmark",
+    "ScanNet++ 3D Semantic Segmentation",
+    "ScanNet++ 3D Instance Segmentation"
+   ]
+  }
+ }
 }

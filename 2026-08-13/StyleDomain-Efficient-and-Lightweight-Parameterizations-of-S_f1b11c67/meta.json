@@ -4,5 +4,30 @@
  "title": "StyleDomain-Efficient-and-Lightweight-Parameterizations-of-S",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-13 14:56:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/62c0180b-85e7-4869-9d44-97e3406b8b26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/62c0180b-85e7-4869-9d44-97e3406b8b26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:32:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "StyleGAN",
+    "域适应",
+    "少样本生成",
+    "StyleSpace",
+    "轻量化参数化",
+    "单样本适应"
+   ],
+   "field": "生成模型域适应",
+   "innovations": [
+    "系统分析StyleGAN各组件在域适应中的充分性，发现相似域只需优化仿射层",
+    "提出StyleSpace/StyleSpaceSparse参数化，以6K/1.2K参数实现与Full微调相当的域适应",
+    "提出Affine+/AffineLight+参数化，以Full 1/6和1/100的参数量在差异域少样本适应上超越SOTA"
+   ],
+   "benchmarks": [
+    "FFHQ→艺术风格（单样本，Quality/Diversity指标）",
+    "AFHQ Dogs/Cats（少样本，FID指标）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Towards-Understanding-the-Generalization-of-Deepfake-Detecto",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-13 14:55:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d3607e22-ae65-45f7-a594-490007d6d0e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d3607e22-ae65-45f7-a594-490007d6d0e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:34:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "deepfake detection",
+    "generalization",
+    "Shapley value",
+    "multi-order interaction",
+    "game theory",
+    "interpretable AI"
+   ],
+   "field": "深度伪造检测与可解释AI",
+   "innovations": [
+    "首次从博弈论多阶交互视角揭示深度伪造检测器泛化机制，发现低阶交互具有显著负向贡献",
+    "设计$D^m$和$\rho^m$指标量化各阶交互对artifact相关表征的贡献与强度",
+    "提出无需重新训练的推理阶段低阶交互抑制策略（Eq.8）提升跨数据集泛化性能"
+   ],
+   "benchmarks": [
+    "FaceForensics++",
+    "Celeb-DF v1",
+    "Celeb-DF v2"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Spatial-Self-Distillation-for-Object-Detection-with-Inaccura",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-13 14:55:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f10005e1-b5e8-4aca-b9a9-4ffff218144a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f10005e1-b5e8-4aca-b9a9-4ffff218144a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:31:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "目标检测",
+    "不准确边界框",
+    "自蒸馏",
+    "多实例学习",
+    "弱监督",
+    "噪声标注"
+   ],
+   "field": "噪声标注下的目标检测",
+   "innovations": [
+    "提出SPSD模块通过空间自蒸馏从可靠标注向噪声标注传播空间位置知识以提升proposal bag质量",
+    "设计SISD模块预测object-related IoU空间置信度辅助proposal选择缓解漂移和群组问题",
+    "交互式结构交替融合空间与类别信息实现端到端不准确框监督目标检测"
+   ],
+   "benchmarks": [
+    "MS-COCO",
+    "PASCAL VOC 2007"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "TexFusion-Synthesizing-3D-Textures-with-Text-Guided-Image-Di",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 14:56:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65778caa-6789-4935-ada9-3349408eb75b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65778caa-6789-4935-ada9-3349408eb75b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:32:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D texture synthesis",
+    "diffusion models",
+    "multiview generation",
+    "latent diffusion",
+    "text-to-3D"
+   ],
+   "field": "3D图形生成",
+   "innovations": [
+    "提出SIMS在多个相机视角下交错去噪并即时聚合到共享潜在纹理地图，实现3D一致性",
+    "基于图像空间导数的质量度量进行纹理聚合，避免混叠和视图不一致",
+    "结合两级分辨率级联和神经颜色场蒸馏，生成高质量且全局一致的RGB纹理"
+   ],
+   "benchmarks": [
+    "FID vs SD2-depth ground truth proxy",
+    "User study on MTurk with 4 criteria"
+   ]
+  }
+ }
 }

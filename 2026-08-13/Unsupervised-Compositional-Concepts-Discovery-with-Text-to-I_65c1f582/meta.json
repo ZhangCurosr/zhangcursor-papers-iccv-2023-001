@@ -4,5 +4,31 @@
  "title": "Unsupervised-Compositional-Concepts-Discovery-with-Text-to-I",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-13 14:55:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ea0990b-3541-4d3e-bcbc-a1d72e60f3fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ea0990b-3541-4d3e-bcbc-a1d72e60f3fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:35:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督概念发现",
+    "组合生成",
+    "扩散模型",
+    "文本到图像",
+    "可组合扩散",
+    "能量基模型"
+   ],
+   "field": "生成模型与视觉表示学习",
+   "innovations": [
+    "提出无监督组合概念发现框架，同时发现多个语义概念并支持重组生成",
+    "利用预训练扩散模型的语义空间作为概念参数化基座，实现小样本高效学习",
+    "统一分解-重组-表征学习三功能，验证跨域通用性"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "ADE20K",
+    "Artistic Paintings"
+   ]
+  }
+ }
 }
