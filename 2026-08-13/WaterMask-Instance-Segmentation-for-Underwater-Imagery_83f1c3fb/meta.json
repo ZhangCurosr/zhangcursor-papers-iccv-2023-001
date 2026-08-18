@@ -4,5 +4,29 @@
  "title": "WaterMask-Instance-Segmentation-for-Underwater-Imagery",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 14:56:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63cb1410-fd54-4b81-8934-f9a9a3a95db7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63cb1410-fd54-4b81-8934-f9a9a3a95db7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:41:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "水下图像分割",
+    "实例分割",
+    "图注意力网络",
+    "边界学习",
+    "UIIS数据集"
+   ],
+   "field": "水下计算机视觉",
+   "innovations": [
+    "提出DSGAT通过图注意力重建退化特征细节",
+    "设计BMS融合多尺度边界预测精化掩码",
+    "构建首个通用水下实例分割数据集UIIS"
+   ],
+   "benchmarks": [
+    "UIIS",
+    "COCO-style instance segmentation metrics"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Vox-E-Text-guided-Voxel-Editing-of-3D-Objects",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:56:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/763f7b27-fa8d-4029-84a8-b38c79f008e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/763f7b27-fa8d-4029-84a8-b38c79f008e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:41:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D editing",
+    "text-guided generation",
+    "voxel representation",
+    "score distillation sampling",
+    "cross-attention",
+    "volumetric regularization"
+   ],
+   "field": "3D 生成与编辑",
+   "innovations": [
+    "3D体素空间正则化实现文本引导编辑与输入结构保持的平衡",
+    "基于2D cross-attention提升为3D概率网格的体素分割定位技术",
+    "耦合双体素网格架构支持局部和全局几何/外观编辑"
+   ],
+   "benchmarks": [
+    "CLIP Similarity",
+    "CLIP Direction Similarity",
+    "FID"
+   ]
+  }
+ }
 }

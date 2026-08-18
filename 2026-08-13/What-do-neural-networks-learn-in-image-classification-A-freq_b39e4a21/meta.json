@@ -4,5 +4,31 @@
  "title": "What-do-neural-networks-learn-in-image-classification-A-freq",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-13 14:55:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/25709c0b-79f1-41d1-b593-adff1b7a7dac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/25709c0b-79f1-41d1-b593-adff1b7a7dac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:41:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "频率捷径",
+    "简单性偏差",
+    "图像分类",
+    "OOD泛化",
+    "频域分析",
+    "纹理偏见",
+    "数据增强"
+   ],
+   "field": "计算机视觉可解释性与泛化",
+   "innovations": [
+    "提出DFM频率捷径识别方法并扩展至纹理/形状/颜色三种类型",
+    "从频域角度系统解释分类任务中网络学习动态的数据依赖性",
+    "揭示频率捷径的跨架构可迁移性及对OOD泛化的误导性影响"
+   ],
+   "benchmarks": [
+    "ImageNet-10",
+    "ImageNet-SCT"
+   ]
+  }
+ }
 }
