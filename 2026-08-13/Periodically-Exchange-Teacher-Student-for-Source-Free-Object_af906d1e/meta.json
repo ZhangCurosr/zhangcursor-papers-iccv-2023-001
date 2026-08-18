@@ -4,5 +4,32 @@
  "title": "Periodically-Exchange-Teacher-Student-for-Source-Free-Object",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-13 14:56:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e37491bb-59ee-46a3-860e-08b08d903898.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e37491bb-59ee-46a3-860e-08b08d903898.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:26:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "源自由目标检测",
+    "无监督域自适应",
+    "平均教师框架",
+    "多教师自训练",
+    "周期性权重交换",
+    "一致性融合"
+   ],
+   "field": "无监督域自适应目标检测",
+   "innovations": [
+    "提出多教师框架（静态教师+动态教师）解决MT框架训练不稳定问题",
+    "周期性双向交换学生与静态教师权重阻断误差累积",
+    "设计过滤+WBF融合的一致性机制生成高质量伪标签"
+   ],
+   "benchmarks": [
+    "Cityscapes-to-Foggy-Cityscapes (C2F)",
+    "Cityscapes-to-BDD100k (C2B)",
+    "KITTI-to-Cityscapes-Car (K2C)",
+    "Sim10k-to-Cityscapes-Car (S2C)"
+   ]
+  }
+ }
 }

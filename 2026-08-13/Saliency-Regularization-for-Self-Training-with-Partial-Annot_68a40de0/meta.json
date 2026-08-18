@@ -4,5 +4,32 @@
  "title": "Saliency-Regularization-for-Self-Training-with-Partial-Annot",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 14:56:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2dac8412-1d4b-4881-b5db-a31c5e682750.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2dac8412-1d4b-4881-b5db-a31c5e682750.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:29:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多标签分类",
+    "部分标注",
+    "显著性正则化",
+    "自训练",
+    "正负不平衡",
+    "一致性正则化"
+   ],
+   "field": "多标签图像分类",
+   "innovations": [
+    "提出显著性正则化(SR)从空间层面缓解部分标注多标签分类中的负主导问题",
+    "构建端到端自训练框架结合SR与一致性正则化( CR)，无需预训练模型",
+    "SR隐式作为logit自适应边距，同时解决难易样本不平衡"
+   ],
+   "benchmarks": [
+    "MS-COCO",
+    "VG-200",
+    "Pascal VOC 2007",
+    "OpenImages V3"
+   ]
+  }
+ }
 }

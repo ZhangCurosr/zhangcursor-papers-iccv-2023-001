@@ -4,5 +4,31 @@
  "title": "SPANet-Frequency-balancing-Token-Mixer-using-Spectral-Poolin",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 14:56:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b66eb3ea-a371-442c-a24c-19ff2ae50488.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b66eb3ea-a371-442c-a24c-19ff2ae50488.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:29:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "MetaFormer",
+    "频域滤波",
+    "Token Mixer",
+    "Spectral Pooling",
+    "计算机视觉"
+   ],
+   "field": "视觉表征学习",
+   "innovations": [
+    "提出SPAM模块实现高低频平衡",
+    "将频域平衡转化为单一圆形掩码滤波问题",
+    "基于MetaFormer架构构建SPANet全系列"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "COCO 2017",
+    "ADE20K"
+   ]
+  }
+ }
 }

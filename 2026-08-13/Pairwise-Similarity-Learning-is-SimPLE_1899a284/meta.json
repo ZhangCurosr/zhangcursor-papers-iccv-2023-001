@@ -4,5 +4,35 @@
  "title": "Pairwise-Similarity-Learning-is-SimPLE",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 14:56:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/83af0d79-d0c8-4135-a3c4-3e8e4a4b55e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/83af0d79-d0c8-4135-a3c4-3e8e4a4b55e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:26:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pairwise similarity learning",
+    "open-set recognition",
+    "face verification",
+    "metric learning",
+    "proxy-free learning",
+    "hard mining"
+   ],
+   "field": "开放集人脸识别与度量学习",
+   "innovations": [
+    "证明 pair-based proxy-free 设定下角相似度与角边距非必需",
+    "提出反向硬对挖掘策略解决无角归一化时的 mining 抵消问题",
+    "引入队列+动量编码器扩大 pair 覆盖率并配合角偏置内积相似度"
+   ],
+   "benchmarks": [
+    "IJB-B",
+    "IJB-C",
+    "CUB-200-2011",
+    "VoxCeleb1",
+    "LFW",
+    "CALFW",
+    "CFP-FP"
+   ]
+  }
+ }
 }

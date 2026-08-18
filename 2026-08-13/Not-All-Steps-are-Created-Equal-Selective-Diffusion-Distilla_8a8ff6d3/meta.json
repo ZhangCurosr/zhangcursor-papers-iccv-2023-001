@@ -4,5 +4,31 @@
  "title": "Not-All-Steps-are-Created-Equal-Selective-Diffusion-Distilla",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 14:56:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf97611f-8153-4012-a054-9a9c0220ac1d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf97611f-8153-4012-a054-9a9c0220ac1d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:24:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion distillation",
+    "image manipulation",
+    "selective timestep",
+    "hybrid quality score",
+    "StyleGAN",
+    "text-guided editing"
+   ],
+   "field": "图像编辑与生成",
+   "innovations": [
+    "将扩散模型知识蒸馏到轻量级前馈操作网络，消除迭代编辑的可编辑性-保真度权衡",
+    "提出HQS指标自动筛选与语义相关的最佳扩散时间步",
+    "通过单次前向传播实现高效图像编辑，推理速度提升约15倍"
+   ],
+   "benchmarks": [
+    "CelebA-HQ",
+    "AFHQ-cat",
+    "LSUN-car"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "MasQCLIP-for-Open-Vocabulary-Universal-Image-Segmentation",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 14:56:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0517b004-c835-45d6-b8be-1a0b37f6c4fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0517b004-c835-45d6-b8be-1a0b37f6c4fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:23:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放词汇分割",
+    "通用图像分割",
+    "CLIP",
+    "渐进式蒸馏",
+    "参数高效微调",
+    "实例分割",
+    "语义分割",
+    "全景分割"
+   ],
+   "field": "开放词汇视觉分割",
+   "innovations": [
+    "提出渐进式自蒸馏策略生成新类别掩码伪标注，突破基类监督限制",
+    "设计 MasQ-Tuning 仅微调查询投影实现参数高效的 CLIP 适配，兼顾泛化与任务适配"
+   ],
+   "benchmarks": [
+    "COCO instance segmentation (base-novel)",
+    "ADE20k semantic/panoptic segmentation (cross-dataset)",
+    "PASCAL-Context semantic segmentation (cross-dataset)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Improving-Generalization-of-Adversarial-Training-via-Robust",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/124ba1f1-7ece-4db6-9675-fa17f3789c43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/124ba1f1-7ece-4db6-9675-fa17f3789c43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:21:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial training",
+    "robustness",
+    "generalization",
+    "fine-tuning",
+    "module criticality",
+    "OOD robustness"
+   ],
+   "field": "对抗鲁棒性与泛化权衡",
+   "innovations": [
+    "提出模块鲁棒关键性(MRC)度量对抗冗余容量",
+    "设计三步RiFT后处理框架提升泛化且不损鲁棒性",
+    "实验证明非鲁棒关键模块微调可同时提升泛化与对抗鲁棒性"
+   ],
+   "benchmarks": [
+    "CIFAR10",
+    "CIFAR100",
+    "Tiny-ImageNet",
+    "CIFAR10-C",
+    "CIFAR100-C"
+   ]
+  }
+ }
 }

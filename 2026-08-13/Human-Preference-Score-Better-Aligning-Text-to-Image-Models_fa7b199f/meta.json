@@ -4,5 +4,34 @@
  "title": "Human-Preference-Score-Better-Aligning-Text-to-Image-Models",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 07:10:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a2691f26-a189-4955-85c8-d0838944c67e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a2691f26-a189-4955-85c8-d0838944c67e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:20:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human Preference Score",
+    "Text-to-Image",
+    "Diffusion Model Alignment",
+    "CLIP Fine-tuning",
+    "Aesthetic Evaluation",
+    "LoRA Adaptation",
+    "Human Feedback"
+   ],
+   "field": "文生图模型评估与人类偏好对齐",
+   "innovations": [
+    "构建大规模同prompt成对人类偏好数据集并提取选择信号",
+    "提出HPS指标，微调CLIP后显著优于IS/FID及原始CLIP Score",
+    "通过LoRA加负向标识符引导稳定扩散模型轻量对齐人类审美"
+   ],
+   "benchmarks": [
+    "DiffusionDB",
+    "LAION-5B",
+    "COCO Captions",
+    "SAC",
+    "AVA"
+   ]
+  }
+ }
 }

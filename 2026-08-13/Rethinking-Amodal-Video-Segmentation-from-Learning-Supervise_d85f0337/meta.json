@@ -4,5 +4,30 @@
  "title": "Rethinking-Amodal-Video-Segmentation-from-Learning-Supervise",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-13 14:56:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a85f1cbd-becf-4cc0-8a44-df97c43ed1f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a85f1cbd-becf-4cc0-8a44-df97c43ed1f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:28:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "amodal segmentation",
+    "video segmentation",
+    "object-centric learning",
+    "BEV",
+    "occlusion completion"
+   ],
+   "field": "视频无模分割",
+   "innovations": [
+    "首次将视频无模分割转为监督学习，利用VOS掩码作为监督信号",
+    "提出BEV翻译模块引入3D无遮挡视角信息",
+    "设计基于object slots的多视角融合时序模块，替代光流对齐"
+   ],
+   "benchmarks": [
+    "Movi-B",
+    "Movi-D",
+    "KITTI"
+   ]
+  }
+ }
 }

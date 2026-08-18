@@ -4,5 +4,34 @@
  "title": "Mining-bias-target-Alignment-from-Voronoi-Cells",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 14:56:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e0b3a94-91a4-47a8-a4f3-dff546084222.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e0b3a94-91a4-47a8-a4f3-dff546084222.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:23:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "去偏见",
+    "偏见无关",
+    "Voronoi边界",
+    "条件互信息",
+    "损失重加权",
+    "深度神经网络",
+    "公平性"
+   ],
+   "field": "计算机视觉中的公平性与去偏见",
+   "innovations": [
+    "基于Voronoi边界距离动态检测偏见-目标对齐时机",
+    "条件互信息移除结合损失重加权实现无偏训练",
+    "无需偏见先验且兼容多偏置的通用去偏框架"
+   ],
+   "benchmarks": [
+    "Biased MNIST",
+    "Multi-Color MNIST",
+    "CelebA",
+    "9-class ImageNet",
+    "ImageNet-A"
+   ]
+  }
+ }
 }

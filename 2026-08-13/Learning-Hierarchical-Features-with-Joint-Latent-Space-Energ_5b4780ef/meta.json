@@ -4,5 +4,33 @@
  "title": "Learning-Hierarchical-Features-with-Joint-Latent-Space-Energ",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ae738074-04a3-4aa8-9339-d99af56e7b44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ae738074-04a3-4aa8-9339-d99af56e7b44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:22:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Energy-Based Model",
+    "Hierarchical Representation Learning",
+    "Latent Variable Model",
+    "Generative Modeling",
+    "Variational Inference",
+    "Anomaly Detection"
+   ],
+   "field": "生成模型与分层表征学习",
+   "innovations": [
+    "提出联合潜空间EBM先验，将多层潜变量拼接后通过能量函数联合建模，显式捕捉层间关系",
+    "设计变分联合学习方案，用多层推理模型替代高成本MCMC后验采样，统一优化生成器、EBM先验与推理网络",
+    "在多层架构层次结构中实现分层表征的有效解耦，显著提升图像生成质量与异常检测性能"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Fashion-MNIST",
+    "SVHN",
+    "CelebA-64",
+    "CIFAR-10"
+   ]
+  }
+ }
 }

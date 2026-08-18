@@ -4,5 +4,35 @@
  "title": "OPERA-Omni-Supervised-Representation-Learning-with-Hierarchi",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 14:56:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd0d9aa8-0d85-4055-95f1-2dc975540580.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd0d9aa8-0d85-4055-95f1-2dc975540580.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:25:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "表示学习",
+    "自监督学习",
+    "全监督学习",
+    "层次化监督",
+    "对比学习",
+    "预训练-微调",
+    "迁移学习"
+   ],
+   "field": "自监督视觉表示学习",
+   "innovations": [
+    "提出层次化代理表示框架OPERA，将自监督和全监督信号分配到instance space和class space，解决信号冲突",
+    "证明层次化监督目标等价于自适应加权原始表示空间优化，隐式平衡监督权重",
+    "端到端联合训练，仅需150 epoch预训练即可超越MoCo-v3在300 epoch下的性能，提升数据效率"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "ADE20K",
+    "COCO",
+    "CIFAR-10/100",
+    "Oxford Flowers-102",
+    "Oxford-IIIT-Pets"
+   ]
+  }
+ }
 }

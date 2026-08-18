@@ -4,5 +4,32 @@
  "title": "Rickrolling-the-Artist-Injecting-Backdoors-into-Text-Encoder",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-13 14:55:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fccaad1-b09f-436e-81ee-34b461b4b348.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fccaad1-b09f-436e-81ee-34b461b4b348.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:28:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backdoor attack",
+    "text-to-image synthesis",
+    "CLIP encoder",
+    "homoglyph trigger",
+    "latent diffusion",
+    "model poisoning",
+    "multimodal security"
+   ],
+   "field": "生成式AI安全与鲁棒性",
+   "innovations": [
+    "首次针对文本到图像生成模型的预训练文本编码器提出轻量级后门攻击框架",
+    "提出教师-学生微调范式实现分钟级后门注入且保持干净输入效用",
+    "设计目标提示攻击(TPA)与目标属性攻击(TAA)两种变体并验证双用途价值"
+   ],
+   "benchmarks": [
+    "MS-COCO 2014 val",
+    "ImageNet-V2 zero-shot accuracy",
+    "LAION-Aesthetics v2 6.5+"
+   ]
+  }
+ }
 }

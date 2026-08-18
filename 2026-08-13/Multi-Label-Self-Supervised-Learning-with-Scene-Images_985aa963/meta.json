@@ -4,5 +4,32 @@
  "title": "Multi-Label-Self-Supervised-Learning-with-Scene-Images",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-13 14:55:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/12bc5a32-f0b3-4618-89f1-aa6bafeb9e4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/12bc5a32-f0b3-4618-89f1-aa6bafeb9e4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:24:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自监督学习",
+    "多标签分类",
+    "场景图像",
+    "对比学习",
+    "BCE损失",
+    "MS-COCO"
+   ],
+   "field": "自监督视觉表征学习",
+   "innovations": [
+    "首次将场景图像SSL形式化为多标签分类问题",
+    "提出双字典机制分别用于伪标签生成和分类",
+    "用BCE损失替代InfoNCE以适配多标签场景"
+   ],
+   "benchmarks": [
+    "MS-COCO检测与分割",
+    "VOC0712检测",
+    "CityScapes语义分割",
+    "VOC2007多标签分类"
+   ]
+  }
+ }
 }

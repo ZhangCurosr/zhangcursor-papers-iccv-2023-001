@@ -4,5 +4,30 @@
  "title": "Pose-Free-Neural-Radiance-Fields-via-Implicit-Pose-Regulariz",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:56:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ad82d5c-ccf9-4007-8946-ef897825c6fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ad82d5c-ccf9-4007-8946-ef897825c6fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:27:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Pose-Free NeRF",
+    "隐式位姿正则化",
+    "场景码本",
+    "新视角合成",
+    "域差距校正",
+    "自监督位姿估计"
+   ],
+   "field": "无位姿神经辐射场 (Pose-Free NeRF)",
+   "innovations": [
+    "提出隐式位姿正则化机制解决渲染图与真实图的域差距问题",
+    "设计基于线性组合的场景码本隐式编码相机位姿分布先验",
+    "构建位姿引导视图重建与一致性损失提升位姿估计鲁棒性"
+   ],
+   "benchmarks": [
+    "Synthetic-NeRF",
+    "DTU"
+   ]
+  }
+ }
 }

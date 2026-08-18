@@ -4,5 +4,10 @@
  "title": "Partition-and-Debias-Agnostic-Biases-Mitigation-via-A-Mixtur",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-13 14:55:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7889d744-0b7d-43c1-a288-1fde75c23063.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7889d744-0b7d-43c1-a288-1fde75c23063.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:26:50",
+  "chunks": 1
+ }
 }

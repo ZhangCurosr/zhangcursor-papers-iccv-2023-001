@@ -4,5 +4,32 @@
  "title": "MosaiQ-Quantum-Generative-Adversarial-Networks-for-Image-Gen",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 14:56:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f29ec64-9799-4ae1-89e6-85e7dad8b4b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f29ec64-9799-4ae1-89e6-85e7dad8b4b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:24:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Quantum GAN",
+    "NISQ",
+    "图像生成",
+    "PCA特征重分布",
+    "自适应噪声",
+    "变分量子电路"
+   ],
+   "field": "量子机器学习 / 量子生成模型",
+   "innovations": [
+    "提出PCA主成分特征重分布机制，解决多子生成器间的方差不平衡与训练偏斜问题",
+    "设计基于判别器/生成器损失比的自适应噪声范围，有效缓解量子GAN模式崩溃并提升多样性",
+    "在IBM Jakarta NISQ真机上实现高质量图像生成，FID指标显著优于QG-Patch等基线"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Fashion MNIST",
+    "FID",
+    "IBM QX Jakarta"
+   ]
+  }
+ }
 }

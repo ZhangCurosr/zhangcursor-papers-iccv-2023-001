@@ -4,5 +4,30 @@
  "title": "Multiple-Instance-Learning-Framework-with-Masked-Hard-Instan",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-13 14:55:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/520e9801-d0e8-456d-a086-2ab2e57d9bdf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/520e9801-d0e8-456d-a086-2ab2e57d9bdf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:24:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multiple Instance Learning",
+    "WSI Classification",
+    "Hard Instance Mining",
+    "Attention Mechanism",
+    "Momentum Teacher",
+    "Consistency Loss"
+   ],
+   "field": "医学图像分析 / 弱监督学习",
+   "innovations": [
+    "通过屏蔽高注意力实例隐式挖掘难实例",
+    "Siamese EMA Teacher 无参数增量设计",
+    "多种混合掩码策略提升训练效率与泛化"
+   ],
+   "benchmarks": [
+    "CAMELYON-16",
+    "TCGA Lung Cancer"
+   ]
+  }
+ }
 }

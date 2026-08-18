@@ -4,5 +4,33 @@
  "title": "Point-Query-Quadtree-for-Crowd-Counting-Localization-and-Mor",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 14:56:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2648eec6-acb7-4c48-9760-7d831f005d18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2648eec6-acb7-4c48-9760-7d831f005d18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 05:27:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人群计数",
+    "点查询",
+    "四叉树",
+    "Transformer",
+    "实例级定位",
+    "部分标注学习"
+   ],
+   "field": "密集场景人群分析与计数",
+   "innovations": [
+    "将人群计数形式化为可分解的点查询过程，实现单模型统一多任务",
+    "提出点查询四叉树实现数据驱动的自适应稀疏/密集区域处理",
+    "设计渐进矩形窗口注意力机制，结合透视先验实现高效推理"
+   ],
+   "benchmarks": [
+    "ShanghaiTech PartA",
+    "ShanghaiTech PartB",
+    "UCF-QNRF",
+    "JHU-Crowd++",
+    "NWPU-Crowd"
+   ]
+  }
+ }
 }
