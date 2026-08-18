@@ -4,5 +4,10 @@
  "title": "Visual-Explanations-via-Iterated-Integrated-Attributions",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 14:56:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13917b68-290b-41f5-a4b0-4c38052968dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13917b68-290b-41f5-a4b0-4c38052968dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:32:52",
+  "chunks": 1
+ }
 }

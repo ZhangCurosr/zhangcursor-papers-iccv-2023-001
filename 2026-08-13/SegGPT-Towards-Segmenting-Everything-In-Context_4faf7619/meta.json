@@ -4,5 +4,35 @@
  "title": "SegGPT-Towards-Segmenting-Everything-In-Context",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 14:57:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aea2e93c-d8f2-489c-9da8-5d83a2bb8785.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aea2e93c-d8f2-489c-9da8-5d83a2bb8785.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:31:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "in-context learning",
+    "segmentation",
+    "generalist model",
+    "random coloring",
+    "feature ensemble"
+   ],
+   "field": "视觉通用模型",
+   "innovations": [
+    "随机着色训练方案避免多任务坍缩",
+    "特征集成策略聚合多示例上下文信息",
+    "上下文提示调优实现零参数适配"
+   ],
+   "benchmarks": [
+    "COCO-20i",
+    "PASCAL-5i",
+    "FSS-1000",
+    "YouTube-VOS 2018",
+    "DAVIS 2017",
+    "MOSE",
+    "ADE20K",
+    "COCO Panoptic"
+   ]
+  }
+ }
 }

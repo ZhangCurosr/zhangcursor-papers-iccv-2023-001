@@ -4,5 +4,34 @@
  "title": "Unsupervised-Manifold-Linearizing-and-Clustering",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-13 14:56:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1fe9eb1-7d7a-448e-9ef2-b2c054851207.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1fe9eb1-7d7a-448e-9ef2-b2c054851207.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:31:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "流形线性化",
+    "无监督聚类",
+    "MCR²",
+    "双随机矩阵",
+    "自监督表示学习",
+    "次空间聚类"
+   ],
+   "field": "无监督表示学习与聚类",
+   "innovations": [
+    "将MCR²目标扩展至无监督场景，联合优化表征与双随机隶属矩阵",
+    "提出基于Sinkhorn投影的高效参数化与单步自监督初始化策略",
+    "在多个大规模数据集上验证流形线性化与聚类的联合学习效果，超越SOTA深度聚类方法"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-20",
+    "CIFAR-100",
+    "TinyImageNet-200",
+    "Imb-CIFAR-10",
+    "Imb-CIFAR-100"
+   ]
+  }
+ }
 }

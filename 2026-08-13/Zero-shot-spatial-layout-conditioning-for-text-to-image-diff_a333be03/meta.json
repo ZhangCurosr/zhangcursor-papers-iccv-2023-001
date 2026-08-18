@@ -4,5 +4,31 @@
  "title": "Zero-shot-spatial-layout-conditioning-for-text-to-image-diff",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 14:56:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9007e6d7-53fa-4542-8d17-fc04f5e00e95.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9007e6d7-53fa-4542-8d17-fc04f5e00e95.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:32:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot segmentation",
+    "spatial layout conditioning",
+    "text-to-image diffusion",
+    "cross-attention guidance",
+    "classifier guidance",
+    "semantic image synthesis"
+   ],
+   "field": "文生图空间控制与零样本生成",
+   "innovations": [
+    "利用预训练扩散模型交叉注意力隐式分割图，通过梯度优化实现零样本空间掩码对齐",
+    "设计双项归一化 BCE 损失与梯度归一化，平衡多物体对齐并稳定更新强度"
+   ],
+   "benchmarks": [
+    "COCO-Stuff validation split",
+    "Eval-all",
+    "Eval-filtered",
+    "Eval-few"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Towards-Deeply-Unified-Depth-aware-Panoptic-Segmentation-wit",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 14:56:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba5ceb94-cd50-4acd-afb2-944d1b5d4754.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba5ceb94-cd50-4acd-afb2-944d1b5d4754.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:31:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Depth-aware Panoptic Segmentation",
+    "Multi-task Learning",
+    "Cross-modality Guidance",
+    "Geometric Query Enhancement",
+    "Bi-directional Learning"
+   ],
+   "field": "多任务视觉感知",
+   "innovations": [
+    "提出深度统一架构，通过几何查询增强将场景几何信息融入统一 per-segment queries",
+    "设计双向指导学习机制，语义引导深度对比学习与深度引导语义连续性学习相互协同",
+    "引入 backup query 补全低置信度 mask 导致的深度空白区域，提升深度估计鲁棒性"
+   ],
+   "benchmarks": [
+    "Cityscapes-DVPS",
+    "SemKITTI-DVPS"
+   ]
+  }
+ }
 }

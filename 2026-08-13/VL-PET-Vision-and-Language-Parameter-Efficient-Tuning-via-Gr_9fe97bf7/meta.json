@@ -4,5 +4,37 @@
  "title": "VL-PET-Vision-and-Language-Parameter-Efficient-Tuning-via-Gr",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 14:56:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1bc7c2a1-4530-4094-9202-a30bfd0663f7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1bc7c2a1-4530-4094-9202-a30bfd0663f7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:32:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "parameter-efficient tuning",
+    "vision-and-language",
+    "granularity control",
+    "encoder-decoder",
+    "adapter",
+    "LoRA",
+    "multimodal learning"
+   ],
+   "field": "多模态参数高效微调",
+   "innovations": [
+    "粒度控制机制有效约束PET模块修改幅度",
+    "针对编码器-解码器功能差异的轻量级差异化适配策略",
+    "模型无关的VL-PET框架可实例化为多种参数复杂度模块"
+   ],
+   "benchmarks": [
+    "VQAv2",
+    "GQA",
+    "NLVR²",
+    "MSCOCO",
+    "TVQA",
+    "How2QA",
+    "TVC",
+    "YC2C"
+   ]
+  }
+ }
 }

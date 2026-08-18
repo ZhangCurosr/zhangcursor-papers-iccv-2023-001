@@ -4,5 +4,32 @@
  "title": "VertexSerum-Poisoning-Graph-Neural-Networks-for-Link-Inferen",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-13 14:55:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b2481933-9061-4b97-8aea-1945e6718ebd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b2481933-9061-4b97-8aea-1945e6718ebd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:32:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Neural Networks",
+    "Privacy Attack",
+    "Link Inference",
+    "Data Poisoning",
+    "Federated Learning",
+    "Adversarial Attack"
+   ],
+   "field": "图神经网络隐私与安全",
+   "innovations": [
+    "首个GNN数据投毒链路窃取攻击，平均AUC提升9.8%",
+    "引入intra-class AUC作为精细评测指标",
+    "提出自注意力链路检测器替代MLP，标准差下降35%"
+   ],
+   "benchmarks": [
+    "Cora",
+    "Citeseer",
+    "Amazon Photo",
+    "Amazon Computer"
+   ]
+  }
+ }
 }
