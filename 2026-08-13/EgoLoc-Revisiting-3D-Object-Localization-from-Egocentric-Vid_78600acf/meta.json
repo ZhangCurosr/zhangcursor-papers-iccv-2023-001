@@ -4,5 +4,29 @@
  "title": "EgoLoc-Revisiting-3D-Object-Localization-from-Egocentric-Vid",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7bf71c7-d5e4-4ff7-b6f3-e3633f5e9d63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7bf71c7-d5e4-4ff7-b6f3-e3633f5e9d63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:37:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VQ3D",
+    "Ego4D",
+    "3D目标定位",
+    "第一人称视频",
+    "多视角聚合",
+    "SfM"
+   ],
+   "field": "具身视觉与3D场景理解",
+   "innovations": [
+    "用COLMAP替代Matterport扫描解决Sim-to-Real位姿估计瓶颈",
+    "基于2D检测置信度的多视角加权3D聚合策略",
+    "去除追踪器的峰值检测替代方案"
+   ],
+   "benchmarks": [
+    "Ego4D VQ3D Benchmark"
+   ]
+  }
+ }
 }

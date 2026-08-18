@@ -4,5 +4,32 @@
  "title": "Dynamic-Perceiver-for-Efficient-Visual-Recognition",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2e687e7a-95e7-4b64-a2bd-69c9f9ef70e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2e687e7a-95e7-4b64-a2bd-69c9f9ef70e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:36:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "early-exiting",
+    "dynamic inference",
+    "visual recognition",
+    "dual-branch architecture",
+    "cross-attention",
+    "latent code",
+    "efficient deep learning"
+   ],
+   "field": "高效视觉识别",
+   "innovations": [
+    "双分支解耦架构：特征提取与早期分类显式分离，避免低层特征被迫线性可分",
+    "对称双向交叉注意力（X2Z+Z2X）：分类分支与特征分支持续信息交互，早期出口反而提升最后出口精度",
+    "端到端FKT+自蒸馏训练策略：无需pretrain-finetune，分类器间捷径与last-classifier蒸馏协同优化多出口"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "Something-Something V1",
+    "COCO Object Detection"
+   ]
+  }
+ }
 }

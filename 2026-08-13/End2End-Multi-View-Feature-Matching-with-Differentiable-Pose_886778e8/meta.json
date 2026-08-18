@@ -4,5 +4,33 @@
  "title": "End2End-Multi-View-Feature-Matching-with-Differentiable-Pose",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:10:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c36405c8-9812-4b10-a2b9-53ccd21ed2aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c36405c8-9812-4b10-a2b9-53ccd21ed2aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:37:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "feature matching",
+    "pose estimation",
+    "differentiable optimization",
+    "graph attention network",
+    "multi-view geometry",
+    "end-to-end training",
+    "bundle adjustment"
+   ],
+   "field": "多视图几何与相机位姿估计",
+   "innovations": [
+    "端到端可微分位姿优化引导特征匹配网络学习异常值抑制",
+    "多视图图注意力网络统一匹配N个图像角点",
+    "置信度加权八参数算法替代RANSAC实现可微分位姿估计"
+   ],
+   "benchmarks": [
+    "ScanNet",
+    "Matterport3D",
+    "MegaDepth",
+    "IMC 2021 PhotoTourism"
+   ]
+  }
+ }
 }

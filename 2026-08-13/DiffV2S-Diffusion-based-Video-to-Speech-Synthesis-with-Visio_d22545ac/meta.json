@@ -4,5 +4,31 @@
  "title": "DiffV2S-Diffusion-based-Video-to-Speech-Synthesis-with-Visio",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 07:10:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/18a834d6-196c-43f8-821b-a06ae6f2411f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/18a834d6-196c-43f8-821b-a06ae6f2411f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:35:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video-to-Speech Synthesis",
+    "Diffusion Model",
+    "Prompt Tuning",
+    "Speaker Embedding",
+    "Audio-Visual Learning",
+    "LRS2",
+    "LRS3"
+   ],
+   "field": "音视频生成与语音合成",
+   "innovations": [
+    "首次将扩散模型引入视频到语音合成任务，实现高保真 mel-spectrogram 生成",
+    "提出纯视觉引导的说话人嵌入提取器，推理时无需音频参考",
+    "设计扩散采样阶段的梯度引导机制以保留说话人身份特征"
+   ],
+   "benchmarks": [
+    "LRS2-BBC",
+    "LRS3-TED"
+   ]
+  }
+ }
 }

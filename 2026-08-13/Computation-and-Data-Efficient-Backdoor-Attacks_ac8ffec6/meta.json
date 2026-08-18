@@ -4,5 +4,10 @@
  "title": "Computation-and-Data-Efficient-Backdoor-Attacks",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 07:10:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec7be6a2-3467-4d98-90d6-973d9305c0b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec7be6a2-3467-4d98-90d6-973d9305c0b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:33:17",
+  "chunks": 1
+ }
 }

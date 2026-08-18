@@ -4,5 +4,32 @@
  "title": "Encyclopedic-VQA-Visual-questions-about-detailed-properties",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e990da9b-cc3a-4fe1-a17b-4a1eef2cc19a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e990da9b-cc3a-4fe1-a17b-4a1eef2cc19a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:39:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Question Answering",
+    "Retrieval-Augmented VLM",
+    "Fine-Grained Recognition",
+    "Multi-Hop Reasoning",
+    "Knowledge-Based VQA",
+    "Attribution",
+    "Encyclopedic Knowledge"
+   ],
+   "field": "视觉问答与知识检索",
+   "innovations": [
+    "提出首个大规模细粒度百科VQA数据集（1M三元组），覆盖物种和地标实例的详细属性问题",
+    "设计受控Wikipedia知识库与章节级归因标注，支持检索质量评估",
+    "利用桥接实体自动生成两跳问题并通过LLM验证逻辑一致性"
+   ],
+   "benchmarks": [
+    "OK-VQA",
+    "A-OKVQA",
+    "Encyclopedic-VQA"
+   ]
+  }
+ }
 }

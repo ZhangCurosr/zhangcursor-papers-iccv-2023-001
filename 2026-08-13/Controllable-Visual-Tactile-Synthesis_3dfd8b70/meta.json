@@ -4,5 +4,30 @@
  "title": "Controllable-Visual-Tactile-Synthesis",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:10:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9229a3d8-8efa-44f1-9dcf-36fe960c7bac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9229a3d8-8efa-44f1-9dcf-36fe960c7bac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:32:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉-触觉合成",
+    "条件GAN",
+    "触觉渲染",
+    "单样本生成",
+    "多模态学习"
+   ],
+   "field": "多模态内容生成与触觉交互",
+   "innovations": [
+    "首创尺度自适应的双分支条件GAN，从单一草图同时生成视觉图像和触觉表面梯度",
+    "构建TouchClothing数据集并实现TanvasTouch设备实时渲染管道"
+   ],
+   "benchmarks": [
+    "LPIPS",
+    "SIFID",
+    "AMTurk人类感知测试",
+    "线下触觉A/B测试"
+   ]
+  }
+ }
 }

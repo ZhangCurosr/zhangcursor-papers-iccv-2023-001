@@ -4,5 +4,30 @@
  "title": "DDColor-Towards-Photo-Realistic-Image-Colorization-via-Dual",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f5e1e609-cf30-4a1a-a777-841b289e4de8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f5e1e609-cf30-4a1a-a777-841b289e4de8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:32:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像着色",
+    "双解码器",
+    "Transformer",
+    "颜色查询",
+    "端到端学习"
+   ],
+   "field": "图像着色与颜色恢复",
+   "innovations": [
+    "提出端到端双解码器架构，像素解码器恢复空间结构，颜色解码器学习语义感知颜色查询",
+    "首次将查询式Transformer应用于自动图像着色，消除对手工设计前验的依赖",
+    "引入颜色丰富度损失提升生成图像的色彩生动性与自然度"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "COCO-Stuff",
+    "ADE20K"
+   ]
+  }
+ }
 }

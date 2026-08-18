@@ -4,5 +4,10 @@
  "title": "Data-free-Knowledge-Distillation-for-Fine-grained-Visual-Cat",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89dc7538-91d4-4738-b127-bf776fc3246f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89dc7538-91d4-4738-b127-bf776fc3246f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:35:05",
+  "chunks": 1
+ }
 }

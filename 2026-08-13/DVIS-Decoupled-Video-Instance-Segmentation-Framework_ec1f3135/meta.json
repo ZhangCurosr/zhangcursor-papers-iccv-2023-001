@@ -4,5 +4,32 @@
  "title": "DVIS-Decoupled-Video-Instance-Segmentation-Framework",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/59438184-a3ca-4163-91e9-07183e5cc45a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/59438184-a3ca-4163-91e9-07183e5cc45a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:33:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频实例分割",
+    "解耦框架",
+    "目标跟踪",
+    "时序细化",
+    "视觉分割"
+   ],
+   "field": "视频理解",
+   "innovations": [
+    "提出解耦策略将VIS拆分为分割/跟踪/细化三个独立子任务",
+    "设计RCA模块实现帧间实例表征的去噪式关联",
+    "引入轻量化时序细化器聚合全视频信息"
+   ],
+   "benchmarks": [
+    "OVIS",
+    "YouTube-VIS 2019",
+    "YouTube-VIS 2021",
+    "YouTube-VIS 2022",
+    "VIPSeg"
+   ]
+  }
+ }
 }

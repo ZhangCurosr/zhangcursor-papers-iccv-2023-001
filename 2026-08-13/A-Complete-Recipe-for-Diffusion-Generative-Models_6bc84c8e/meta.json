@@ -4,5 +4,32 @@
  "title": "A-Complete-Recipe-for-Diffusion-Generative-Models",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9e448097-5fcf-4b82-b726-4a9aea5c6d50.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9e448097-5fcf-4b82-b726-4a9aea5c6d50.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:26:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散模型",
+    "分数生成模型",
+    "朗之万扩散",
+    "相空间采样",
+    "去噪分数匹配",
+    "采样器设计",
+    "生成模型"
+   ],
+   "field": "生成模型与扩散过程设计",
+   "innovations": [
+    "提出完备的前向扩散过程参数化框架，保证收敛到目标先验分布",
+    "设计PSLD模型在数据空间和动量空间同时注入噪声，提升样本质量和采样效率",
+    "从理论上证明小Γ值可有效抑制位置空间预测误差从而提升生成质量"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CelebA-64",
+    "AFHQv2"
+   ]
+  }
+ }
 }

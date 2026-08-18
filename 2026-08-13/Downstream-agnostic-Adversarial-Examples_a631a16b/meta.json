@@ -4,5 +4,32 @@
  "title": "Downstream-agnostic-Adversarial-Examples",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3497bece-94f8-437b-91d5-7a812b290b8e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3497bece-94f8-437b-91d5-7a812b290b8e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:36:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自监督学习",
+    "对抗攻击",
+    "通用对抗样本",
+    "预训练编码器",
+    "高频分量",
+    "迁移攻击"
+   ],
+   "field": "对抗机器学习的鲁棒性与安全性",
+   "innovations": [
+    "首个面向SSL预训练编码器的下游任务无关通用对抗攻击框架",
+    "利用高频分量信息作为无监督引导信号设计生成式攻击网络",
+    "在完全未知预训练数据和下游任务的强设定下实现高效攻击"
+   ],
+   "benchmarks": [
+    "CIFAR10",
+    "STL10",
+    "GTSRB",
+    "ImageNet"
+   ]
+  }
+ }
 }

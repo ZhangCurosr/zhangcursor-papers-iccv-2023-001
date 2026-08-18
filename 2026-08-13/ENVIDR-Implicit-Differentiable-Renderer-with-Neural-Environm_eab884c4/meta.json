@@ -4,5 +4,10 @@
  "title": "ENVIDR-Implicit-Differentiable-Renderer-with-Neural-Environm",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:11:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/751865bd-1976-4fb7-ac2d-38e8dcfbddf6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/751865bd-1976-4fb7-ac2d-38e8dcfbddf6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:37:05",
+  "chunks": 1
+ }
 }

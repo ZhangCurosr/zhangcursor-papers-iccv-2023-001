@@ -4,5 +4,30 @@
  "title": "Breaking-The-Limits-of-Text-conditioned-3D-Motion-Synthesis",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:11:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/74e7a96d-25f1-4fa9-baa9-3da3080b7917.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/74e7a96d-25f1-4fa9-baa9-3da3080b7917.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:29:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Motion Synthesis",
+    "Text-to-Motion",
+    "ELaborative Motion Synthesis",
+    "Variational Autoencoder",
+    "Human Motion Generation",
+    "Contextual Refinement"
+   ],
+   "field": "多模态生成与动画合成",
+   "innovations": [
+    "提出两阶段分解-细化框架（N_avae + N_cvae）实现复杂长动作的原子组合生成",
+    "设计 Natural Loss 基于运动先验分布差异优化生成运动的自然平滑性",
+    "构建合成对比数据集并引入属性级可控生成能力"
+   ],
+   "benchmarks": [
+    "KIT Motion-Language (KIT-ML)",
+    "BABEL"
+   ]
+  }
+ }
 }

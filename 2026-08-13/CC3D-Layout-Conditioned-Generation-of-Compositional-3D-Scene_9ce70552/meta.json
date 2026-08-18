@@ -4,5 +4,10 @@
  "title": "CC3D-Layout-Conditioned-Generation-of-Compositional-3D-Scene",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:11:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aa26b54f-bf3a-40ad-b84e-1182c792db5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aa26b54f-bf3a-40ad-b84e-1182c792db5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:30:01",
+  "chunks": 1
+ }
 }

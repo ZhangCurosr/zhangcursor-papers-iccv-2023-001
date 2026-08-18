@@ -4,5 +4,30 @@
  "title": "DarSwin-Distortion-Aware-Radial-Swin-Transformer",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f397b6ac-7199-4d4f-b295-bafec737236e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f397b6ac-7199-4d4f-b295-bafec737236e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:33:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "wide-angle imaging",
+    "radial distortion",
+    "vision transformer",
+    "zero-shot generalization",
+    "polar partitioning",
+    "positional encoding"
+   ],
+   "field": "广角图像理解与畸变鲁棒视觉表征",
+   "innovations": [
+    "提出极坐标 patch 划分与畸变感知采样方案，将镜头投影曲线显式嵌入 Transformer 架构",
+    "设计角向相对位置编码（B_theta + B_phi），以正弦/余弦参数化捕获入射角与方位角的相对位置",
+    "证明在已知畸变参数时可无需去畸变直接在畸变空间实现零样本跨镜头泛化，超越去畸变基线"
+   ],
+   "benchmarks": [
+    "Synthetic ImageNet1k (200 classes, spherical projection)",
+    "Polynomial projection cross-model test set"
+   ]
+  }
+ }
 }

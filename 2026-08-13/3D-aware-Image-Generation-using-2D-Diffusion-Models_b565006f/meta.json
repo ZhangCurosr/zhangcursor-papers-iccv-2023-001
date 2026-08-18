@@ -4,5 +4,32 @@
  "title": "3D-aware-Image-Generation-using-2D-Diffusion-Models",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:11:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7c73d835-c609-4a59-b301-ca8c490ead94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7c73d835-c609-4a59-b301-ca8c490ead94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:26:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D-aware generation",
+    "diffusion models",
+    "multiview synthesis",
+    "image warping",
+    "depth estimation",
+    "large-scale generation"
+   ],
+   "field": "3D生成与多视角合成",
+   "innovations": [
+    "将3D感知生成形式化为无条件-条件多视角序列采样任务，复用2D扩散模型",
+    "提出前向-后向重映射+数据增强的RGBD训练对构造策略，仅需单张图像即可训练",
+    "在ImageNet大规模非结构化数据上实现超越3D GAN的3D生成性能并支持360°视角"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "SDIP Dogs",
+    "SDIP Elephants",
+    "LSUN Horses"
+   ]
+  }
+ }
 }

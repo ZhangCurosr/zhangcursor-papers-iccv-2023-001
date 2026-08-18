@@ -4,5 +4,30 @@
  "title": "Deep-Geometrized-Cartoon-Line-Inbetweening",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:10:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11510be1-3117-41a4-80bc-b481e8c78990.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11510be1-3117-41a4-80bc-b481e8c78990.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:34:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "line inbetweening",
+    "frame interpolation",
+    "geometrized graphics",
+    "vertex correspondence",
+    "graph fusion",
+    "optical flow"
+   ],
+   "field": "2D 动画自动生成",
+   "innovations": [
+    "将线稿内插从光栅域重定义为图融合与顶点重定位问题",
+    "提出融合图像上下文/位置/拓扑的多源顶点几何嵌入",
+    "基于可微最优传输与注意力位移传播的稀疏图匹配与重定位机制"
+   ],
+   "benchmarks": [
+    "MixamoLine240",
+    "Chamfer Distance"
+   ]
+  }
+ }
 }

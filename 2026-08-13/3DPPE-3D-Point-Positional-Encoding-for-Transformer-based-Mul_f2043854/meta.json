@@ -4,5 +4,30 @@
  "title": "3DPPE-3D-Point-Positional-Encoding-for-Transformer-based-Mul",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:10:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/55e1a87e-cb29-4a2b-8c34-7384635b534e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/55e1a87e-cb29-4a2b-8c34-7384635b534e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:26:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D目标检测",
+    "位置编码",
+    "Transformer",
+    "多相机感知",
+    "单目深度估计",
+    "自动驾驶"
+   ],
+   "field": "多视角3D目标检测",
+   "innovations": [
+    "提出3DPPE：基于预测深度的单点3D位置编码替代相机射线采样",
+    "设计Hybrid-Depth Module融合直接回归与概率分类深度",
+    "共享Position Encoder建立图像特征与Object Query的统一嵌入空间"
+   ],
+   "benchmarks": [
+    "nuScenes val",
+    "nuScenes test"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Conditional-360-degree-Image-Synthesis-for-Immersive-Indoor",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dae026d0-3ab1-45b8-b328-55f9dd5a89cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dae026d0-3ab1-45b8-b328-55f9dd5a89cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:31:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "360度图像合成",
+    "室内场景装饰",
+    "条件生成",
+    "循环一致性",
+    "场景布局"
+   ],
+   "field": "360度场景理解与生成",
+   "innovations": [
+    "360°感知隐式对象布局生成器自动学习家具排列",
+    "场景清空器与循环一致性约束解决弱约束多解问题",
+    "水平圆形填充适配全景图像边界连续性"
+   ],
+   "benchmarks": [
+    "Structure3D",
+    "ZInD"
+   ]
+  }
+ }
 }

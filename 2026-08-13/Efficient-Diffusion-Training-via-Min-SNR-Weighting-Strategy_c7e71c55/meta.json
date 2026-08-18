@@ -4,5 +4,29 @@
  "title": "Efficient-Diffusion-Training-via-Min-SNR-Weighting-Strategy",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f79ee95-995a-45f9-98c3-a4109522f9b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f79ee95-995a-45f9-98c3-a4109522f9b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:37:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Models",
+    "Multi-Task Learning",
+    "Loss Weighting",
+    "SNR",
+    "Training Efficiency"
+   ],
+   "field": "生成模型训练优化",
+   "innovations": [
+    "提出Min-SNR-γ固定加权策略缓解时间步梯度冲突",
+    "将扩散训练建模为多任务学习并与帕累托最优关联"
+   ],
+   "benchmarks": [
+    "CelebA-64",
+    "ImageNet-64",
+    "ImageNet-256"
+   ]
+  }
+ }
 }

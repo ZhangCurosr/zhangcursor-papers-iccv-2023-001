@@ -4,5 +4,32 @@
  "title": "EgoPCA-A-New-Framework-for-Egocentric-Hand-Object-Interactio",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b08c47d2-8c67-4563-8d50-a927092c6dab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b08c47d2-8c67-4563-8d50-a927092c6dab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:38:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Ego-HOI",
+    "第一人称视频理解",
+    "手-对象交互",
+    "对比学习",
+    "反事实推理",
+    "数据均衡采样"
+   ],
+   "field": "第一人称视觉理解",
+   "innovations": [
+    "提出EgoPCA框架，从数据探测、构建到任务适配系统性解决第一人称手-对象交互识别的领域差距问题",
+    "构建基于多属性KDE的均衡预训练集One4All-P与测试集One4All-T，显著提升迁移学习效果",
+    "设计SVSA与反事实推理辅助损失，充分利用第一人称视频的相机运动与因果特性"
+   ],
+   "benchmarks": [
+    "Ego4D-AR",
+    "EPIC-KITCHENS-100",
+    "EGTEA Gaze+",
+    "One4All-T"
+   ]
+  }
+ }
 }

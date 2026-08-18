@@ -4,5 +4,30 @@
  "title": "Computationally-Efficient-Neural-Image-Compression-with-Shal",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 07:11:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec85abce-70f1-42d9-9485-df67a5b145f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec85abce-70f1-42d9-9485-df67a5b145f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:32:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经图像压缩",
+    "率失真优化",
+    "浅层解码器",
+    "计算效率",
+    "非线性变换编码"
+   ],
+   "field": "神经图像/视频压缩",
+   "innovations": [
+    "揭示NTC合成流形的近似平坦性，支持浅层解码设计",
+    "提出JPEG-like线性合成变换实现极低解码复杂度",
+    "建立R-D代价理论分解，阐明编码器增强的补偿机制"
+   ],
+   "benchmarks": [
+    "Kodak",
+    "Tecnick",
+    "CLIC validation"
+   ]
+  }
+ }
 }

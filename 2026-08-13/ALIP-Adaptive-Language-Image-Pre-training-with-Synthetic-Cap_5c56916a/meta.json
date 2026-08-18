@@ -4,5 +4,41 @@
  "title": "ALIP-Adaptive-Language-Image-Pre-training-with-Synthetic-Cap",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:11:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3cb3d72-070c-4236-bf6d-abae3185960f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3cb3d72-070c-4236-bf6d-abae3185960f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:27:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "contrastive pre-training",
+    "vision-language",
+    "noise mitigation",
+    "synthetic caption",
+    "adaptive weighting",
+    "CLIP"
+   ],
+   "field": "多模态预训练",
+   "innovations": [
+    "提出双路径自适应对比预训练框架，同时利用原始文本与合成描述",
+    "设计语言一致性门（LCG）和描述一致性门（DCG）动态调整样本与成对权重",
+    "离线生成合成描述替代在线 captioner，以低成本实现噪声鲁棒的对比学习"
+   ],
+   "benchmarks": [
+    "Flickr30K",
+    "MSCOCO",
+    "CIFAR10",
+    "CIFAR100",
+    "ImageNet",
+    "Food101",
+    "Oxford Pets",
+    "Flowers102",
+    "SUN397",
+    "Stanford Cars",
+    "DTD",
+    "Caltech101",
+    "FGVC Aircraft"
+   ]
+  }
+ }
 }

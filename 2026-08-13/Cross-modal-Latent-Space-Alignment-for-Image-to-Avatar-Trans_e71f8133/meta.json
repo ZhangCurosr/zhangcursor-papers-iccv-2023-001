@@ -4,5 +4,32 @@
  "title": "Cross-modal-Latent-Space-Alignment-for-Image-to-Avatar-Trans",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:11:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4d722d7-fe17-4d7a-a2c1-899006642865.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4d722d7-fe17-4d7a-a2c1-899006642865.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:33:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "参数化解像",
+    "跨模态对齐",
+    "隐空间映射",
+    "少样本学习",
+    "矢量渲染",
+    "身份保持"
+   ],
+   "field": "多模态生成与化身建模",
+   "innovations": [
+    "跨模态隐空间对齐框架：两阶段无配对预训练+少量配对映射学习",
+    "权重对齐损失：约束映射网络模仿预训练专家编码器最后一层权重",
+    "参数化解像与发饰独立管线：629维参数编码+KNN发型检索"
+   ],
+   "benchmarks": [
+    "FFHQ",
+    "L1像素损失",
+    "LPIPS",
+    "用户偏好测试"
+   ]
+  }
+ }
 }

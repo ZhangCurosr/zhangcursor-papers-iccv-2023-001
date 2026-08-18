@@ -4,5 +4,31 @@
  "title": "Distilling-Large-Vision-Language-Model-with-Out-of-Distribut",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:10:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/693ddd7c-a987-48ff-92d9-5896b3d27213.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/693ddd7c-a987-48ff-92d9-5896b3d27213.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:36:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language distillation",
+    "out-of-distribution generalization",
+    "knowledge distillation",
+    "open-vocabulary classification",
+    "representation learning"
+   ],
+   "field": "视觉语言模型蒸馏与泛化",
+   "innovations": [
+    "提出视觉空间相对对齐损失保留教师表征结构的相对关系",
+    "设计视觉-语言对齐保持损失结合LLM语义增强提升OOD泛化"
+   ],
+   "benchmarks": [
+    "Caltech-Birds",
+    "StanfordCars",
+    "Flower102",
+    "SUN397",
+    "tiered-ImageNet"
+   ]
+  }
+ }
 }

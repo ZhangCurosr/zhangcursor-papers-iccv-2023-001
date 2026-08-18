@@ -4,5 +4,10 @@
  "title": "Compatibility-of-Fundamental-Matrices-for-Complete-Viewing-G",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/68d68f99-7a97-44e1-b72c-e28ecf806073.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/68d68f99-7a97-44e1-b72c-e28ecf806073.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:31:17",
+  "chunks": 1
+ }
 }

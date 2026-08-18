@@ -4,5 +4,10 @@
  "title": "A-Dynamic-Dual-Processing-Object-Detection-Framework-Inspire",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:11:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/67177691-93cd-48b8-95dd-46eb44317584.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/67177691-93cd-48b8-95dd-46eb44317584.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:27:01",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Beyond-Single-Path-Integrated-Gradients-for-Reliable-Input-A",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9855a97e-7b8d-40a1-8744-2ac63807e1c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9855a97e-7b8d-40a1-8744-2ac63807e1c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:28:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "input attribution",
+    "integrated gradients",
+    "explainable AI",
+    "Stick-Breaking Process",
+    "model interpretability",
+    "path-based attribution",
+    "gradient integration"
+   ],
+   "field": "可解释人工智能/输入归因",
+   "innovations": [
+    "将归因从单路径积分扩展为路径分布的期望，通过 SBP 随机路径采样降低归因方差",
+    "提出 SPI-P 不确定性感知可视化方法，输出归因显著性的概率热力图"
+   ],
+   "benchmarks": [
+    "ImageNet Pixel Insertion/Deletion Game",
+    "CIFAR-10 ROAR"
+   ]
+  }
+ }
 }

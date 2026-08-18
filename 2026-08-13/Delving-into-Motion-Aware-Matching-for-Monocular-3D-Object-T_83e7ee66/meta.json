@@ -4,5 +4,31 @@
  "title": "Delving-into-Motion-Aware-Matching-for-Monocular-3D-Object-T",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/21540524-0ae0-4286-833b-92000d8c33ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/21540524-0ae0-4286-833b-92000d8c33ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:35:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Monocular 3D Object Tracking",
+    "Motion-Aware Matching",
+    "Feature Space Association",
+    "Motion Transformer",
+    "Contrastive Learning",
+    "nuScenes",
+    "KITTI"
+   ],
+   "field": "单目3D多目标跟踪",
+   "innovations": [
+    "将运动信息编码到特征空间进行tracklet-观测匹配，缓解单目检测噪声",
+    "提出motion transformer，从时空视角聚合tracklet历史运动表征",
+    "引入contrastive motion feature learning增强运动表征的时序一致性"
+   ],
+   "benchmarks": [
+    "nuScenes 3D MOT",
+    "KITTI 3D MOT"
+   ]
+  }
+ }
 }
