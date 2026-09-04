@@ -4,5 +4,31 @@
  "title": "LEA2-A-Lightweight-Ensemble-Adversarial-Attack-via-Non-overl",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-04 17:23:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1ac81dac-98f9-4871-8798-759c29c89e82.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1ac81dac-98f9-4871-8798-759c29c89e82.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:39:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial attack",
+    "transferability",
+    "ensemble attack",
+    "frequency domain",
+    "black-box attack",
+    "adversarial robustness"
+   ],
+   "field": "对抗攻击与防御",
+   "innovations": [
+    "发现标准/弱鲁棒/鲁棒三类模型的高/中/低频脆弱区域互补，提出仅需3类替代模型的轻量级集成攻击LEA2",
+    "证明高斯噪声能量集中于标准模型高频脆弱区，可用噪声替代标准模型以节省计算开销",
+    "揭示LEA2扰动覆盖全频域的特性，使其对JPEG等去高频防御具有强鲁棒性"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-30"
+   ]
+  }
+ }
 }

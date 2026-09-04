@@ -4,5 +4,35 @@
  "title": "Keep-It-SimPool-Who-Said-Supervised-Transformers-Suffer-from",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-04 17:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e9a4aea-02a3-4187-badd-160f7fa587e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e9a4aea-02a3-4187-badd-160f7fa587e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:38:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "attention pooling",
+    "self-supervised learning",
+    "object localization",
+    "feature aggregation",
+    "SimPool"
+   ],
+   "field": "视觉表征学习",
+   "innovations": [
+    "提出通用池化框架统一分析多种方法",
+    "SimPool 在监督下获得与自监督同等高质量的注意力图",
+    "无需额外损失或架构修改即可提升下游任务性能"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "CUB",
+    "VOC07/12",
+    "COCO",
+    "IN-9",
+    "CIFAR-10/100",
+    "Flowers"
+   ]
+  }
+ }
 }

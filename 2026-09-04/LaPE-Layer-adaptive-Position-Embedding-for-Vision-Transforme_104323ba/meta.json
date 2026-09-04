@@ -4,5 +4,33 @@
  "title": "LaPE-Layer-adaptive-Position-Embedding-for-Vision-Transforme",
  "token": "sk-P8BsCmEP8...",
  "created_at": "2026-09-04 17:24:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9b0546f1-96eb-409c-841a-b0c3ab35b112.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9b0546f1-96eb-409c-841a-b0c3ab35b112.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:39:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "Position Embedding",
+    "Layer Normalization",
+    "LaPE",
+    "图像分类",
+    "目标检测",
+    "语义分割"
+   ],
+   "field": "视觉Transformer架构优化",
+   "innovations": [
+    "提出层自适应位置嵌入(LaPE)方法，为每层独立处理token和PE的LN",
+    "通过逐层传递PE实现分层自适应的位置信息表达",
+    "以 negligible 开销显著提升多种VT架构在多任务上的性能"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "CIFAR-10/100",
+    "COCO 2017",
+    "ADE20K"
+   ]
+  }
+ }
 }

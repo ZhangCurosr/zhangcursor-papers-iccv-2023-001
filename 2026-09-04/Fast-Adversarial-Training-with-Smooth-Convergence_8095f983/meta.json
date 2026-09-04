@@ -4,5 +4,30 @@
  "title": "Fast-Adversarial-Training-with-Smooth-Convergence",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-09-04 17:24:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bc509c1d-8073-49c3-b6d8-fc74004d1182.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bc509c1d-8073-49c3-b6d8-fc74004d1182.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:38:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fast adversarial training",
+    "catastrophic overfitting",
+    "adversarial robustness",
+    "smooth convergence",
+    "regularization"
+   ],
+   "field": "对抗机器学习/对抗训练",
+   "innovations": [
+    "提出ConvergeSmooth约束，通过限制相邻epoch损失差异来稳定FAT训练并避免大扰动预算下的灾难性过拟合",
+    "设计动态收敛步长γ_t自适应筛选异常样本，无需精细调参",
+    "提出weight centralization正则化，从参数空间约束防止训练不稳定"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "Tiny ImageNet"
+   ]
+  }
+ }
 }

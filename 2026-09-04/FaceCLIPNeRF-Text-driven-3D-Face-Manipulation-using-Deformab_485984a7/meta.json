@@ -4,5 +4,32 @@
  "title": "FaceCLIPNeRF-Text-driven-3D-Face-Manipulation-using-Deformab",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-09-04 17:24:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1261c8e8-cb09-4672-8d5c-303e41a7b593.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1261c8e8-cb09-4672-8d5c-303e41a7b593.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:38:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NeRF",
+    "文本驱动操纵",
+    "可变形NeRF",
+    "3D面部重建",
+    "CLIP",
+    "隐式表示"
+   ],
+   "field": "3D视觉与图形学",
+   "innovations": [
+    "首次实现文本驱动的NeRF面部操纵",
+    "提出PAC解决链接局部属性问题",
+    "Lipschitz正则化提升潜代码插值质量"
+   ],
+   "benchmarks": [
+    "R-Precision",
+    "LPIPS",
+    "CFS",
+    "用户研究"
+   ]
+  }
+ }
 }

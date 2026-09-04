@@ -4,5 +4,32 @@
  "title": "FeatEnHancer-Enhancing-Hierarchical-Features-for-Object-Dete",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-09-04 17:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5733341-4a66-48ba-b7cd-24bfede07acf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5733341-4a66-48ba-b7cd-24bfede07acf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:38:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低光视觉",
+    "目标检测",
+    "特征增强",
+    "多尺度融合",
+    "端到端训练",
+    "语义分割"
+   ],
+   "field": "低光计算机视觉",
+   "innovations": [
+    "提出任务驱动的多尺度层级特征增强模块，无需配对数据即可提升下游机器感知",
+    "设计SAFA轻量化注意力聚合机制，在保留全局语义与局部细节的同时避免高分辨率注意力的计算开销",
+    "首个在检测、人脸、分割与视频检测四类任务中统一验证的低光通用特征增强方案"
+   ],
+   "benchmarks": [
+    "ExDark",
+    "DARK FACE",
+    "ACDC",
+    "DarkVision"
+   ]
+  }
+ }
 }

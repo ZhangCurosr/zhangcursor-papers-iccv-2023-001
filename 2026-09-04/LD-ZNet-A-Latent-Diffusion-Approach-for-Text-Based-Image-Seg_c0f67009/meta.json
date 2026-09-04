@@ -4,5 +4,32 @@
  "title": "LD-ZNet-A-Latent-Diffusion-Approach-for-Text-Based-Image-Seg",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-04 17:22:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dc411c5c-2397-47b4-8d19-9f4139d9a612.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dc411c5c-2397-47b4-8d19-9f4139d9a612.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:39:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-based image segmentation",
+    "latent diffusion models",
+    "visual-linguistic features",
+    "domain generalization",
+    "AI-generated images"
+   ],
+   "field": "多模态视觉理解",
+   "innovations": [
+    "利用LDM潜空间z替代RGB输入提升分割性能",
+    "通过交叉注意力融合LDM多层视觉-语言特征",
+    "构建并开源AI生成图像分割基准数据集AIGI"
+   ],
+   "benchmarks": [
+    "PhraseCut",
+    "AIGI",
+    "RefCOCO",
+    "RefCOCO+",
+    "G-Ref"
+   ]
+  }
+ }
 }
