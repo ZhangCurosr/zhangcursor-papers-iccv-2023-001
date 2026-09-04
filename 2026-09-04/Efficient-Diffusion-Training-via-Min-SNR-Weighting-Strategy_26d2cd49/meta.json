@@ -4,5 +4,32 @@
  "title": "Efficient-Diffusion-Training-via-Min-SNR-Weighting-Strategy",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-09-04 17:24:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f79ee95-995a-45f9-98c3-a4109522f9b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f79ee95-995a-45f9-98c3-a4109522f9b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:22:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Models",
+    "Training Efficiency",
+    "Multi-Task Learning",
+    "SNR Weighting",
+    "Image Generation",
+    "Loss Weighting",
+    "Convergence Acceleration"
+   ],
+   "field": "扩散模型训练优化",
+   "innovations": [
+    "揭示扩散训练梯度冲突机制并提出多任务学习视角",
+    "提出Min-SNR-γ全局截断信噪比加权策略以平衡时间步优化方向",
+    "在ImageNet 256x256上创FID 2.06新纪录且收敛速度提升3.4倍"
+   ],
+   "benchmarks": [
+    "CelebA-64",
+    "ImageNet-64",
+    "ImageNet-256"
+   ]
+  }
+ }
 }

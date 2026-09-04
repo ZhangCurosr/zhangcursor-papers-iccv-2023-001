@@ -4,5 +4,30 @@
  "title": "Dynamic-Perceiver-for-Efficient-Visual-Recognition",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-09-04 17:24:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2e687e7a-95e7-4b64-a2bd-69c9f9ef70e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2e687e7a-95e7-4b64-a2bd-69c9f9ef70e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:22:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dynamic Early Exiting",
+    "Vision Recognition",
+    "Perceiver",
+    "Dual-branch Architecture",
+    "Efficient Inference"
+   ],
+   "field": "高效视觉识别",
+   "innovations": [
+    "双分支解耦架构分离特征提取与早期分类",
+    "对称双向交叉注意力实现渐进式信息融合",
+    "仅分类分支部署早退分类器避免性能退化"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "Something-Something V1",
+    "COCO"
+   ]
+  }
+ }
 }

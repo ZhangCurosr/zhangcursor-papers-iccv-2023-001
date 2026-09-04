@@ -4,5 +4,32 @@
  "title": "ALIP-Adaptive-Language-Image-Pre-training-with-Synthetic-Cap",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-09-04 17:24:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3cb3d72-070c-4236-bf6d-abae3185960f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3cb3d72-070c-4236-bf6d-abae3185960f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:19:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对比学习",
+    "语言-图像预训练",
+    "噪声缓解",
+    "合成描述",
+    "自适应权重",
+    "跨模态检索"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "双路径模型整合原始文本与合成描述监督",
+    "语言一致性门控动态识别高质量样本",
+    "描述一致性门控从噪声样本提取有效图文对"
+   ],
+   "benchmarks": [
+    "Flickr30K",
+    "MSCOCO",
+    "ImageNet零样本分类",
+    "10数据集线性探测"
+   ]
+  }
+ }
 }

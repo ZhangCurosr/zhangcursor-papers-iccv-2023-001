@@ -4,5 +4,30 @@
  "title": "Decouple-Before-Interact-Multi-Modal-Prompt-Learning-for-Con",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-04 17:23:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/67ada070-dc41-48da-af8f-20c032c28b12.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/67ada070-dc41-48da-af8f-20c032c28b12.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:20:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "视觉问答",
+    "多模态提示学习",
+    "灾难性遗忘",
+    "CL-VQA",
+    "prompt tuning"
+   ],
+   "field": "多模态持续学习",
+   "innovations": [
+    "首次将多模态提示学习引入CL-VQA，提出解耦提示与交互策略的TRIPLET框架",
+    "从多模态视角提出三种CL-VQA场景（ConLS/ConVS/ConVLS）的全面评测体系",
+    "设计Query-and-Match、Modality-Interaction、Task-Interaction三类交互策略实现免回放持续学习"
+   ],
+   "benchmarks": [
+    "CL-VQA2.0",
+    "CL-TDIUC"
+   ]
+  }
+ }
 }

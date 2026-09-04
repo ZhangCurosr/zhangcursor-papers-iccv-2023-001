@@ -4,5 +4,37 @@
  "title": "Domain-Generalization-via-Rationale-Invariance",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-04 17:24:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/095746f5-b067-4252-a1b4-fe5c9c9ddf44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/095746f5-b067-4252-a1b4-fe5c9c9ddf44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:21:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Domain Generalization",
+    "Rationale Invariance",
+    "Decision Making",
+    "Domain Adaptation",
+    "Deep Learning",
+    "Out-of-Distribution"
+   ],
+   "field": "域泛化与分布外鲁棒性",
+   "innovations": [
+    "提出rationale矩阵表征分类器逐元素贡献并提供细粒度决策依据",
+    "设计rationale不变性正则化强制类内决策逻辑跨域一致",
+    "采用动量更新机制在线维护类别级平均rationale实现高效训练"
+   ],
+   "benchmarks": [
+    "DomainBed",
+    "WILDS",
+    "PACS",
+    "VLCS",
+    "OfficeHome",
+    "TerraInc",
+    "DomainNet",
+    "iWildCam",
+    "Camelyon17"
+   ]
+  }
+ }
 }

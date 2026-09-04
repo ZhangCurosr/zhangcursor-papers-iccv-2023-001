@@ -4,5 +4,29 @@
  "title": "EQ-Net-Elastic-Quantization-Neural-Networks",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-04 17:23:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/76e57253-996e-4420-808d-270cb3b0b531.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/76e57253-996e-4420-808d-270cb3b0b531.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:21:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型量化",
+    "一次性网络",
+    "混合精度量化",
+    "弹性量化空间",
+    "超网训练"
+   ],
+   "field": "模型压缩与高效推理",
+   "innovations": [
+    "提出涵盖位宽/粒度/对称性的弹性量化空间，实现一套权重适配多种量化形式",
+    "设计WDR-Loss和GPG-Loss解决超网负梯度抑制问题，提升多形态量化鲁棒性",
+    "提出条件化精度预测器CQAP结合遗传算法实现高效的混合精度搜索"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "CIFAR-10"
+   ]
+  }
+ }
 }

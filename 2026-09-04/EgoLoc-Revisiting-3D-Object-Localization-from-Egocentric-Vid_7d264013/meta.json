@@ -4,5 +4,28 @@
  "title": "EgoLoc-Revisiting-3D-Object-Localization-from-Egocentric-Vid",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-04 17:24:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7bf71c7-d5e4-4ff7-b6f3-e3633f5e9d63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7bf71c7-d5e4-4ff7-b6f3-e3633f5e9d63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:22:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Ego4D",
+    "VQ3D",
+    "Egocentric Video",
+    "Structure from Motion",
+    "Visual Query",
+    "3D Localization"
+   ],
+   "field": "第一人称视频理解与3D定位",
+   "innovations": [
+    "解决Sim2Real差距的SfM位姿估计方案",
+    "基于2D检测置信度的多视图3D位移加权聚合机制"
+   ],
+   "benchmarks": [
+    "Ego4D VQ3D Test Set"
+   ]
+  }
+ }
 }

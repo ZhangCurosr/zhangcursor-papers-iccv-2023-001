@@ -4,5 +4,29 @@
  "title": "Distilled-Reverse-Attention-Network-for-Open-world-Compositi",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-04 17:23:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/221d84c6-0d31-4fc1-b497-0c85fde8f008.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/221d84c6-0d31-4fc1-b497-0c85fde8f008.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:21:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Open-World Compositional Zero-Shot Learning",
+    "Feature Disentanglement",
+    "Reverse Attention",
+    "Knowledge Distillation",
+    "Non-local Attention"
+   ],
+   "field": "组合零样本学习",
+   "innovations": [
+    "设计针对属性和对象的差异化非局部/局部注意力提取器",
+    "提出反转-蒸馏策略在特征空间中实现属性-对象解耦"
+   ],
+   "benchmarks": [
+    "MIT-States",
+    "UT-Zappos",
+    "C-GQA"
+   ]
+  }
+ }
 }

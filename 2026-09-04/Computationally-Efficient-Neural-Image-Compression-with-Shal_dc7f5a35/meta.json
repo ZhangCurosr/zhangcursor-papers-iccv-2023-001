@@ -4,5 +4,29 @@
  "title": "Computationally-Efficient-Neural-Image-Compression-with-Shal",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-09-04 17:24:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec85abce-70f1-42d9-9485-df67a5b145f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec85abce-70f1-42d9-9485-df67a5b145f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:20:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经图像压缩",
+    "计算效率",
+    "浅层解码器",
+    "率失真权衡",
+    "迭代编码"
+   ],
+   "field": "神经图像压缩与高效编码",
+   "innovations": [
+    "提出浅层/线性合成变换并结合强大迭代编码器实现非对称计算预算分配",
+    "揭示神经合成变换流形的近似平坦性为解码器简化提供理论依据",
+    "在解码复杂度<50K FLOPs/pixel下达到与传统编解码器竞争的率失真性能"
+   ],
+   "benchmarks": [
+    "Kodak",
+    "COCO 2017"
+   ]
+  }
+ }
 }

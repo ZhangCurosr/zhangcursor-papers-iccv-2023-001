@@ -4,5 +4,10 @@
  "title": "Distilling-Large-Vision-Language-Model-with-Out-of-Distribut",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-04 17:22:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/693ddd7c-a987-48ff-92d9-5896b3d27213.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/693ddd7c-a987-48ff-92d9-5896b3d27213.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:21:36",
+  "chunks": 1
+ }
 }

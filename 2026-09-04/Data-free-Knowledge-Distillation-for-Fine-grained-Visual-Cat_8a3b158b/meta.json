@@ -4,5 +4,31 @@
  "title": "Data-free-Knowledge-Distillation-for-Fine-grained-Visual-Cat",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-09-04 17:23:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89dc7538-91d4-4738-b127-bf776fc3246f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89dc7538-91d4-4738-b127-bf776fc3246f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:20:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "data-free knowledge distillation",
+    "fine-grained visual categorization",
+    "attention mechanism",
+    "contrastive learning",
+    "adversarial distillation",
+    "model compression"
+   ],
+   "field": "细粒度视觉分类与知识蒸馏",
+   "innovations": [
+    "首次将无数据知识蒸馏拓展至细粒度视觉分类任务",
+    "提出带空间注意力的生成器以合成具有判别性细节的细粒度图像",
+    "设计混合高阶注意力蒸馏(MHAD)与语义特征对比学习(SFCL)两阶段蒸馏策略"
+   ],
+   "benchmarks": [
+    "Aircraft",
+    "Cars196",
+    "CUB200"
+   ]
+  }
+ }
 }

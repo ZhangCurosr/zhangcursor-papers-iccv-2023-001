@@ -4,5 +4,10 @@
  "title": "Breaking-The-Limits-of-Text-conditioned-3D-Motion-Synthesis",
  "token": "sk-SRpYy0JAC...",
  "created_at": "2026-09-04 17:24:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6eed2567-7255-4277-bb11-4c22bcf10f26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6eed2567-7255-4277-bb11-4c22bcf10f26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:19:33",
+  "chunks": 1
+ }
 }

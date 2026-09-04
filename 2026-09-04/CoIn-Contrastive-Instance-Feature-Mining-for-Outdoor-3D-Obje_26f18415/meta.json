@@ -4,5 +4,30 @@
  "title": "CoIn-Contrastive-Instance-Feature-Mining-for-Outdoor-3D-Obje",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-04 17:23:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/285d4245-19a6-4adf-b5a2-f361f29ef84c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/285d4245-19a6-4adf-b5a2-f361f29ef84c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:19:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D目标检测",
+    "稀疏标注",
+    "对比学习",
+    "伪标签挖掘",
+    "少样本学习",
+    "自动驾驶"
+   ],
+   "field": "少样本3D目标检测",
+   "innovations": [
+    "多类别对比学习模块（MCcont）提升稀疏标注下特征区分度",
+    "特征级伪标签挖掘框架（InF-Mining+LPcont）无需可靠初始检测器即可生成高质量伪标签"
+   ],
+   "benchmarks": [
+    "KITTI 3D-Car",
+    "Waymo Open Dataset Vehicle",
+    "nuScenes"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "3D-Segmentation-of-Humans-in-Point-Clouds-with-Synthetic-Dat",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-04 17:24:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8a835cb0-5035-4ec4-9f0c-6e2fcbe1d38b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8a835cb0-5035-4ec4-9f0c-6e2fcbe1d38b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:18:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D human segmentation",
+    "multi-human body-part segmentation",
+    "synthetic data",
+    "point cloud",
+    "transformer",
+    "two-stage Hungarian matching",
+    "two-level query"
+   ],
+   "field": "3D点云语义/实例分割",
+   "innovations": [
+    "两级查询机制显式建模人类实例与身体部位的层级对应关系",
+    "两阶段匈牙利匹配确保人-部位预测被同一ground truth统一监督",
+    "面向真实室内场景的合成人类数据生成框架与Kinect噪声模拟策略"
+   ],
+   "benchmarks": [
+    "EgoBody（人工精修测试子集，304点云/608人）",
+    "ScanNet（合成数据来源）",
+    "BEHAVE（预训练真实数据对比）"
+   ]
+  }
+ }
 }

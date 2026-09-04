@@ -4,5 +4,30 @@
  "title": "Beyond-Single-Path-Integrated-Gradients-for-Reliable-Input-A",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-09-04 17:24:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9855a97e-7b8d-40a1-8744-2ac63807e1c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9855a97e-7b8d-40a1-8744-2ac63807e1c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:20:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Input Attribution",
+    "Integrated Gradients",
+    "Explainable AI",
+    "Stick-Breaking Process",
+    "Path-based Explanation",
+    "Neural Network Interpretability"
+   ],
+   "field": "可解释机器学习",
+   "innovations": [
+    "提出基于Stick-Breaking Process的随机路径采样框架，将单路径归因扩展为路径分布期望",
+    "提出SPI-P概率可视化方法，基于高斯假设计算特征贡献置信度",
+    "系统性验证多路径期望归因在像素插入删除和ROAR指标上的优越性"
+   ],
+   "benchmarks": [
+    "ImageNet Classification",
+    "CIFAR-10 Classification"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Efficient-Region-Aware-Neural-Radiance-Fields-for-High-Fidel",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-04 17:23:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63bc48f6-bb69-4d58-8ce7-c66aa2f12959.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63bc48f6-bb69-4d58-8ce7-c66aa2f12959.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:22:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Talking Portrait Synthesis",
+    "NeRF",
+    "Tri-Plane Hash",
+    "Region Attention",
+    "Audio-Driven Animation",
+    "Real-time Rendering"
+   ],
+   "field": "音频驱动说话人像合成",
+   "innovations": [
+    "Tri-Plane Hash Representation 降低 3D 哈希冲突提升动态头部重建效率",
+    "Region Attention Module 显式建立音频特征与空间区域的通道级跨模态关联",
+    "Adaptive Pose Encoding 通过关键点坐标映射缓解头颈分离伪影"
+   ],
+   "benchmarks": [
+    "Obama dataset",
+    "Testset A/B (lip sync)",
+    "PSNR/LPIPS/FID/LMD/AUE/Sync"
+   ]
+  }
+ }
 }

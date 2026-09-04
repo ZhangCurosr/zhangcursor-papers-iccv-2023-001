@@ -4,5 +4,39 @@
  "title": "ACTIVE-Towards-Highly-Transferable-3D-Physical-Camouflage-fo",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-04 17:24:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/00f0797c-593f-40c9-8040-624d4edbd0c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/00f0797c-593f-40c9-8040-624d4edbd0c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:18:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理对抗攻击",
+    "3D伪装",
+    "目标检测",
+    "对抗纹理",
+    "可微渲染",
+    "通用性评估"
+   ],
+   "field": "对抗机器视觉的物理攻击",
+   "innovations": [
+    "首次将三平面映射引入对抗性伪装生成，实现实例无关的通用纹理",
+    "提出Stealth Loss同时最小化类别置信度和目标存在性得分实现完全不可检测",
+    "通过Camouflage Loss和ROA联合优化提升自然性和物理鲁棒性"
+   ],
+   "benchmarks": [
+    "YOLOv3/YOLOv7",
+    "SSD",
+    "Faster R-CNN",
+    "Mask R-CNN",
+    "Deformable DETR",
+    "PVT",
+    "MaX-DeepLab-L",
+    "Axial-DeepLab",
+    "MobileNetV2",
+    "EfficientDet-D2",
+    "YOLOX-L"
+   ]
+  }
+ }
 }

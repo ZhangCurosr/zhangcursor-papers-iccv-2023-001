@@ -4,5 +4,30 @@
  "title": "3D-aware-Image-Generation-using-2D-Diffusion-Models",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-09-04 17:24:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7c73d835-c609-4a59-b301-ca8c490ead94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7c73d835-c609-4a59-b301-ca8c490ead94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:18:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D-aware generation",
+    "diffusion models",
+    "multi-view synthesis",
+    "single-view depth estimation",
+    "forward-backward warping"
+   ],
+   "field": "3D感知图像生成",
+   "innovations": [
+    "将3D感知生成表述为序列无条件-条件多视角图像生成，仅用2D扩散模型在无结构ImageNet上训练",
+    "提出深度辅助的forward-backward warping数据构造与两种针对性数据增强策略",
+    "设计aggregated conditioning策略取代stochastic conditioning以提升多视角一致性"
+   ],
+   "benchmarks": [
+    "ImageNet FID/IS",
+    "SDIP Dogs/ Elephant FID",
+    "LSUN Horses FID"
+   ]
+  }
+ }
 }

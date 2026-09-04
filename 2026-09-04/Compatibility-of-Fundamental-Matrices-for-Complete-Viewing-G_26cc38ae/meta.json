@@ -4,5 +4,31 @@
  "title": "Compatibility-of-Fundamental-Matrices-for-Complete-Viewing-G",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-09-04 17:24:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/68d68f99-7a97-44e1-b72c-e28ecf806073.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/68d68f99-7a97-44e1-b72c-e28ecf806073.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:19:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fundamental matrix",
+    "multi-view geometry",
+    "compatibility",
+    "algebraic geometry",
+    "projective reconstruction",
+    "viewing graph",
+    "epipolar geometry"
+   ],
+   "field": "多视几何与SfM",
+   "innovations": [
+    "给出完全图中Fundamental矩阵兼容性的显式射影不变多项式充要条件",
+    "证明四元子集兼容可蕴含任意数量相机的全局兼容",
+    "在一般与共线情形下证明n-view矩阵特征值条件冗余可删"
+   ],
+   "benchmarks": [
+    "Macaulay2符号验证",
+    "K3/K4理论反例构造"
+   ]
+  }
+ }
 }

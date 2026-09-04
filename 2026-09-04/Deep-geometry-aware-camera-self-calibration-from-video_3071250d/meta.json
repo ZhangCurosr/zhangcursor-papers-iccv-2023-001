@@ -4,5 +4,31 @@
  "title": "Deep-geometry-aware-camera-self-calibration-from-video",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-04 17:23:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/30ebd796-5cd8-4fc3-a2ed-70d202379cab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/30ebd796-5cd8-4fc3-a2ed-70d202379cab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:20:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "相机自校准",
+    "光束法平差",
+    "单目SLAM",
+    "可微优化",
+    "统一相机模型",
+    "内参估计"
+   ],
+   "field": "单目视觉SLAM与相机标定",
+   "innovations": [
+    "提出可微自校准光束法平差（SC-BA）层，将相机内参作为优化变量嵌入端到端深度学习框架",
+    "无需逐相机重新训练即可泛化至不同相机模型（含鱼眼畸变），支持统一相机模型",
+    "在三个公开数据集上达到自校准SOTA，校准精度与靶标定相当且对初始内参误差鲁棒"
+   ],
+   "benchmarks": [
+    "TartanAir",
+    "EuRoC",
+    "TUM RGB-D"
+   ]
+  }
+ }
 }
