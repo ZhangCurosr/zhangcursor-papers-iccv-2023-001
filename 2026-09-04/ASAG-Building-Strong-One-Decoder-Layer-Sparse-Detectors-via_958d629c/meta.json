@@ -4,5 +4,30 @@
  "title": "ASAG-Building-Strong-One-Decoder-Layer-Sparse-Detectors-via",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-09-04 17:24:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7d1a7902-6c42-4b1a-9d9a-245393987f50.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7d1a7902-6c42-4b1a-9d9a-245393987f50.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:13:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "object detection",
+    "sparse detector",
+    "one-decoder-layer",
+    "adaptive anchor",
+    "patch-based prediction",
+    "query weighting"
+   ],
+   "field": "目标检测与模型加速",
+   "innovations": [
+    "以patch为单位的稀疏动态anchor生成，缓解特征冲突",
+    "Adaptive Probing自顶向下精修并支持early-stop",
+    "Query Weighting基于置信度和IoU的全局动态训练加权"
+   ],
+   "benchmarks": [
+    "COCO",
+    "CrowdHuman"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Conditional-360-degree-Image-Synthesis-for-Immersive-Indoor",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-09-04 17:24:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dae026d0-3ab1-45b8-b328-55f9dd5a89cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dae026d0-3ab1-45b8-b328-55f9dd5a89cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:13:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "360-degree image synthesis",
+    "scene decoration",
+    "conditional GAN",
+    "inpainting",
+    "circular padding",
+    "Scene Emptier",
+    "structured3d"
+   ],
+   "field": "全景图像生成",
+   "innovations": [
+    "360°感知对象布局生成器，无监督隐式学习家具排布",
+    "预训练场景移除器+循环一致性约束，绕过单真实值限制",
+    "全景特定环形数据增强与边界卷积填充机制"
+   ],
+   "benchmarks": [
+    "Structured3D bedroom/living room",
+    "ZInD (Zillow Indoor Dataset)"
+   ]
+  }
+ }
 }

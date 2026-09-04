@@ -4,5 +4,30 @@
  "title": "FACTS-First-Amplify-Correlations-and-Then-Slice-to-Discover",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-09-04 17:24:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9008ad62-95cf-4096-aea1-2a1401fd3ae3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9008ad62-95cf-4096-aea1-2a1401fd3ae3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:14:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "correlation bias",
+    "slice discovery",
+    "spurious correlation",
+    "bias amplification",
+    "mixture modeling",
+    "fairness"
+   ],
+   "field": "计算机视觉公平性与偏差分析",
+   "innovations": [
+    "提出 AmCo 偏差放大阶段通过强正则化 ERM 最大化偏差对齐与冲突样本分离",
+    "设计 CoSi 相关性感知切片策略联合使用 logits 分布与 CLIP 一致性先验"
+   ],
+   "benchmarks": [
+    "Waterbirds",
+    "CelebA",
+    "NICO++"
+   ]
+  }
+ }
 }

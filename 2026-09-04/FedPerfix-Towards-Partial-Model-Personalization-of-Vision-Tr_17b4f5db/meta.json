@@ -4,5 +4,31 @@
  "title": "FedPerfix-Towards-Partial-Model-Personalization-of-Vision-Tr",
  "token": "sk-y9PdQWlPV...",
  "created_at": "2026-09-04 17:24:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed929b0d-3221-4862-8b46-3081cff8b783.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed929b0d-3221-4862-8b46-3081cff8b783.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:14:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化联邦学习",
+    "Vision Transformer",
+    "部分模型个性化",
+    "Prefix-tuning",
+    "插件",
+    "数据异构性"
+   ],
+   "field": "联邦学习",
+   "innovations": [
+    "提出FedPerfix，将Prefix插件与并行适配器结合实现ViT自注意力层个性化",
+    "揭示prefix学习相当于全局与局部注意力的混合，与APFL建立理论联系",
+    "系统评估ViT各层敏感性，为个性化位置选择提供实证依据"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "OrganAM-NIST",
+    "Office-Home"
+   ]
+  }
+ }
 }

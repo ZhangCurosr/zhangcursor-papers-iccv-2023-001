@@ -4,5 +4,30 @@
  "title": "Exploring-the-Benefits-of-Visual-Prompting-in-Differential-P",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-04 17:23:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0353f82f-198a-4c80-aee1-2b23aba03ed6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0353f82f-198a-4c80-aee1-2b23aba03ed6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:14:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "差分隐私",
+    "视觉提示",
+    "PATE",
+    "预训练模型",
+    "跨域迁移",
+    "半监督学习"
+   ],
+   "field": "差分隐私机器学习",
+   "innovations": [
+    "首次将视觉提示VP与PATE结合提出Prom-PATE框架",
+    "预训练模型双重利用提升隐私-效用权衡",
+    "在ε≈1极低预算下实现CIFAR-10上97%以上准确率SOTA"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "Blood-MNIST"
+   ]
+  }
+ }
 }

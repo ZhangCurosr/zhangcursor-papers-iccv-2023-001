@@ -4,5 +4,36 @@
  "title": "HybridAugment-Unified-Frequency-Spectra-Perturbations-for-Mo",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-09-04 17:24:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5480ae89-54f0-4d66-a4cf-1ee4b8445041.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5480ae89-54f0-4d66-a4cf-1ee4b8445041.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:16:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "frequency-domain augmentation",
+    "adversarial robustness",
+    "image corruption robustness",
+    "out-of-distribution detection",
+    "phase-amplitude recombination",
+    "CNN generalization"
+   ],
+   "field": "视觉模型鲁棒性与泛化增强",
+   "innovations": [
+    "提出 HybridAugment，通过随机频带交换减少对高频依赖，无需同类别约束",
+    "提出 HybridAugment++，层级统一频带分解与幅度/相位重组合，同时提升鲁棒性与干净精度",
+    "方法为即插即用增强模块，可嵌入 CNN 与 Transformer，在多个基准上达到或超越 SOTA"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet",
+    "CIFAR-10-C",
+    "CIFAR-100-C",
+    "ImageNet-C",
+    "SVHN",
+    "LSUN"
+   ]
+  }
+ }
 }

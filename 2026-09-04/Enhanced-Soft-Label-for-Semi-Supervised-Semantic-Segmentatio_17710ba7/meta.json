@@ -4,5 +4,29 @@
  "title": "Enhanced-Soft-Label-for-Semi-Supervised-Semantic-Segmentatio",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-04 17:23:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/21851f8e-3958-4977-8ffb-695a5d1fbd1d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/21851f8e-3958-4977-8ffb-695a5d1fbd1d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:13:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "半监督语义分割",
+    "伪标签",
+    "对比学习",
+    "软标签",
+    "自训练",
+    "物体部分分组"
+   ],
+   "field": "半监督视觉分割",
+   "innovations": [
+    "Dynamic Soft Label模块通过累积概率动态维护主导类别，避免固定阈值的刚性筛选",
+    "Pixel-to-Part对比学习结合无监督物体部分分组，在保留类内多样性的同时缓解软标签的类别模糊问题"
+   ],
+   "benchmarks": [
+    "Pascal VOC 2012",
+    "Cityscapes"
+   ]
+  }
+ }
 }

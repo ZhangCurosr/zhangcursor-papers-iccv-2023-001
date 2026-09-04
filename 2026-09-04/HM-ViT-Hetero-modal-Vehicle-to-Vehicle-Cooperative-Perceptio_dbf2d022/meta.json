@@ -4,5 +4,32 @@
  "title": "HM-ViT-Hetero-modal-Vehicle-to-Vehicle-Cooperative-Perceptio",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-04 17:22:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89e541b9-5d7c-46a1-a21b-413a16f7261e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89e541b9-5d7c-46a1-a21b-413a16f7261e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:15:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cooperative perception",
+    "hetero-modal",
+    "vehicle-to-vehicle",
+    "vision transformer",
+    "3D object detection",
+    "multi-agent",
+    "OPV2V"
+   ],
+   "field": "车辆协同感知",
+   "innovations": [
+    "首个异构模态V2V协同感知Transformer框架HM-ViT",
+    "异构3D图注意力H3GAT联合建模节点与边类型差异",
+    "局部-全局分层稀疏注意力高效捕获多尺度交互"
+   ],
+   "benchmarks": [
+    "OPV2V V2V-C",
+    "OPV2V V2V-L",
+    "OPV2V V2V-H"
+   ]
+  }
+ }
 }

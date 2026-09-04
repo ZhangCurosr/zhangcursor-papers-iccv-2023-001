@@ -4,5 +4,10 @@
  "title": "HyperReenact-One-Shot-Reenactment-via-Jointly-Learning-to-Re",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-04 17:23:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2a8fa7e-a1c5-4752-8009-1573a0179ee8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2a8fa7e-a1c5-4752-8009-1573a0179ee8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:16:39",
+  "chunks": 1
+ }
 }

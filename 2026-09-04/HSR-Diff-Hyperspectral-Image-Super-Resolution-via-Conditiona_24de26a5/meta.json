@@ -4,5 +4,31 @@
  "title": "HSR-Diff-Hyperspectral-Image-Super-Resolution-via-Conditiona",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-04 17:24:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4eaea99b-5b63-41d5-8c65-d0d207d11742.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4eaea99b-5b63-41d5-8c65-d0d207d11742.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:15:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hyperspectral Image Super-Resolution",
+    "Conditional Diffusion Model",
+    "Transformer",
+    "Spatio-Spectral Fusion",
+    "Image Reconstruction"
+   ],
+   "field": "超光谱图像增强与融合",
+   "innovations": [
+    "首次将条件扩散模型应用于HSI-SR任务",
+    "设计CDFormer利用交叉注意力融合多尺度空谱特征",
+    "提出渐进式学习策略平衡局部细节与全局统计"
+   ],
+   "benchmarks": [
+    "CAVE",
+    "PaviaU",
+    "Chikusei",
+    "HypSen"
+   ]
+  }
+ }
 }

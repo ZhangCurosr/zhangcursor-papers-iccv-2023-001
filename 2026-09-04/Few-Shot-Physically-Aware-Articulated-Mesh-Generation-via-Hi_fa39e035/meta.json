@@ -4,5 +4,29 @@
  "title": "Few-Shot-Physically-Aware-Articulated-Mesh-Generation-via-Hi",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-09-04 17:24:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f7a16e61-3019-4f6d-b430-30e5072a1342.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f7a16e61-3019-4f6d-b430-30e5072a1342.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:14:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot generation",
+    "articulated mesh",
+    "physics-aware",
+    "hierarchical deformation",
+    "3D generation",
+    "transfer learning"
+   ],
+   "field": "3D 形状生成",
+   "innovations": [
+    "提出分层凸包变形框架，通过迁移学习与噪声同步实现少样本铰接网格生成",
+    "设计物理感知变形校正方案，结合穿透损失与碰撞响应优化保证生成网格物理合理性"
+   ],
+   "benchmarks": [
+    "PartNet-Mobility",
+    "ShapeNet"
+   ]
+  }
+ }
 }

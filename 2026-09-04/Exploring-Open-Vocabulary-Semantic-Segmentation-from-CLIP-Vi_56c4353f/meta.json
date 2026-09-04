@@ -4,5 +4,31 @@
  "title": "Exploring-Open-Vocabulary-Semantic-Segmentation-from-CLIP-Vi",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-09-04 17:23:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4bba366a-5e92-42b6-868c-7b001a98edae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4bba366a-5e92-42b6-868c-7b001a98edae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:14:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary segmentation",
+    "zero-shot semantic segmentation",
+    "CLIP distillation",
+    "masked autoencoder",
+    "visual-language model"
+   ],
+   "field": "开放词汇语义分割",
+   "innovations": [
+    "仅从CLIP视觉编码器蒸馏训练零样本分割模型，无需像素级或文本标注",
+    "提出多尺度特征蒸馏损失与segment matching损失",
+    "在1.3M图像上训练达到与20M图文对方法相当的性能，计算效率提升9倍"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 2012",
+    "PASCAL Context",
+    "COCO",
+    "Conceptual Caption"
+   ]
+  }
+ }
 }

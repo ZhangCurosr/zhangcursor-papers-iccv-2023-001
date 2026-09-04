@@ -4,5 +4,31 @@
  "title": "GPA-3D-Geometry-aware-Prototype-Alignment-for-Unsupervised-D",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-09-04 17:23:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a930c990-8ac7-4c9d-b28c-7176369d207e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a930c990-8ac7-4c9d-b28c-7176369d207e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:15:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "unsupervised domain adaptation",
+    "3D object detection",
+    "point cloud",
+    "prototype alignment",
+    "geometry-aware",
+    "self-training"
+   ],
+   "field": "3D点云无监督域自适应检测",
+   "innovations": [
+    "按偏移角将BEV前景特征分组并为每组分配可学习原型以显式建模几何异构性",
+    "设计包含分层排斥的软对比损失实现几何相关的跨域特征对齐",
+    "提出噪声样本抑制与几何分组实例替换增强以提升伪标签质量与目标域多样性"
+   ],
+   "benchmarks": [
+    "Waymo",
+    "nuScenes",
+    "KITTI"
+   ]
+  }
+ }
 }

@@ -4,5 +4,39 @@
  "title": "DR-Tune-Improving-Fine-tuning-of-Pretrained-Visual-Models-by",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-09-04 17:24:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/35bff42a-a379-47ed-8d4d-936add5fd32b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/35bff42a-a379-47ed-8d4d-936add5fd32b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:13:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fine-tuning",
+    "distribution regularization",
+    "semantic calibration",
+    "pretrained visual models",
+    "feature alignment",
+    "catastrophic forgetting"
+   ],
+   "field": "视觉模型微调与域适应",
+   "innovations": [
+    "将分布正则化施加于分类头而非编码器，避免显式权重/特征约束",
+    "通过旋转矩阵和类级平移向量对齐预训练与下游特征分布，缓解语义漂移",
+    "基于特征记忆库和置信度引导平均实现高效的分布近似与类中心估计"
+   ],
+   "benchmarks": [
+    "ImageNet20",
+    "CIFAR10",
+    "CIFAR100",
+    "Caltech101",
+    "DTD",
+    "Stanford Cars",
+    "Oxford Pets",
+    "Oxford Flowers",
+    "Aircraft",
+    "SVHN",
+    "Sun397"
+   ]
+  }
+ }
 }

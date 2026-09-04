@@ -4,5 +4,29 @@
  "title": "HAL3D-Hierarchical-Active-Learning-for-Fine-Grained-3D-Part",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-09-04 17:24:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26c8eae0-1dc4-4208-ade9-e4aab6be12f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26c8eae0-1dc4-4208-ade9-e4aab6be12f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:15:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D部件标注",
+    "主动学习",
+    "分层标注",
+    "人机协作",
+    "细粒度分割"
+   ],
+   "field": "3D视觉与图形学",
+   "innovations": [
+    "提出首个细粒度3D部件分层主动学习标注工具HAL3D",
+    "设计结合层级标签树与对称性约束的高效人机协作框架",
+    "通过迭代验证与修改实现接近完美的人工校准精度"
+   ],
+   "benchmarks": [
+    "PartNet",
+    "ABO"
+   ]
+  }
+ }
 }

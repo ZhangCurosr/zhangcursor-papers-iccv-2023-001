@@ -4,5 +4,33 @@
  "title": "Foreground-Background-Separation-through-Concept-Distillatio",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-04 17:24:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/04772991-87fd-47ac-bcdb-59806ef413fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/04772991-87fd-47ac-bcdb-59806ef413fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:14:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "前景-背景分割",
+    "潜扩散模型",
+    "零样本分割",
+    "概念蒸馏",
+    "弱监督学习",
+    "图像生成"
+   ],
+   "field": "无监督语义分割",
+   "innovations": [
+    "从扩散模型文本注意力图提取零样本分割掩码",
+    "背景入绘制实现掩码精细化无需超参数",
+    "生成合成前景/背景数据用于数据增强"
+   ],
+   "benchmarks": [
+    "CUB",
+    "Stanford Dogs",
+    "Stanford Cars",
+    "Human3.6m",
+    "MIMIC-CXR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Exploring-Object-Centric-Temporal-Modeling-for-Efficient-Mul",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-04 17:23:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc43609f-2ffe-471b-a7bc-0f9af18ea8aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc43609f-2ffe-471b-a7bc-0f9af18ea8aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:14:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多视图3D目标检测",
+    "时序建模",
+    "稀疏查询",
+    "在线检测",
+    "object-centric",
+    "nuScenes"
+   ],
+   "field": "多视图3D目标检测",
+   "innovations": [
+    "提出object-centric时序建模范式，以稀疏object query作为显式隐藏状态逐帧传播长程时空信息",
+    "设计memory queue + propagation transformer实现低开销多帧交互，计算量远小于与全量图像token做cross-attention",
+    "引入运动感知Layer Normalization（MLN），将ego-pose、速度、时间戳隐式编码为affine参数以解耦运动"
+   ],
+   "benchmarks": [
+    "nuScenes val/test",
+    "Waymo Open val"
+   ]
+  }
+ }
 }

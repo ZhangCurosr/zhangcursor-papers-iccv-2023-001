@@ -4,5 +4,31 @@
  "title": "Enhancing-Fine-Tuning-based-Backdoor-Defense-with-Sharpness",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-04 17:23:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cc962a33-085a-4c98-9a76-52d2e2e48c78.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cc962a33-085a-4c98-9a76-52d2e2e48c78.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:13:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backdoor defense",
+    "fine-tuning",
+    "sharpness-aware minimization",
+    "post-training defense",
+    "neuron weight norm",
+    "DER metric"
+   ],
+   "field": "深度学习后门攻击与防御",
+   "innovations": [
+    "从神经元权重范数视角揭示 Vanilla FT 后门防御不足的机理",
+    "提出 FT-SAM 将 SAM 与自适应扰动结合以增强微调型后门清除",
+    "引入基于权重范数的自适应扰动预算使后门相关神经元获得更大更新"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "Tiny ImageNet",
+    "GTSRB"
+   ]
+  }
+ }
 }

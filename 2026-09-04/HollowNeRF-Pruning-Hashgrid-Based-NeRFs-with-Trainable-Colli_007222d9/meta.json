@@ -4,5 +4,30 @@
  "title": "HollowNeRF-Pruning-Hashgrid-Based-NeRFs-with-Trainable-Colli",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-04 17:23:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa587587-1e91-4a27-ab5e-8a9a8575a985.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa587587-1e91-4a27-ab5e-8a9a8575a985.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:16:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NeRF压缩",
+    "哈希网格",
+    "ADMM剪枝",
+    "显著性网格",
+    "零跳过门",
+    "哈希冲突缓解"
+   ],
+   "field": "神经辐射场高效表示与压缩",
+   "innovations": [
+    "可训练3D显著性网格自适应学习稀疏分布指导特征剪枝",
+    "ADMM约束优化框架自动学习稀疏化程度",
+    "软零跳过门确保剪枝特征正确映射为零密度"
+   ],
+   "benchmarks": [
+    "NeRF Synthetic",
+    "Tanks and Temples"
+   ]
+  }
+ }
 }

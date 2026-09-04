@@ -4,5 +4,33 @@
  "title": "Controllable-Visual-Tactile-Synthesis",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-09-04 17:24:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9229a3d8-8efa-44f1-9dcf-36fe960c7bac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9229a3d8-8efa-44f1-9dcf-36fe960c7bac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:13:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉-触觉合成",
+    "条件生成对抗网络",
+    "触觉渲染",
+    "多模态生成",
+    "单图像训练",
+    "电吸附触觉显示"
+   ],
+   "field": "多模态生成与触觉交互",
+   "innovations": [
+    "提出从草图同时生成视觉和触觉输出的可控多模态合成新任务",
+    "设计共享编码-双分支解码的多尺度条件GAN架构处理视触尺度差异",
+    "构建首个空间对齐的视觉-触觉衣物数据集TouchClothing并实现端到端触觉渲染"
+   ],
+   "benchmarks": [
+    "TouchClothing",
+    "LPIPS",
+    "SIFID",
+    "Amazon MTurk用户研究",
+    "线下触觉心理物理学实验"
+   ]
+  }
+ }
 }

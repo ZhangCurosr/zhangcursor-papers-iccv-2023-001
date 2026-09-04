@@ -4,5 +4,29 @@
  "title": "Generative-Gradient-Inversion-via-Over-Parameterized-Network",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-04 17:24:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/971d3c55-d638-4c9e-a135-4c5b566d8568.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/971d3c55-d638-4c9e-a135-4c5b566d8568.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:15:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "联邦学习",
+    "梯度逆推",
+    "生成模型",
+    "隐私攻击",
+    "过参数化"
+   ],
+   "field": "联邦学习隐私安全",
+   "innovations": [
+    "揭示过参数化是梯度逆推成功的核心条件，确保生成空间与梯度约束交集非空",
+    "利用卷积网络隐式正则化替代显式图像先验，避免正则化导致的理论偏差",
+    "设计专用渐进生长架构CI-Net，首次从网络架构角度系统解决梯度逆推问题"
+   ],
+   "benchmarks": [
+    "CIFAR-10 batch=128 SSIM=0.98/PSNR=31.40",
+    "ImageNet batch=24 SSIM=0.52/PSNR=19.64"
+   ]
+  }
+ }
 }

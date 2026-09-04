@@ -4,5 +4,32 @@
  "title": "Human-Preference-Score-Better-Aligning-Text-to-Image-Models",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-04 17:24:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a2691f26-a189-4955-85c8-d0838944c67e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a2691f26-a189-4955-85c8-d0838944c67e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:16:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-image generation",
+    "human preference",
+    "diffusion model adaptation",
+    "CLIP fine-tuning",
+    "model alignment",
+    "evaluation metrics"
+   ],
+   "field": "多模态生成与对齐",
+   "innovations": [
+    "构建大规模人类偏好选择数据集并验证现有指标不足",
+    "提出HPS分类器显著优于CLIP预测人类选择",
+    "基于HPS与LoRA的负向prompt引导适配方法提升生成图像偏好度"
+   ],
+   "benchmarks": [
+    "DiffusionDB",
+    "LAION-5B",
+    "COCO Captions",
+    "自建人类偏好数据集"
+   ]
+  }
+ }
 }

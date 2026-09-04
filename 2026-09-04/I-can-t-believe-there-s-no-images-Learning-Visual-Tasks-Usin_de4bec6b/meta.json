@@ -4,5 +4,33 @@
  "title": "I-can-t-believe-there-s-no-images-Learning-Visual-Tasks-Usin",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-09-04 17:24:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a5729e2-ea38-48f4-93cd-b7da8cf45275.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a5729e2-ea38-48f4-93cd-b7da8cf45275.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:16:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模态迁移",
+    "零样本学习",
+    "对比学习",
+    "视觉-语言",
+    "模态间隙",
+    "纯文本训练",
+    "图像描述"
+   ],
+   "field": "多模态表示学习与跨模态迁移",
+   "innovations": [
+    "提出CLOSE框架实现仅用文本训练的零样本跨模态视觉任务迁移",
+    "系统分析并缓解对比模型的模态间隙（Modality Gap）",
+    "利用LLM合成数据和风格化文本训练视觉任务模型"
+   ],
+   "benchmarks": [
+    "COCO Captioning",
+    "SNLI-VE",
+    "VQA 2.0 / VQA-E",
+    "Visual News"
+   ]
+  }
+ }
 }

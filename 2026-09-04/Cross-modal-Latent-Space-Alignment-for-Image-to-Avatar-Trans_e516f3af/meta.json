@@ -4,5 +4,31 @@
  "title": "Cross-modal-Latent-Space-Alignment-for-Image-to-Avatar-Trans",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-04 17:24:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4d722d7-fe17-4d7a-a2c1-899006642865.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4d722d7-fe17-4d7a-a2c1-899006642865.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:13:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "avatar generation",
+    "cross-modal alignment",
+    "parametric representation",
+    "identity preservation",
+    "image-to-vector translation",
+    "weakly-supervised learning"
+   ],
+   "field": "跨模态生成与头像合成",
+   "innovations": [
+    "提出跨模态潜在空间对齐框架，通过分离训练模态专属自编码器再学习映射网络实现身份保持",
+    "设计三重损失（重建+跨模态对齐+权重对齐）在小样本下有效正则化映射学习",
+    "发型与配饰独立检索管线解耦可变属性，提升生成灵活性与质量"
+   ],
+   "benchmarks": [
+    "L1 pixel loss",
+    "LPIPS perceptual loss",
+    "User preference study (identity & quality)"
+   ]
+  }
+ }
 }

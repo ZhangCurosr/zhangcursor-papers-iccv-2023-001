@@ -4,5 +4,33 @@
  "title": "GO-SLAM-Global-Optimization-for-Consistent-3D-Instant-Recons",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-09-04 17:24:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea028eb4-89bd-4de7-b10c-153605d79c6b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea028eb4-89bd-4de7-b10c-153605d79c6b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:15:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉 SLAM",
+    "神经隐式表示",
+    "全局优化",
+    "实时重建",
+    "NeRF",
+    "束光调整"
+   ],
+   "field": "密集视觉 SLAM",
+   "innovations": [
+    "在线回环检测与全量束光调整联合优化轨迹",
+    "多分辨率哈希编码驱动的即时神经隐式表面重建",
+    "统一单目/双目/RGB-D 输入的多模态 SLAM 框架"
+   ],
+   "benchmarks": [
+    "TUM RGB-D",
+    "EuRoC",
+    "ScanNet",
+    "Replica",
+    "ETH3D-SLAM"
+   ]
+  }
+ }
 }

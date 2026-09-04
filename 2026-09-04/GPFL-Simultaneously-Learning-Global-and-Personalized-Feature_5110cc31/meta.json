@@ -4,5 +4,34 @@
  "title": "GPFL-Simultaneously-Learning-Global-and-Personalized-Feature",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-09-04 17:24:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ef90c73-e93e-43f6-bff6-77738663cbf5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ef90c73-e93e-43f6-bff6-77738663cbf5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:15:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化联邦学习",
+    "全局特征提取",
+    "条件计算",
+    "类别嵌入",
+    "统计异构",
+    "隐私保护"
+   ],
+   "field": "个性化联邦学习",
+   "innovations": [
+    "首次在同一客户端同时学习全局与个性化特征的双路由设计",
+    "通过可训练全局类别嵌入实现角度级与幅度级双重引导",
+    "引入条件阀门(CoV)解决双目标优化混淆问题"
+   ],
+   "benchmarks": [
+    "Fashion-MNIST",
+    "Cifar100",
+    "Tiny-ImageNet",
+    "AG News",
+    "Amazon Review",
+    "HAR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Global-Knowledge-Calibration-for-Fast-Open-Vocabulary-Segmen",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-09-04 17:24:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a2440d0d-cc7f-4124-829e-3ce2cdec8de3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a2440d0d-cc7f-4124-829e-3ce2cdec8de3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:15:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary segmentation",
+    "knowledge distillation",
+    "vision-language model",
+    "CLIP",
+    "text diversification",
+    "video segmentation"
+   ],
+   "field": "开放词汇分割与跨模态对齐",
+   "innovations": [
+    "文本多样性策略防止类别名称过拟合",
+    "文本引导的知识蒸馏校准多模态表征全局结构",
+    "首个开放词汇视频分割基准探索"
+   ],
+   "benchmarks": [
+    "COCO Panoptic",
+    "Pascal Context",
+    "Cityscapes",
+    "ADE20K",
+    "VIPSeg"
+   ]
+  }
+ }
 }

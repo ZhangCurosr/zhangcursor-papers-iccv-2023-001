@@ -4,5 +4,31 @@
  "title": "Hard-No-Box-Adversarial-Attack-on-Skeleton-Based-Human-Actio",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-04 17:22:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e2daf4fe-e87b-4d8e-b9f1-56f7383a2e18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e2daf4fe-e87b-4d8e-b9f1-56f7383a2e18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:16:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对抗攻击",
+    "骨架动作识别",
+    "无框攻击",
+    "对比学习",
+    "运动流形",
+    "SMI梯度"
+   ],
+   "field": "骨架动作识别安全性",
+   "innovations": [
+    "首次提出硬无框对抗攻击框架，攻击者无需访问模型、训练数据或标签",
+    "提出骨骼运动信息梯度SMI，将运动动力学嵌入对抗梯度计算",
+    "基于对比学习的无标签运动流形学习方法"
+   ],
+   "benchmarks": [
+    "NTU60",
+    "NTU120",
+    "HDM05"
+   ]
+  }
+ }
 }
