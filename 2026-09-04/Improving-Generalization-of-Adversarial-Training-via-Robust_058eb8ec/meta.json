@@ -4,5 +4,10 @@
  "title": "Improving-Generalization-of-Adversarial-Training-via-Robust",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-09-04 17:24:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/124ba1f1-7ece-4db6-9675-fa17f3789c43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/124ba1f1-7ece-4db6-9675-fa17f3789c43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:56:12",
+  "chunks": 1
+ }
 }

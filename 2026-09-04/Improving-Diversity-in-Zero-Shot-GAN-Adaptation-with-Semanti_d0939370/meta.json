@@ -4,5 +4,30 @@
  "title": "Improving-Diversity-in-Zero-Shot-GAN-Adaptation-with-Semanti",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-04 17:24:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0543a7a4-b860-48cc-869a-50480dbca566.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0543a7a4-b860-48cc-869a-50480dbca566.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:55:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本GAN适配",
+    "风格迁移",
+    "CLIP",
+    "模式崩溃",
+    "语义变化",
+    "生成模型"
+   ],
+   "field": "零样本GAN适配与图像生成",
+   "innovations": [
+    "在CLIP空间学习目标文本的语义变化以增强多样性",
+    "提出方向矩损失匹配图像和文本方向的一阶/二阶矩"
+   ],
+   "benchmarks": [
+    "AFHQ",
+    "FFHQ",
+    "LSUN"
+   ]
+  }
+ }
 }
