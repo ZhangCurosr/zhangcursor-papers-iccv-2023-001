@@ -4,5 +4,30 @@
  "title": "GameFormer-Game-theoretic-Modeling-and-Learning-of-Transform",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-11-04 21:10:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/40ac5914-8dda-4335-b4b7-0c157ee59ba9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/40ac5914-8dda-4335-b4b7-0c157ee59ba9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:05:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive prediction",
+    "level-k game theory",
+    "autonomous driving",
+    "motion planning",
+    "transformer",
+    "multi-agent trajectory prediction"
+   ],
+   "field": "自动驾驶交互式预测与规划",
+   "innovations": [
+    "基于level-k博弈论的层次Transformer解码器结构",
+    "结合模仿损失与排斥势场交互损失的学习框架",
+    "统一评估交互预测精度与开环/闭环规划性能"
+   ],
+   "benchmarks": [
+    "WOMD Interaction Prediction",
+    "nuPlan Planning Benchmark"
+   ]
+  }
+ }
 }
