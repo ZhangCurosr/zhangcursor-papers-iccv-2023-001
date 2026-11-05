@@ -4,5 +4,41 @@
  "title": "ALIP-Adaptive-Language-Image-Pre-training-with-Synthetic-Cap",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-11-04 21:20:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0901271d-b94a-4e3d-9429-0fa5601c5bb1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0901271d-b94a-4e3d-9429-0fa5601c5bb1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:34:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对比学习",
+    "语言-图像预训练",
+    "噪声鲁棒性",
+    "合成描述",
+    "自适应门控",
+    "CLIP",
+    "多模态表示学习"
+   ],
+   "field": "多模态预训练与对比学习",
+   "innovations": [
+    "利用离线 OFA 合成描述构建双路径对比学习框架，避免在线 captioner 的额外开销",
+    "语言一致性门控（LCG）和描述一致性门控（DCG）动态调整样本和成对权重以抑制噪声影响",
+    "自适应对比损失在保持全部训练样本的同时实现对低质量数据的有效降权"
+   ],
+   "benchmarks": [
+    "Flickr30K",
+    "MSCOCO",
+    "CIFAR10/100",
+    "ImageNet",
+    "Food101",
+    "Oxford Pets",
+    "Flowers102",
+    "SUN397",
+    "Stanford Cars",
+    "DTD",
+    "Caltech101",
+    "FGVC Aircraft"
+   ]
+  }
+ }
 }

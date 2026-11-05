@@ -4,5 +4,33 @@
  "title": "Doppelgangers-Learning-to-Disambiguate-Images-of-Similar-Str",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-11-04 21:18:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/15499031-3303-4579-ab9a-a9d0370e5635.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/15499031-3303-4579-ab9a-a9d0370e5635.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:36:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual disambiguation",
+    "structure from motion",
+    "feature matching",
+    "doppelganger",
+    "image pair classification",
+    "SfM reconstruction",
+    "symmetric structures"
+   ],
+   "field": "三维视觉与重建",
+   "innovations": [
+    "将视觉消歧首次形式化为图像对二分类任务并训练学习型分类器",
+    "提出关键点与匹配空间分布mask作为网络输入的有效特征工程方案",
+    "设计翻转增强生成合成负样本以解决负样本稀缺问题"
+   ],
+   "benchmarks": [
+    "Doppelgangers test set (16 scenes)",
+    "Heinly et al. landmark datasets",
+    "Wilson et al. datasets",
+    "Roberts et al. Cereal/Cup/Street datasets"
+   ]
+  }
+ }
 }

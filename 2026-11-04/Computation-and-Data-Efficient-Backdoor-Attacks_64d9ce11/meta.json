@@ -4,5 +4,32 @@
  "title": "Computation-and-Data-Efficient-Backdoor-Attacks",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-11-04 21:04:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b70a0af1-d51b-4957-9ee1-bc192cb94d02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b70a0af1-d51b-4957-9ee1-bc192cb94d02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:35:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Backdoor Attack",
+    "Data Poisoning",
+    "Sample Selection",
+    "Representation Distance",
+    "Adversarial Machine Learning",
+    "Computation Efficiency"
+   ],
+   "field": "对抗机器学习/后门攻击",
+   "innovations": [
+    "提出表征距离(RD)分数量化投毒样本对决策边界重塑的贡献",
+    "设计基于早期训练的贪心迭代搜索算法实现高效样本筛选",
+    "在极少打分周期内达成与遗忘分数相当或更优的ASR及黑盒迁移性"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "ImageNet-10",
+    "ModelNet40",
+    "ScanObject"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "EverLight-Indoor-Outdoor-Editable-HDR-Lighting-Estimation",
  "token": "sk-xC0qospQN...",
  "created_at": "2026-11-04 21:14:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/93f06197-9ef4-4eca-80e2-828357fabe71.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/93f06197-9ef4-4eca-80e2-828357fabe71.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:37:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "HDR光照估计",
+    "可编辑光照",
+    "全景生成",
+    "球面高斯",
+    "共调制GAN",
+    "室内外通用"
+   ],
+   "field": "单图像光照估计与编辑",
+   "innovations": [
+    "可编辑光照共调制机制，将参数化光源与GAN全景生成联合调制",
+    "首个室内外通用的可编辑HDR光照估计单步前馈框架"
+   ],
+   "benchmarks": [
+    "Laval Indoor HDR",
+    "Cheng'18 Outdoor"
+   ]
+  }
+ }
 }

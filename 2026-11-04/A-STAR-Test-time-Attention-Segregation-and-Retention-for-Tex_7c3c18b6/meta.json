@@ -4,5 +4,30 @@
  "title": "A-STAR-Test-time-Attention-Segregation-and-Retention-for-Tex",
  "token": "sk-yeaNqR4AC...",
  "created_at": "2026-11-04 21:21:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d238aa34-3671-4f14-bbfe-1fbf7472cf0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d238aa34-3671-4f14-bbfe-1fbf7472cf0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:33:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-image",
+    "diffusion models",
+    "cross-attention",
+    "test-time optimization",
+    "prompt fidelity"
+   ],
+   "field": "文本到图像生成",
+   "innovations": [
+    "提出注意力隔离损失以消除多概念间交叉注意力重叠",
+    "提出注意力保持损失以在去噪全程维持概念信息不衰减",
+    "零训练的推理时优化方法无需重新训练模型"
+   ],
+   "benchmarks": [
+    "CLIP image-text cosine similarity",
+    "BLIP text-text similarity",
+    "User study with 26 respondents"
+   ]
+  }
+ }
 }

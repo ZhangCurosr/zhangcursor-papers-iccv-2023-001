@@ -4,5 +4,31 @@
  "title": "Cross-modal-Latent-Space-Alignment-for-Image-to-Avatar-Trans",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-11-04 21:04:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/52744de6-2596-4933-996b-c15297eedf6b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/52744de6-2596-4933-996b-c15297eedf6b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:35:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模态对齐",
+    "参数化头像",
+    "图像到头像翻译",
+    "弱监督学习",
+    "矢量图形",
+    "身份保持"
+   ],
+   "field": "图像生成与风格迁移",
+   "innovations": [
+    "提出跨模态潜在空间对齐框架，将无配对预训练与少量配对映射结合，有效缓解数据稀缺问题",
+    "设计权重对齐损失，用目标域专家编码器权重正则化映射网络，提升小样本下的泛化能力",
+    "采用头发/配饰分离管线，通过KNN检索从发型库匹配，避免混合训练分布不匹配"
+   ],
+   "benchmarks": [
+    "L1 pixel loss",
+    "LPIPS",
+    "User preference study (identity & quality)"
+   ]
+  }
+ }
 }

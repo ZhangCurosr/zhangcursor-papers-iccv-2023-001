@@ -4,5 +4,31 @@
  "title": "ADNet-Lane-Shape-Prediction-via-Anchor-Decomposition",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-11-04 21:21:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/314a6bdd-52ad-491c-b4d0-a643ccf571c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/314a6bdd-52ad-491c-b4d0-a643ccf571c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:34:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "车道检测",
+    "锚点分解",
+    "大核注意力",
+    "GLIoU损失",
+    "可变形卷积",
+    "VIL-100"
+   ],
+   "field": "自动驾驶感知-车道检测",
+   "innovations": [
+    "将锚点显式分解为起点热力图与方向热力图两路学习，打破固定边起点的限制",
+    "首次将大核注意力（LKA）嵌入FPN用于车道检测，显著提升感受野",
+    "提出GLIoU损失，在无重叠场景下引入gap-distance惩罚项以更好捕捉空间关系"
+   ],
+   "benchmarks": [
+    "VIL-100",
+    "CULane",
+    "TuSimple"
+   ]
+  }
+ }
 }

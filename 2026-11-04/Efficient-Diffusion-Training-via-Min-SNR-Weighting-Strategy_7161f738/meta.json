@@ -4,5 +4,30 @@
  "title": "Efficient-Diffusion-Training-via-Min-SNR-Weighting-Strategy",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-11-04 21:16:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6f4ffa9a-302d-482b-8869-f054e839468a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6f4ffa9a-302d-482b-8869-f054e839468a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:37:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Model",
+    "Training Efficiency",
+    "Loss Weighting",
+    "Multi-Task Learning",
+    "Image Generation"
+   ],
+   "field": "生成模型训练优化",
+   "innovations": [
+    "揭示扩散训练中 timestep 间梯度冲突导致收敛慢的机制",
+    "提出 Min-SNR-γ 截断信噪比加权策略平衡各 timestep 学习",
+    "以更小参数量在 ImageNet 256x256 上取得 FID 2.06 新纪录"
+   ],
+   "benchmarks": [
+    "ImageNet 64x64",
+    "ImageNet 256x256",
+    "CelebA 64x64"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Encyclopedic-VQA-Visual-questions-about-detailed-properties",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-11-04 21:13:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c1e66f33-bd08-4c60-9c43-76568d00bbfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c1e66f33-bd08-4c60-9c43-76568d00bbfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:37:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉问答",
+    "检索增强",
+    "细粒度识别",
+    "百科知识",
+    "多跳推理",
+    "VLM评测基准"
+   ],
+   "field": "视觉问答与知识增强",
+   "innovations": [
+    "构建首个大规模细粒度百科VQA数据集并附完整知识库与章节级归属标注",
+    "提出基于桥梁实体的两跳视觉问题自动化构造方法",
+    "证明检索增强对细粒度百科知识问答的显著提升效果"
+   ],
+   "benchmarks": [
+    "Encyclopedic-VQA",
+    "OK-VQA",
+    "A-OKVQA",
+    "S3VQA"
+   ]
+  }
+ }
 }

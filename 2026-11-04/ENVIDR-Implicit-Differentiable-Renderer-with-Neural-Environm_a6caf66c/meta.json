@@ -4,5 +4,31 @@
  "title": "ENVIDR-Implicit-Differentiable-Renderer-with-Neural-Environm",
  "token": "sk-4xOJ8RgWe...",
  "created_at": "2026-11-04 21:10:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/17798a94-1add-4314-8558-1953ae036bfa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/17798a94-1add-4314-8558-1953ae036bfa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:36:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural rendering",
+    "inverse rendering",
+    "SDF",
+    "specular reflection",
+    "relighting",
+    "physically based rendering"
+   ],
+   "field": "神经渲染与逆渲染",
+   "innovations": [
+    "提出解耦神经渲染器近似PBR而非显式渲染方程，实现高光表面高质量重建与重光照",
+    "环境MLP输出高维神经特征而非RGB，支持跨场景环境光互换",
+    "通过单次反射ray marching建模镜面表面间反射间接照明"
+   ],
+   "benchmarks": [
+    "Shiny Blender",
+    "NeRF Blender",
+    "SNeRG"
+   ]
+  }
+ }
 }

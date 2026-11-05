@@ -4,5 +4,10 @@
  "title": "EgoLoc-Revisiting-3D-Object-Localization-from-Egocentric-Vid",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-11-04 21:03:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8de0214e-22f2-468e-b66d-9318af13fd70.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8de0214e-22f2-468e-b66d-9318af13fd70.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:37:41",
+  "chunks": 1
+ }
 }

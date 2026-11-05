@@ -4,5 +4,28 @@
  "title": "A-Dynamic-Dual-Processing-Object-Detection-Framework-Inspire",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-11-04 21:09:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7670b639-ff6a-4b4e-ab5e-5d5b99a7e8ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7670b639-ff6a-4b4e-ab5e-5d5b99a7e8ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:33:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "目标检测",
+    "CNN-Transformer融合",
+    "神经架构搜索",
+    "双加工机制",
+    "动态路由"
+   ],
+   "field": "目标检测",
+   "innovations": [
+    "受大脑双加工理论启发的CNN-Transformer双流并行检测框架",
+    "NAS搜索最优跨流特征融合策略与编码深度",
+    "Gumbel-softmax可微分选择性掩码实现空间动态解码器竞争"
+   ],
+   "benchmarks": [
+    "COCO val2017"
+   ]
+  }
+ }
 }
