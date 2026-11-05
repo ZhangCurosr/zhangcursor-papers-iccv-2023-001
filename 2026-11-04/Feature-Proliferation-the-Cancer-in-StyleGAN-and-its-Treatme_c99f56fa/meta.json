@@ -4,5 +4,36 @@
  "title": "Feature-Proliferation-the-Cancer-in-StyleGAN-and-its-Treatme",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-11-04 21:28:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dc5ee455-9c38-4925-bcfe-6191f29547dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dc5ee455-9c38-4925-bcfe-6191f29547dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:42:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "StyleGAN",
+    "Feature Proliferation",
+    "Image Artifacts",
+    "Truncation Trick",
+    "Post-processing",
+    "GAN Quality"
+   ],
+   "field": "生成模型诊断与优化",
+   "innovations": [
+    "首次发现并定义Feature Proliferation现象，揭示StyleGAN伪影的成因",
+    "提出细粒度特征重缩放方法，在低层特征空间精准修正而非潜在空间偏移",
+    "建立特征增殖与图像伪影的强因果关系并系统验证"
+   ],
+   "benchmarks": [
+    "FFHQ",
+    "MetFace",
+    "AFHQ-Cat",
+    "Precision-Recall",
+    "FID",
+    "LPIPS",
+    "PSNR",
+    "SSIM"
+   ]
+  }
+ }
 }

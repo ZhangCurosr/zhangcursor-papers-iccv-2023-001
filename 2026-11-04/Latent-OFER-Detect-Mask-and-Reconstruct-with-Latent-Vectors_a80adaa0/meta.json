@@ -4,5 +4,34 @@
  "title": "Latent-OFER-Detect-Mask-and-Reconstruct-with-Latent-Vectors",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-11-04 21:08:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/826e980c-d0d6-4280-a90c-bd3dfb639338.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/826e980c-d0d6-4280-a90c-bd3dfb639338.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:45:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "occluded facial expression recognition",
+    "ViT",
+    "anomaly detection",
+    "image inpainting",
+    "self-assembly",
+    "semantic consistency loss"
+   ],
+   "field": "遮挡人脸表情识别",
+   "innovations": [
+    "提出 ViT-SVDD 一分类 patch 级遮挡检测模块，无需遮挡标注即可泛化至 unseen object",
+    "设计 hybrid reconstruction network 与 self-assembly 层，利用人脸对称先验提升重建表情语义保持",
+    "引入 expression-relevant ViT latent vector 检索机制，与 CNN 特征协同提升 FER 精度"
+   ],
+   "benchmarks": [
+    "RAF-DB",
+    "AffectNet",
+    "KDEF",
+    "FED-RO",
+    "Occlusion-RAF-DB",
+    "Occlusion-AffectNet"
+   ]
+  }
+ }
 }

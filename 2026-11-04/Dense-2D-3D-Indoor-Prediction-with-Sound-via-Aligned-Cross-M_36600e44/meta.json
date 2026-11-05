@@ -4,5 +4,31 @@
  "title": "Dense-2D-3D-Indoor-Prediction-with-Sound-via-Aligned-Cross-M",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-11-04 21:28:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/24c902af-e0fc-4f8c-9c15-65c8c59ff2ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/24c902af-e0fc-4f8c-9c15-65c8c59ff2ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:41:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模态蒸馏",
+    "音频驱动密集预测",
+    "空间对齐",
+    "室内场景理解",
+    "知识蒸馏",
+    "3D重建"
+   ],
+   "field": "多模态感知与空间推理",
+   "innovations": [
+    "提出SAM框架解决跨模态特征不对齐问题",
+    "首个音频室内2D+3D密集预测统一框架",
+    "构建DAPS基准涵盖深度估计/语义分割/3D重建"
+   ],
+   "benchmarks": [
+    "DAPS-Depth",
+    "DAPS-Semantic",
+    "DAPS-3D"
+   ]
+  }
+ }
 }

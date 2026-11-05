@@ -4,5 +4,33 @@
  "title": "Learning-Shape-Primitives-via-Implicit-Convexity-Regularizat",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-11-04 21:25:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e7ec09be-1766-4cbe-b254-591d8c430cfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e7ec09be-1766-4cbe-b254-591d8c430cfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:46:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "shape primitives",
+    "implicit surface",
+    "convexity regularization",
+    "neural rendering",
+    "multi-view reconstruction",
+    "shape decomposition",
+    "signed distance function"
+   ],
+   "field": "3D形状分析与表示",
+   "innovations": [
+    "提出隐式凸性正则化（ICR）保证基元凸性",
+    "设计softmax加权求和融合基元",
+    "集成到神经渲染管道实现无3D数据分解"
+   ],
+   "benchmarks": [
+    "ShapeNet",
+    "CO3D",
+    "Chamfer Distance",
+    "IoU"
+   ]
+  }
+ }
 }

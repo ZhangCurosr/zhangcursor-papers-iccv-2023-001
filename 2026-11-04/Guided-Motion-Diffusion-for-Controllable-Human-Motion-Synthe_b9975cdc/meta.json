@@ -4,5 +4,28 @@
  "title": "Guided-Motion-Diffusion-for-Controllable-Human-Motion-Synthe",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-11-04 21:07:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6bfde6b6-ba4b-4f34-9191-16870a4aac6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6bfde6b6-ba4b-4f34-9191-16870a4aac6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:42:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "human motion synthesis",
+    "diffusion model",
+    "spatial conditioning",
+    "controllable generation",
+    "trajectory generation"
+   ],
+   "field": "3D 人类动作生成与空间条件控制",
+   "innovations": [
+    "Emphasis Projection：通过随机投影矩阵放大轨迹维度权重以缓解姿态-轨迹不协调",
+    "Dense Signal Propagation：利用预训练去噪器反向传播将稀疏关键帧引导信号稠密化",
+    "两阶段轨迹-动作生成框架：先采样满足关键帧的轨迹，再条件生成局部姿态"
+   ],
+   "benchmarks": [
+    "HumanML3D"
+   ]
+  }
+ }
 }

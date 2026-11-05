@@ -4,5 +4,34 @@
  "title": "Inspecting-the-Geographical-Representativeness-of-Images-fro",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-11-04 20:57:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/645e0c9d-4679-48ad-82f8-8a06081b49af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/645e0c9d-4679-48ad-82f8-8a06081b49af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:44:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "geographical representativeness",
+    "text-to-image",
+    "bias evaluation",
+    "DALL-E 2",
+    "Stable Diffusion",
+    "CLIP",
+    "user study",
+    "fairness"
+   ],
+   "field": "生成模型社会偏见评测",
+   "innovations": [
+    "首次通过27国540人用户研究量化文本到图像模型的地理代表性偏差",
+    "证明CLIP相似度和kNN均无法可靠自动化评估地理代表性",
+    "揭示指定国家提示可显著提升但不足以消除地理偏差"
+   ],
+   "benchmarks": [
+    "GR Likert评分 (1-5)",
+    "CLIP text-image similarity",
+    "k-nearest neighbor estimation",
+    "inter-rater agreement percentage"
+   ]
+  }
+ }
 }

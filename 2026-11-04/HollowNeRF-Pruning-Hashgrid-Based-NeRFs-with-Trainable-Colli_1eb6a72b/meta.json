@@ -4,5 +4,31 @@
  "title": "HollowNeRF-Pruning-Hashgrid-Based-NeRFs-with-Trainable-Colli",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-11-04 21:03:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3a51b56d-aeb5-4bc5-9e3b-bbb52877820f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3a51b56d-aeb5-4bc5-9e3b-bbb52877820f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:43:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NeRF压缩",
+    "hashgrid",
+    "model pruning",
+    "saliency grid",
+    "ADMM",
+    "hash collision mitigation",
+    "lightweight neural rendering"
+   ],
+   "field": "神经辐射场轻量化与压缩",
+   "innovations": [
+    "可训练3D显著性网格引导hash碰撞优先级重分配",
+    "ADMM对偶变量驱动的端到端稀疏剪枝",
+    "Soft zero-skipping gate保证剪零特征与零密度一致"
+   ],
+   "benchmarks": [
+    "NeRF Synthetic",
+    "Tanks and Temples"
+   ]
+  }
+ }
 }

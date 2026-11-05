@@ -4,5 +4,30 @@
  "title": "LEA2-A-Lightweight-Ensemble-Adversarial-Attack-via-Non-overl",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-11-04 21:13:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e4669717-8821-4f4b-adfc-e1e5463fb8c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e4669717-8821-4f4b-adfc-e1e5463fb8c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:44:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对抗攻击",
+    "黑盒攻击",
+    "集成攻击",
+    "频率域分析",
+    "迁移性",
+    "对抗样本"
+   ],
+   "field": "深度学习安全与对抗鲁棒性",
+   "innovations": [
+    "发现三类模型具有非重叠脆弱频率区域（高频/中频/低频），仅需三个替代模型即可覆盖目标脆弱子空间",
+    "用高斯噪声替代标准模型以加速攻击，同时保持同等迁移性效果"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-30"
+   ]
+  }
+ }
 }

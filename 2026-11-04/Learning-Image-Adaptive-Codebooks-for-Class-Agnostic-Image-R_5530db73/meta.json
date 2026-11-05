@@ -4,5 +4,36 @@
  "title": "Learning-Image-Adaptive-Codebooks-for-Class-Agnostic-Image-R",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-11-04 21:11:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d94b1872-441d-4120-bcf1-ab482037e516.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d94b1872-441d-4120-bcf1-ab482037e516.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:45:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image restoration",
+    "codebook",
+    "super-resolution",
+    "inpainting",
+    "discrete generative prior",
+    "class-agnostic"
+   ],
+   "field": "图像恢复与生成",
+   "innovations": [
+    "提出AdaCode，通过多basis codebook加权融合实现类无关离散生成先验",
+    "将3D LUT自适应融合思想迁移到离散latent空间",
+    "三阶段训练策略结合对比学习code-level损失提升恢复质量"
+   ],
+   "benchmarks": [
+    "OST",
+    "Set5",
+    "Set14",
+    "BSD100",
+    "Urban100",
+    "Manga109",
+    "DIV2K",
+    "DIV8K"
+   ]
+  }
+ }
 }

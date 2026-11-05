@@ -4,5 +4,29 @@
  "title": "FedPD-Federated-Open-Set-Recognition-with-Parameter-Disentan",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-11-04 21:00:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8efd7fbd-49fb-4870-bf78-73d7385853ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8efd7fbd-49fb-4870-bf78-73d7385853ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:42:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "Open Set Recognition",
+    "Parameter Disentanglement",
+    "Optimal Transport",
+    "Federated Open Set Recognition"
+   ],
+   "field": "联邦学习与开放集识别",
+   "innovations": [
+    "首次提出联邦开放集识别(FedOSR)问题并系统研究",
+    "基于任务重要性度量的本地参数解耦(LPD)策略",
+    "分治+最优传输对齐的全局聚合(GDCA)机制"
+   ],
+   "benchmarks": [
+    "HDR-FL",
+    "CIFAR-10"
+   ]
+  }
+ }
 }

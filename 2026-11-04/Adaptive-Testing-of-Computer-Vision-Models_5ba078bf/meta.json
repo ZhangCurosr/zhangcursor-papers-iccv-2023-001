@@ -4,5 +4,37 @@
  "title": "Adaptive-Testing-of-Computer-Vision-Models",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-11-04 21:09:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3f83f1fb-ff76-4414-bc39-f203e885e0f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3f83f1fb-ff76-4414-bc39-f203e885e0f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:40:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Adaptive Testing",
+    "Computer Vision",
+    "Human-in-the-loop",
+    "Error Analysis",
+    "Slice Discovery",
+    "LAION-5B",
+    "CLIP",
+    "OOD Evaluation"
+   ],
+   "field": "计算机视觉模型评估与可解释性",
+   "innovations": [
+    "双环人机协作测试框架（测试生成+主题生成）",
+    "CLIP embedding 插值 hill-climbing 检索策略",
+    "SVC 轻量 rerank 降低人工标注负担"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "ImageNet-V2",
+    "ImageNet-A",
+    "ImageNet-Sketch",
+    "ImageNet-R",
+    "ObjectNet",
+    "COCO Captions"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Improving-Generalization-of-Adversarial-Training-via-Robust",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-11-04 21:15:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/529d1bfa-91c8-4306-8049-f5bceb221c22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/529d1bfa-91c8-4306-8049-f5bceb221c22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:44:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial training",
+    "generalization",
+    "robustness",
+    "fine-tuning",
+    "module criticality",
+    "OOD robustness",
+    "model interpolation"
+   ],
+   "field": "对抗鲁棒性与泛化的权衡",
+   "innovations": [
+    "提出MRC度量来量化每个模块对对抗鲁棒性的关键程度，发现并验证对抗训练模型存在冗余鲁棒容量",
+    "提出RiFT三阶段后处理方法（MRC计算→非鲁棒关键模块微调→权重插值），在不损害鲁棒性的前提下提升泛化约1.5-2%",
+    "证明微调非鲁棒关键模块可同时改善泛化和OOD鲁棒性，挑战鲁棒性与泛化必然权衡的传统认知"
+   ],
+   "benchmarks": [
+    "CIFAR10",
+    "CIFAR100",
+    "Tiny-ImageNet",
+    "CIFAR10-C",
+    "CIFAR100-C",
+    "Tiny-ImageNet-C"
+   ]
+  }
+ }
 }

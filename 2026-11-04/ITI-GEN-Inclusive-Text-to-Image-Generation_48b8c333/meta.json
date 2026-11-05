@@ -4,5 +4,10 @@
  "title": "ITI-GEN-Inclusive-Text-to-Image-Generation",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-11-04 21:13:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8a1f91f9-9f21-4370-9186-203dea1b2e43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8a1f91f9-9f21-4370-9186-203dea1b2e43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:44:50",
+  "chunks": 1
+ }
 }

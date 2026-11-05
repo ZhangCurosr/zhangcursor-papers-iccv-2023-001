@@ -4,5 +4,33 @@
  "title": "DVIS-Decoupled-Video-Instance-Segmentation-Framework",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-11-04 21:24:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4be0bea8-3151-41d7-9c3c-e55872078820.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4be0bea8-3151-41d7-9c3c-e55872078820.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:40:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Instance Segmentation",
+    "解耦策略",
+    "Referring Tracker",
+    "Temporal Refiner",
+    "Referring Cross Attention",
+    "视频分割"
+   ],
+   "field": "视频实例分割",
+   "innovations": [
+    "将VIS解耦为分割、跟踪、细化三个独立子任务",
+    "提出Referring Cross Attention实现帧间关联去噪",
+    "设计极低开销的Temporal Refiner整合全视频时序信息"
+   ],
+   "benchmarks": [
+    "OVIS",
+    "YouTube-VIS 2019",
+    "YouTube-VIS 2021",
+    "YouTube-VIS 2022",
+    "VIPSeg"
+   ]
+  }
+ }
 }

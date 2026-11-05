@@ -4,5 +4,29 @@
  "title": "HM-ViT-Hetero-modal-Vehicle-to-Vehicle-Cooperative-Perceptio",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-11-04 21:09:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6f7eb06b-ea29-4d09-b00d-99ea08034556.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6f7eb06b-ea29-4d09-b00d-99ea08034556.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:43:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "V2V Cooperative Perception",
+    "Hetero-modal",
+    "3D Object Detection",
+    "Vision Transformer",
+    "BEV",
+    "OPV2V"
+   ],
+   "field": "自动驾驶协作感知",
+   "innovations": [
+    "首个异构多模态 V2V 协作感知统一框架 HM-ViT",
+    "提出异构 3D 图注意力 H³GAT 建模跨模态交互异质性",
+    "通过局部与全局注意力结合提升 BEV 特征空间推理能力"
+   ],
+   "benchmarks": [
+    "OPV2V"
+   ]
+  }
+ }
 }

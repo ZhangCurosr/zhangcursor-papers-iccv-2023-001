@@ -4,5 +4,31 @@
  "title": "DDColor-Towards-Photo-Realistic-Image-Colorization-via-Dual",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-11-04 21:26:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/124e00cb-2049-4290-b66f-5e46e8cc56bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/124e00cb-2049-4290-b66f-5e46e8cc56bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:40:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像自动上色",
+    "双解码器",
+    "查询型 Transformer",
+    "颜色溢出",
+    "多尺度特征"
+   ],
+   "field": "图像上色与恢复",
+   "innovations": [
+    "端到端双解码器架构协同像素解码器与查询型颜色解码器",
+    "零初始化颜色查询通过多尺度交叉注意力学习语义感知表示",
+    "颜色丰富度损失与多尺度特征融合缓解颜色溢出"
+   ],
+   "benchmarks": [
+    "ImageNet val5k",
+    "ImageNet val50k",
+    "COCO-Stuff",
+    "ADE20K"
+   ]
+  }
+ }
 }

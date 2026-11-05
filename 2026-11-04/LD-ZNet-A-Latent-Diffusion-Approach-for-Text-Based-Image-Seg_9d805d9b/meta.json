@@ -4,5 +4,32 @@
  "title": "LD-ZNet-A-Latent-Diffusion-Approach-for-Text-Based-Image-Seg",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-11-04 21:10:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/11d8c792-02ad-43a2-b727-e251525413b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/11d8c792-02ad-43a2-b727-e251525413b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:45:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本基于图像分割",
+    "潜在扩散模型",
+    "跨域泛化",
+    "AI生成图像",
+    "多模态表征"
+   ],
+   "field": "文本驱动的图像分割",
+   "innovations": [
+    "利用LDM压缩潜在空间z作为分割输入提升域泛化能力",
+    "分析并提取LDM中间层视觉-语言特征用于分割",
+    "通过cross-attention机制融合LDM特征与分割网络"
+   ],
+   "benchmarks": [
+    "PhraseCut",
+    "AIGI",
+    "RefCOCO",
+    "RefCOCO+",
+    "G-Ref"
+   ]
+  }
+ }
 }

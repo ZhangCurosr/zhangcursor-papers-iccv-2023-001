@@ -4,5 +4,34 @@
  "title": "Learning-Hierarchical-Features-with-Joint-Latent-Space-Energ",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-11-04 21:07:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5295c5ae-ad8c-4180-bd2c-1824e6c97102.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5295c5ae-ad8c-4180-bd2c-1824e6c97102.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:45:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "能量基底模型",
+    "层次表征学习",
+    "联合潜在空间",
+    "变分学习",
+    "短程MCMC",
+    "多层生成模型",
+    "图像生成"
+   ],
+   "field": "深度生成模型",
+   "innovations": [
+    "提出联合潜在空间EBM先验，通过能量函数紧密耦合多层生成模型的各层潜变量关系",
+    "开发变分联合学习方案，引入多层推理模型避免后验MCMC采样实现高效训练",
+    "短程Langevin动力学高效采样EBM先验，避免长程采样过饱和问题"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Fashion-MNIST",
+    "SVHN",
+    "CelebA-64",
+    "CIFAR-10"
+   ]
+  }
+ }
 }
