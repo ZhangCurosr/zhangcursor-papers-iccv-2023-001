@@ -4,5 +4,33 @@
  "title": "Flexible-Visual-Recognition-by-Evidential-Modeling-of-Confus",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-11-04 21:13:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/19bb94a7-5319-4b59-be72-f5061700b18f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/19bb94a7-5319-4b59-be72-f5061700b18f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:58:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncertainty quantification",
+    "evidential deep learning",
+    "open-set recognition",
+    "subjective logic",
+    "confusion-ignorance decomposition",
+    "flexible classification"
+   ],
+   "field": "视觉识别不确定性建模",
+   "innovations": [
+    "基于主观逻辑同时显式预测混淆与无知",
+    "通过K个似然函数组合证据实现灵活预测",
+    "无需对抗训练即可有效检测开放集样本"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet",
+    "LSUN",
+    "OpenImages"
+   ]
+  }
+ }
 }

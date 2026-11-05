@@ -4,5 +4,31 @@
  "title": "LinkGAN-Linking-GAN-Latents-to-Pixels-for-Controllable-Image",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-11-04 21:13:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/48e33545-c1c0-477f-ad95-3531183d6391.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/48e33545-c1c0-477f-ad95-3531183d6391.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:59:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可控图像生成",
+    "GAN编辑",
+    "潜在空间解耦",
+    "局部控制",
+    "正则化GAN"
+   ],
+   "field": "可控图像生成与编辑",
+   "innovations": [
+    "提出LinkGAN正则化器，训练时显式建立潜在轴与图像区域的链接",
+    "支持固定区域与语义区域两种链接方式，无需架构修改",
+    "同时兼容2D/3D生成模型且与GAN inversion无缝集成"
+   ],
+   "benchmarks": [
+    "FFHQ",
+    "AFHQ",
+    "LSUN-Church",
+    "LSUN-Car"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Fully-Attentional-Networks-with-Self-emerging-Token-Labeling",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-11-04 21:23:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dd850702-1b1f-4044-bc00-a46c1e93a973.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dd850702-1b1f-4044-bc00-a46c1e93a973.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:58:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "Token Labeling",
+    "Self-emerging Token Labeling",
+    "Robustness",
+    "FAN",
+    "Knowledge Distillation",
+    "Image Classification"
+   ],
+   "field": "视觉Transformer鲁棒预训练",
+   "innovations": [
+    "首次用ViT自身替代CNN作为token labeler生成语义token标签",
+    "提出clean teacher/noisy student的增广解耦策略提升鲁棒性",
+    "引入Gumbel-Softmax自适应过滤低置信度token标签"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "ImageNet-C",
+    "ImageNet-A",
+    "ImageNet-R",
+    "Cityscapes",
+    "COCO"
+   ]
+  }
+ }
 }

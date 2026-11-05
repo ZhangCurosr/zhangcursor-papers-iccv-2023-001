@@ -4,5 +4,35 @@
  "title": "MAtch-eXpand-and-Improve-Unsupervised-Finetuning-for-Zero-Sh",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-11-04 21:22:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/797d554e-565f-4194-a512-37883febcbed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/797d554e-565f-4194-a512-37883febcbed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:00:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot action recognition",
+    "vision-language model",
+    "multiple instance learning",
+    "unsupervised finetuning",
+    "CLIP",
+    "text bag"
+   ],
+   "field": "视频动作识别",
+   "innovations": [
+    "提出无监督微调框架MAXI，利用无标签视频和多种语言知识源构建文本袋并进行MIL微调",
+    "改进MIL-NCE损失，增加共享最优匹配文本的语义一致性约束",
+    "首次在不依赖ground truth标注的情况下，使CLIP在零样本和少样本动作识别上超越全监督基线"
+   ],
+   "benchmarks": [
+    "UCF101",
+    "HMDB51",
+    "Kinetics-600",
+    "MiniSSv2",
+    "Charades",
+    "UAV Human",
+    "Moments-in-Time"
+   ]
+  }
+ }
 }

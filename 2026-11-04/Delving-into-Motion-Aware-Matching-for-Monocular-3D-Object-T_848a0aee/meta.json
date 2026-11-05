@@ -4,5 +4,31 @@
  "title": "Delving-into-Motion-Aware-Matching-for-Monocular-3D-Object-T",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-11-04 21:12:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4174f899-b55c-4fad-b413-659de7ea720d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4174f899-b55c-4fad-b413-659de7ea720d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:58:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单目3D多目标跟踪",
+    "运动感知匹配",
+    "Motion Transformer",
+    "特征空间关联",
+    "对比学习",
+    "nuScenes",
+    "KITTI"
+   ],
+   "field": "单目3D视觉感知与跟踪",
+   "innovations": [
+    "在特征空间而非输出空间进行运动感知的数据关联，缓解单目检测噪声影响",
+    "设计 tracklet-conditioned 候选特征与双阶段时空Transformer，显式建模多帧运动与轨迹间空间交互",
+    "引入对比运动特征学习，增强运动表征对遮挡和检测噪声的鲁棒性"
+   ],
+   "benchmarks": [
+    "nuScenes 3D MOT",
+    "KITTI 3D MOT"
+   ]
+  }
+ }
 }

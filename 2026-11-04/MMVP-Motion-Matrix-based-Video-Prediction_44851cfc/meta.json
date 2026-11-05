@@ -4,5 +4,30 @@
  "title": "MMVP-Motion-Matrix-based-Video-Prediction",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-11-04 21:15:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/acb4b6fe-ec9d-4c0f-b2c3-d19aefcf93a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/acb4b6fe-ec9d-4c0f-b2c3-d19aefcf93a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:00:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频预测",
+    "运动矩阵",
+    "双流架构",
+    "外观保持",
+    "参数效率"
+   ],
+   "field": "视频预测",
+   "innovations": [
+    "使用外观无关的运动矩阵解耦运动预测与外观维护，无需额外模块",
+    "通过矩阵乘法和像素shuffle实现多尺度特征组合，减少信息损失",
+    "直接预测最后一帧到未来各帧的运动矩阵，有效降低长时累积误差"
+   ],
+   "benchmarks": [
+    "UCF Sports",
+    "KTH",
+    "Moving MNIST"
+   ]
+  }
+ }
 }

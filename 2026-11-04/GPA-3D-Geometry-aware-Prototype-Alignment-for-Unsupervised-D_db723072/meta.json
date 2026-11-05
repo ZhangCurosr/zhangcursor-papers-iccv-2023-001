@@ -4,5 +4,10 @@
  "title": "GPA-3D-Geometry-aware-Prototype-Alignment-for-Unsupervised-D",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-11-04 21:27:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d33dfdc1-be49-4c38-8108-e795f9136ea2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d33dfdc1-be49-4c38-8108-e795f9136ea2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:59:28",
+  "chunks": 1
+ }
 }

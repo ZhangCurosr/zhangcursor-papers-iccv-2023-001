@@ -4,5 +4,34 @@
  "title": "GPFL-Simultaneously-Learning-Global-and-Personalized-Feature",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-11-04 21:10:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7b1023f6-b606-4b82-98bd-3fa6299b16f7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7b1023f6-b606-4b82-98bd-3fa6299b16f7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:59:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Personalized Federated Learning",
+    "Feature Extraction",
+    "Conditional Computation",
+    "Global Category Embedding",
+    "Statistical Heterogeneity",
+    "Privacy Preservation"
+   ],
+   "field": "个性化联邦学习",
+   "innovations": [
+    "提出GPFL框架，在客户端同时学习全局和个人化特征信息，解决现有pFL方法只能兼顾单一特征类型的局限",
+    "设计GCE+CoV协同机制，用可训练类别嵌入在角度和幅度两级引导全局特征提取，避免依赖已训练好的特征提取器的循环依赖问题",
+    "系统性评估pFL的五维性能（有效性、可扩展性、公平性、稳定性、隐私），在六个数据集上较SOTA方法最高提升8.99%准确率"
+   ],
+   "benchmarks": [
+    "Fashion-MNIST",
+    "CIFAR100",
+    "Tiny-ImageNet",
+    "AG News",
+    "Amazon Review",
+    "HAR"
+   ]
+  }
+ }
 }

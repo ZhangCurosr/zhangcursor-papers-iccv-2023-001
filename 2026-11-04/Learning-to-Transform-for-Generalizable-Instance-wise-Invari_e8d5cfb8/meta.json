@@ -4,5 +4,33 @@
  "title": "Learning-to-Transform-for-Generalizable-Instance-wise-Invari",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-11-04 21:03:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f854ec8b-a0ee-49a2-8c15-aaf29e69fdc8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f854ec8b-a0ee-49a2-8c15-aaf29e69fdc8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:59:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "不变性学习",
+    "数据增强",
+    "归一化流",
+    "实例级自适应",
+    "长尾分类",
+    "测试时增强"
+   ],
+   "field": "计算机视觉-鲁棒性与泛化",
+   "innovations": [
+    "用归一化流建模实例条件变换分布以支持多模态和联合分布",
+    "从图模型推导统一框架并证明熵正则化防止分布坍缩",
+    "结合Mean-Shift实现分布外姿态自适应与原型发现"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-10-LT",
+    "TinyImageNet",
+    "MNIST",
+    "Mario-Iggy"
+   ]
+  }
+ }
 }

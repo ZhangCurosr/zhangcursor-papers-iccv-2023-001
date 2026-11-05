@@ -4,5 +4,29 @@
  "title": "Deep-Geometrized-Cartoon-Line-Inbetweening",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-11-04 21:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4c2cefce-fe35-46cf-a194-6e58ae563ab6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4c2cefce-fe35-46cf-a194-6e58ae563ab6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:58:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "帧插值",
+    "线稿动画",
+    "图匹配",
+    "几何嵌入",
+    "动漫生成"
+   ],
+   "field": "2D动画自动化",
+   "innovations": [
+    "将线稿几何化为图结构实现顶点级中间帧生成",
+    "多模态顶点嵌入融合图像上下文+位置+拓扑信息",
+    "首次提出带几何化标注的大规模线稿数据集MixamoLine240"
+   ],
+   "benchmarks": [
+    "MixamoLine240",
+    "Chamfer Distance"
+   ]
+  }
+ }
 }

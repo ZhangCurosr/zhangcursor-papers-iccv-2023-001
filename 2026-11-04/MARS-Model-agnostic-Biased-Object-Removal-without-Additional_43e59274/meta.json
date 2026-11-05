@@ -4,5 +4,10 @@
  "title": "MARS-Model-agnostic-Biased-Object-Removal-without-Additional",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-11-04 21:14:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/28a5cc2a-23c3-4c17-8817-b809457fd3be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/28a5cc2a-23c3-4c17-8817-b809457fd3be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:00:18",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "GO-SLAM-Global-Optimization-for-Consistent-3D-Instant-Recons",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-11-04 21:22:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3ca983a9-46cc-47c0-a3ee-d32e19f56a22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3ca983a9-46cc-47c0-a3ee-d32e19f56a22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:58:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual SLAM",
+    "NeRF",
+    "global bundle adjustment",
+    "loop closing",
+    "3D reconstruction",
+    "instant neural graphics"
+   ],
+   "field": "视觉SLAM与3D重建",
+   "innovations": [
+    "在线全量Bundle Adjustment结合环路检测实现全局一致轨迹优化",
+    "多分辨率哈希编码驱动即时神经隐式表面实时重建"
+   ],
+   "benchmarks": [
+    "TUM RGB-D",
+    "EuRoC",
+    "ETH3D-SLAM",
+    "ScanNet",
+    "Replica"
+   ]
+  }
+ }
 }

@@ -4,5 +4,43 @@
  "title": "LoGoPrompt-Synthetic-Text-Images-Can-Be-Good-Visual-Prompts",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-11-04 21:06:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/292b2b90-3ec6-4101-bceb-2a80ab979b66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/292b2b90-3ec6-4101-bceb-2a80ab979b66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:59:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉提示",
+    "VLM",
+    "CLIP",
+    "prompt tuning",
+    "少样本学习",
+    "域泛化"
+   ],
+   "field": "视觉-语言模型自适应",
+   "innovations": [
+    "首次提出用合成类名文本图像作为无参数视觉提示",
+    "将分类目标重构为视觉提示选择问题并通过min-max对比学习解决鸡生蛋困境",
+    "在无参数提示设计下全面超越现有可训练视觉提示方法的泛化与少样本性能"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "Caltech101",
+    "OxfordPets",
+    "StanfordCars",
+    "Flowers102",
+    "Food101",
+    "FGVCAircraft",
+    "SUN397",
+    "DTD",
+    "EuroSAT",
+    "UCF101",
+    "ImageNet-V2",
+    "ImageNet-Sketch",
+    "ImageNet-A",
+    "ImageNet-R"
+   ]
+  }
+ }
 }

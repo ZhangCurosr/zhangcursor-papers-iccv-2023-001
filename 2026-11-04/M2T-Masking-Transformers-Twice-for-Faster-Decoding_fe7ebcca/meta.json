@@ -4,5 +4,30 @@
  "title": "M2T-Masking-Transformers-Twice-for-Faster-Decoding",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-11-04 21:21:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c1208356-f15b-435c-b3df-0b9effd13a19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c1208356-f15b-435c-b3df-0b9effd13a19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:59:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经图像压缩",
+    "Masked Transformer",
+    "熵模型",
+    "Rate-Distortion Optimization",
+    "Causal Attention",
+    "Group Masking"
+   ],
+   "field": "神经图像压缩",
+   "innovations": [
+    "提出M2T双掩码Transformer，通过输入掩码+因果注意力掩码实现2.7×–4.8×加速且保持SOTA码率-失真性能",
+    "发现确定性调度在压缩任务中与实例自适应调度等效，为高速推理提供理论依据",
+    "将MaskGIT式group推理统一至group-autoregressive框架，桥接全自回归与MaskGIT范式"
+   ],
+   "benchmarks": [
+    "Kodak",
+    "CLIC2020"
+   ]
+  }
+ }
 }
